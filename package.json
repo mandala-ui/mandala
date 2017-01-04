@@ -1,0 +1,19 @@
+{
+  "name": "gluons",
+  "version": "0.0.2",
+  "description": "A React UI Library built with Tachyons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theculturelist/gluons.git"
+  },
+  "author": "Lucas K Allmon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theculturelist/gluons/issues"
+  },
+  "homepage": "https://github.com/theculturelist/gluons#readme"
+}
