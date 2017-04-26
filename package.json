@@ -1,6 +1,6 @@
 {
   "name": "gluons",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React UI Library built with Tachyons",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lucaska/gluons/issues"
   },
-  "homepage": "https://github.com/lucaska/gluons#readme"
+  "homepage": "https://github.com/lucaska/gluons#readme",
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4"
+  }
 }

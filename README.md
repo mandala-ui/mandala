@@ -1,9 +1,11 @@
-Gluons is a React Component Library built with Tachyons and Animate.css
+## Gluons
 
-Why god why?
+A React UI Component Library built with Tachyons
 
-Tachyons is a sane, declarative CSS system.
+**Why god, why?**
 
-React is a sane, declarative UI system.
+Tachyons.io is an Atomic CSS system built of small, composable classes. This allows you to build layouts quickly and reliably.
 
-Why not?
+React is a Declarative UI Library for composing interfaces in Javascript.
+
+They go together like Peanut Butter and Jelly. :smile:
