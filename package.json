@@ -1,9 +1,9 @@
 {
   "name": "gluons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A React UI Library built with Tachyons",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "./index.js",
+  "module": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
