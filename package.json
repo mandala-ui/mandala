@@ -1,24 +1,98 @@
 {
-  "name": "gluons",
-  "version": "0.0.6",
-  "description": "A React UI Library built with Tachyons",
-  "main": "./index.js",
-  "module": "./index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucaska/gluons.git"
-  },
   "author": "Lucas K Allmon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lucaska/gluons/issues"
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2",
+      "react"
+    ]
   },
-  "homepage": "https://github.com/lucaska/gluons#readme",
   "dependencies": {
-    "prop-types": "^15.5.8",
-    "react": "^15.5.4"
-  }
+    "tachyons": "^4.7.4"
+  },
+  "description": "Gluons React UI Kit Monorepo",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.1.9",
+    "@storybook/addon-info": "^3.1.9",
+    "@storybook/addon-knobs": "^3.1.9",
+    "@storybook/addon-links": "^3.1.6",
+    "@storybook/addon-options": "^3.1.6",
+    "@storybook/addon-storyshots": "^3.1.9",
+    "@storybook/react": "^3.1.9",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-css-modules": "^2.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^1.0.2",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "nwb": "0.15.x",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.6.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "extends": [
+      "airbnb"
+    ],
+    "globals": {
+      "__DEV__": true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+      "jest"
+    ],
+    "rules": {
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off",
+      "max-len": [
+        1,
+        120,
+        2,
+        {
+          "ignoreComments": true
+        }
+      ],
+      "react/jsx-filename-extension": "off",
+      "react/prefer-stateless-function": "off"
+    }
+  },
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "homepage": "",
+  "keywords": [
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "name": "gluons-core",
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "repository": "",
+  "scripts": {
+    "build": "nwb build-react-component",
+    "build-storybook": "build-storybook",
+    "clean": "nwb clean-module",
+    "start": "yarn run storybook",
+    "storybook": "start-storybook -p 6006",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "version": "1.0.0"
 }
