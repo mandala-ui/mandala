@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 class SplitButton extends PureComponent {
-
   render() {
     const {
       baseColor,
@@ -38,9 +37,7 @@ class SplitButton extends PureComponent {
             disabled={disabled ? 'disabled' : null}
             onClick={onClick}
           >
-            <span
-              className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}
-            >
+            <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
               {onText}
             </span>
           </button>

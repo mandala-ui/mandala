@@ -1,11 +1,9 @@
-## Gluons
+# Gluons UI Kit
 
-A React UI Component Library built with Tachyons
+A Component Library built with React and Tachyons
 
-**Why god, why?**
+Tachyons is an Functional CSS system built of small, reuseable classes that allows you to compose layouts quickly and reliably.
 
-Tachyons.io is an Atomic CSS system built of small, composable classes. This allows you to build layouts quickly and reliably.
+React is a UI Library for declaring interfaces in Javascript.
 
-React is a Declarative UI Library for composing interfaces in Javascript.
-
-They go together like Peanut Butter and Jelly. :smile:
+They go together like Peanut Butter and Jelly.
