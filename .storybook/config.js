@@ -6,7 +6,7 @@ import { setOptions } from '@storybook/addon-options';
 
 setOptions({
   name: 'Gluons UI Kit',
-  url: '',
+  url: 'https://github.com/gluons-ui/gluons',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
