@@ -7,34 +7,35 @@
       "react"
     ]
   },
-  "dependencies": {
-    "tachyons": "^4.7.4"
-  },
-  "description": "Gluons React UI Kit Monorepo",
+  "dependencies": {},
+  "description": "Gluons React UI Kit",
   "devDependencies": {
-    "@storybook/addon-actions": "^3.1.9",
-    "@storybook/addon-info": "^3.1.9",
-    "@storybook/addon-knobs": "^3.1.9",
-    "@storybook/addon-links": "^3.1.6",
-    "@storybook/addon-options": "^3.1.6",
-    "@storybook/addon-storyshots": "^3.1.9",
-    "@storybook/react": "^3.1.9",
+    "@storybook/addon-actions": "^3.2.0",
+    "@storybook/addon-info": "^3.2.0",
+    "@storybook/addon-knobs": "^3.2.0",
+    "@storybook/addon-links": "^3.2.0",
+    "@storybook/addon-options": "^3.2.3",
+    "@storybook/addon-storyshots": "^3.2.3",
+    "@storybook/react": "^3.2.3",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
     "eslint-loader": "^1.6.1",
-    "eslint-plugin-css-modules": "^2.2.0",
+    "eslint-plugin-css-modules": "^2.7.3",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jest": "^1.0.2",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "nwb": "0.15.x",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
+    "jest-css-modules": "^1.1.0",
+    "nwb": "^0.18.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-test-renderer": "^15.6.1"
+    "react-test-renderer": "^15.5.4",
+    "tachyons": "^4.7.4"
   },
   "eslintConfig": {
     "env": {
@@ -52,6 +53,15 @@
       "jest"
     ],
     "rules": {
+      "jsx-a11y/href-no-hash": "off",
+      "jsx-a11y/anchor-is-valid": [
+        "warn",
+        {
+          "aspects": [
+            "invalidHref"
+          ]
+        }
+      ],
       "import/extensions": "off",
       "import/no-extraneous-dependencies": "off",
       "max-len": [
@@ -62,8 +72,7 @@
           "ignoreComments": true
         }
       ],
-      "react/jsx-filename-extension": "off",
-      "react/prefer-stateless-function": "off"
+      "react/jsx-filename-extension": "off"
     }
   },
   "files": [
@@ -73,6 +82,26 @@
     "umd"
   ],
   "homepage": "",
+  "jest": {
+    "collectCoverageFrom": [
+      "tests/*.{js,jsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>[/\\\\](es|lib|node_modules)[/\\\\]"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web",
+      "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules"
+    }
+  },
   "keywords": [
     "react-component"
   ],
@@ -90,9 +119,9 @@
     "clean": "nwb clean-module",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test": "yarn run jest",
+    "test:coverage": "yarn run test -- -- --coverage",
+    "test:watch": "yarn run test -- -- --watch"
   },
   "version": "1.0.0"
 }
