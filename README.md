@@ -7,3 +7,7 @@ Tachyons is an Functional CSS system built of small, reuseable classes that allo
 React is a UI Library for declaring interfaces in Javascript.
 
 They go together like Peanut Butter and Jelly.
+
+
+### Getting Started
+`yarn install gluons` 

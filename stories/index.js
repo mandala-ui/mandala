@@ -1,11 +1,47 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { storiesOf, addDecorator } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import css from '../node_modules/tachyons/css/tachyons.min.css'; //eslint-disable-line
-import { ProgressBar, SplitButton } from '../src';
+import {
+  Button,
+  ProgressBar,
+  SplitButton,
+  Tag,
+} from '../src';
 
-storiesOf('ProgressBar/Docs', module)
+const CenterPadding = storyFn => (
+  <div className="pa4 tc center w-100">
+    { storyFn() }
+  </div>
+);
+
+addDecorator(CenterPadding);
+
+storiesOf('Button', module)
+  .addDecorator(withKnobs)
+  .add(
+    'interactive',
+    () =>
+      (<Button
+        color={text('Color', 'blue')}
+        debugCss={boolean('Debug CSS', false)}
+        large={boolean('Disabled', false)}
+        onClick={action('Button onClick Event')}
+        pill={boolean('Pill', false)}
+        radius={number('Radius', 2,
+          {
+            range: true,
+            min: 0,
+            max: 3,
+            step: 1,
+          })}
+      >
+        {text('Button Text', 'button')}
+      </Button>),
+  );
+
+storiesOf('ProgressBar', module)
   .addDecorator(withKnobs)
   .add(
     'interactive',
@@ -14,7 +50,7 @@ storiesOf('ProgressBar/Docs', module)
         background={text('Background', 'light-gray')}
         color={text('Color', 'blue')}
         large={boolean('Large', false)}
-        percentage={number('Percentage', 0,
+        percentage={number('Percentage', 25,
           {
             range: true,
             min: 0,
@@ -25,7 +61,7 @@ storiesOf('ProgressBar/Docs', module)
       />),
   );
 
-storiesOf('SplitButton/Docs', module)
+storiesOf('SplitButton', module)
   .addDecorator(withKnobs)
   .add(
     'interactive',
@@ -41,4 +77,14 @@ storiesOf('SplitButton/Docs', module)
         isOn={boolean('Is On', false)}
         rounded={boolean('Rounded', true)}
       />),
+  );
+
+storiesOf('Tag', module)
+  .addDecorator(withKnobs)
+  .add(
+    'interactive',
+    () =>
+      (<Tag>
+        {text('Tag Text', 'Tag')}
+      </Tag>),
   );
