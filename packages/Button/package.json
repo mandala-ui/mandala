@@ -16,7 +16,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "nwb build-react-component"
+    "prepare": "nwb build-react-component"
   },
   "version": "0.0.6"
 }
