@@ -1,0 +1,8 @@
+{
+  "name": "Button",
+  "version": "1.0.0",
+  "description": "Gluons UI Kit Button Component",
+  "main": "Button.js",
+  "author": "Lucas K Allmon",
+  "license": "MIT"
+}

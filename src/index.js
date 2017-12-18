@@ -1,7 +1,7 @@
-import Button from './Button/Button';
-import ProgressBar from './ProgressBar/ProgressBar';
-import SplitButton from './SplitButton/SplitButton';
-import Tag from './Tag/Tag';
+import Button from '../packages/Button/Button';
+import ProgressBar from '../packages/ProgressBar/ProgressBar';
+import SplitButton from '../packages/SplitButton/SplitButton';
+import Tag from '../packages/Tag/Tag';
 
 export {
   Button,

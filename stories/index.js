@@ -37,7 +37,7 @@ storiesOf('Button', module)
             step: 1,
           })}
       >
-        {text('Button Text', 'button')}
+        {text('Button Text', 'I am a BUTTON')}
       </Button>),
   );
 

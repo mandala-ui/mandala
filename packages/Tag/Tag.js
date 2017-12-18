@@ -8,9 +8,9 @@ class Tag extends PureComponent {
       color,
     } = this.props;
     return (
-      <span className={`bg-${color} br-pill f7 dib ph2 pv1 white`}>
+      <div className={`bg-${color} br-pill f7 dib ph2 pv1 white helvetica`}>
         {children}
-      </span>
+      </div>
     );
   }
 }
