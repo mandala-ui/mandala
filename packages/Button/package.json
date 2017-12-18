@@ -9,8 +9,8 @@
   },
   "description": "Gluons UI Kit Button Component",
   "license": "MIT",
-  "main": "lib/button.js",
-  "module": "es/button.js",
+  "main": "lib/Button.js",
+  "module": "es/Button.js",
   "name": "@gluons-ui/button",
   "publishConfig": {
     "access": "public"
@@ -18,5 +18,5 @@
   "scripts": {
     "build": "nwb build-react-component Button.js"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
