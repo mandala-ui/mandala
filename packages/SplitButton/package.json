@@ -3,9 +3,9 @@
   "description": "Gluons UI Kit SplitButton Component",
   "license": "MIT",
   "main": "Button.js",
-  "name": "@gluons-ui/SplitButton",
+  "name": "@gluons-ui/split-button",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1"
+  "version": "0.0.1"
 }

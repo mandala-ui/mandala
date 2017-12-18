@@ -3,9 +3,9 @@
   "description": "Gluons UI Kit Button Component",
   "license": "MIT",
   "main": "Button.js",
-  "name": "@gluons-ui/Button",
+  "name": "@gluons-ui/button",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1"
+  "version": "0.0.1"
 }

@@ -3,9 +3,9 @@
   "description": "Gluons UI Kit Progress Bar Component",
   "license": "MIT",
   "main": "Button.js",
-  "name": "@gluons-ui/ProgressBar",
+  "name": "@gluons-ui/progress-bar",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1"
+  "version": "0.0.1"
 }

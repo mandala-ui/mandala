@@ -3,9 +3,9 @@
   "description": "Gluons UI Kit Tag Component",
   "license": "MIT",
   "main": "Button.js",
-  "name": "@gluons-ui/Tag",
+  "name": "@gluons-ui/tag",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1"
+  "version": "0.0.1"
 }
