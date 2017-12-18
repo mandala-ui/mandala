@@ -18,5 +18,5 @@
   "scripts": {
     "build": "nwb build-react-component Button.js"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
