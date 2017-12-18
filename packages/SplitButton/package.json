@@ -1,9 +1,9 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Kit Button Component",
+  "description": "Gluons UI Kit SplitButton Component",
   "license": "MIT",
   "main": "Button.js",
-  "name": "@gluons-ui/Button",
+  "name": "@gluons-ui/SplitButton",
   "publishConfig": {
     "access": "public"
   },
