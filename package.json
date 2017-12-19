@@ -126,6 +126,6 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {}
 }
