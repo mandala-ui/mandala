@@ -119,7 +119,7 @@
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",
-    "postinstall": "nwb build-react-component index.js",
+    "postinstall": "nwb build-react-component src/index.js",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
@@ -127,7 +127,5 @@
     "test:watch": "yarn run test -- -- --watch"
   },
   "version": "0.0.1",
-  "dependencies": {
-    "@gluons-ui/gluons": "^1.0.0"
-  }
+  "dependencies": {}
 }
