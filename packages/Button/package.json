@@ -1,13 +1,18 @@
 {
   "author": "Lucas K Allmon",
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-2",
-      "react"
-    ]
-  },
   "description": "Gluons UI Kit Button Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
+  ],
   "license": "MIT",
   "main": "lib/Button.js",
   "module": "es/Button.js",
