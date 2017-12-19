@@ -126,5 +126,8 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.0.0"
+  "version": "0.0.1",
+  "dependencies": {
+    "@gluons-ui/gluons": "^1.0.0"
+  }
 }
