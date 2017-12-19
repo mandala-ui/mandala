@@ -119,6 +119,7 @@
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",
+    "postinstall": "nwb build-react-component index.js",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",

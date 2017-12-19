@@ -1,13 +1,15 @@
-# Gluons UI Kit
+# Gluons UI Monorepo
 
-A Component Library built with React and Tachyons
+Gluons is a Declarative Component Library built with React and Functional CSS
 
-Tachyons is an Functional CSS system built of small, reuseable classes that allows you to compose layouts quickly and reliably.
+Most UI libraries require you to include their CSS, with the downside of not handling anything but the styling for those components.
 
-React is a UI Library for declaring interfaces in Javascript.
+Using a Functional CSS utility library to build the UI kit, also allows you to compose layouts quickly and reliably using the same small, reusable classes that power these components.
 
-They go together like Peanut Butter and Jelly.
+Hopefully Gluons kickstarts your React project and inspires your own components and layouts.
 
+
+CSS
 
 ### Getting Started
-`yarn install gluons` 
+`yarn install gluons`

@@ -1,3 +1,4 @@
 node_modules/
 npm-error.log
 yarn-error.log
+lerna-debug.log
