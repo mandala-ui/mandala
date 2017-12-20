@@ -8,10 +8,10 @@
     ]
   },
   "dependencies": {
-    "@gluons-ui/button": "^0.0.12",
-    "@gluons-ui/progress-bar": "^0.0.12",
-    "@gluons-ui/split-button": "^0.0.12",
-    "@gluons-ui/tag": "^0.0.12"
+    "@gluons-ui/button": "^0.0.13",
+    "@gluons-ui/progress-bar": "^0.0.5",
+    "@gluons-ui/split-button": "^0.0.5",
+    "@gluons-ui/tag": "^0.0.5"
   },
   "description": "Gluons React UI Kit",
   "devDependencies": {

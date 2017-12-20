@@ -2,9 +2,21 @@
 # yarn lockfile v1
 
 
-"@gluons-ui/button@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@gluons-ui/button/-/button-0.0.12.tgz#bc7ecf5e7fac55d4d6b57fadb3abfac121163b3c"
+"@gluons-ui/button@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@gluons-ui/button/-/button-0.0.13.tgz#438eefb3e5a59df5423fc9be596ad7bab74760f7"
+
+"@gluons-ui/progress-bar@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@gluons-ui/progress-bar/-/progress-bar-0.0.5.tgz#5b269ada2add96c0e9ee80cb6673b83b8352cbdc"
+
+"@gluons-ui/split-button@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@gluons-ui/split-button/-/split-button-0.0.5.tgz#6ccb6c8411f18385eb490e76cc5edeebed2ec4bd"
+
+"@gluons-ui/tag@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@gluons-ui/tag/-/tag-0.0.5.tgz#f4132ad4716217e3b2bd8730e4a65bd8b994028d"
 
 "@storybook/addon-actions@^3.2.0":
   version "3.2.0"
