@@ -24,6 +24,7 @@
     "access": "public"
   },
   "scripts": {
+    "build": "yarn run build:add",
     "build:add": "nwb build-react-component && git add es/ lib/"
   },
   "version": "0.0.10"

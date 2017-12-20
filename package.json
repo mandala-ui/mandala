@@ -119,7 +119,7 @@
   ],
   "repository": "https://github.com/gluons-ui/gluons",
   "scripts": {
-    "build": "nwb build-react-component index.js",
+    "build": "lerna run build",
     "build:add": "nwb build-react-component && git add es/ lib/",
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
