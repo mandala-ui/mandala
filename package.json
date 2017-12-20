@@ -11,7 +11,8 @@
     "@gluons-ui/button": "^0.0.13",
     "@gluons-ui/progress-bar": "^0.0.5",
     "@gluons-ui/split-button": "^0.0.5",
-    "@gluons-ui/tag": "^0.0.5"
+    "@gluons-ui/tag": "^0.0.5",
+    "tachyons": "^4.7.4"
   },
   "description": "Gluons React UI Kit",
   "devDependencies": {
@@ -41,8 +42,7 @@
     "nwb": "^0.18.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-test-renderer": "^15.5.4",
-    "tachyons": "^4.7.4"
+    "react-test-renderer": "^15.5.4"
   },
   "eslintConfig": {
     "env": {

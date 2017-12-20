@@ -14,8 +14,8 @@
     "user"
   ],
   "license": "MIT",
-  "main": "lib/progress-bar.js",
-  "module": "es/progress-bar.js",
+  "main": "lib/ProgressBar.js",
+  "module": "es/ProgressBar.js",
   "name": "@gluons-ui/progress-bar",
   "publishConfig": {
     "access": "public"
