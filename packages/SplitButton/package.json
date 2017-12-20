@@ -1,11 +1,27 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Kit SplitButton Component",
+  "description": "Gluons UI Split Button Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
+  ],
   "license": "MIT",
-  "main": "Button.js",
+  "main": "lib/SplitButton.js",
+  "module": "es/SplitButton.js",
   "name": "@gluons-ui/split-button",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "nwb build-react-component"
   },
   "version": "0.0.1"
 }
