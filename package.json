@@ -33,7 +33,6 @@
     "jest-css-modules": "^1.1.0",
     "lerna": "^2.5.1",
     "nwb": "^0.18.10",
-    "pre-commit": "^1.2.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
@@ -116,7 +115,7 @@
   },
   "repository": "https://github.com/gluons-ui/gluons",
   "scripts": {
-    "build": "lerna run build",
+    "build": "nwb build-react-component",
     "build:add": "nwb build-react-component && git add es/ lib/",
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
@@ -127,5 +126,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
