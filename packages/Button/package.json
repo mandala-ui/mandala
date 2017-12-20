@@ -17,6 +17,9 @@
   "main": "lib/Button.js",
   "module": "es/Button.js",
   "name": "@gluons-ui/button",
+  "pre-commit": [
+    "build:add"
+  ],
   "publishConfig": {
     "access": "public"
   },
