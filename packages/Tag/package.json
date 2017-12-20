@@ -1,11 +1,27 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Kit Tag Component",
+  "description": "Gluons UI Tag Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
+  ],
   "license": "MIT",
-  "main": "Button.js",
-  "name": "@gluons-ui/tag",
+  "main": "lib/Tag.js",
+  "module": "es/Tag.js",
+  "name": "@gluons-ui/button",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "prepare": "nwb build-react-component"
   },
   "version": "0.0.1"
 }
