@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "postinstall": "postinstall-build lib"
+    "build:add": "nwb build-react-component && git add es/ lib/"
   },
   "version": "0.0.9"
 }
