@@ -1,11 +1,4 @@
-import Button from '../packages/Button/src/Button';
-import ProgressBar from '../packages/ProgressBar/ProgressBar';
-import SplitButton from '../packages/SplitButton/SplitButton';
-import Tag from '../packages/Tag/Tag';
-
-export {
-  Button,
-  ProgressBar,
-  SplitButton,
-  Tag,
-};
+export Button from '@gluons-ui/button';
+export ProgressBar from '@gluons-ui/progress-bar';
+export SplitButton from '@gluons-ui/split-button';
+export Tag from '@gluons-ui/tag';
