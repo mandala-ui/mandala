@@ -16,12 +16,12 @@
   "license": "MIT",
   "main": "lib/Tag.js",
   "module": "es/Tag.js",
-  "name": "@gluons-ui/button",
+  "name": "@gluons-ui/tag",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
