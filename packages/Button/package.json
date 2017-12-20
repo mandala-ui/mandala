@@ -17,15 +17,11 @@
   "main": "lib/Button.js",
   "module": "es/Button.js",
   "name": "@gluons-ui/button",
-  "pre-commit": [
-    "build:add"
-  ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "yarn run build:add",
-    "build:add": "nwb build-react-component && git add es/ lib/"
+    "build": "nwb build-react-component && git add es/ lib/"
   },
   "version": "0.0.10"
 }
