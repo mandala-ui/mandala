@@ -7,6 +7,9 @@
       "react"
     ]
   },
+  "dependencies": {
+    "postinstall-build": "^5.0.1"
+  },
   "description": "Gluons React UI Kit",
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.0",
@@ -54,7 +57,8 @@
       "jest"
     ],
     "rules": {
-      "jsx-a11y/href-no-hash": "off",
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off",
       "jsx-a11y/anchor-is-valid": [
         "warn",
         {
@@ -63,8 +67,7 @@
           ]
         }
       ],
-      "import/extensions": "off",
-      "import/no-extraneous-dependencies": "off",
+      "jsx-a11y/href-no-hash": "off",
       "max-len": [
         1,
         120,
@@ -87,21 +90,21 @@
     "collectCoverageFrom": [
       "tests/*.{js,jsx}"
     ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
+      "^react-native$": "react-native-web"
+    },
+    "testEnvironment": "node",
     "testPathIgnorePatterns": [
       "<rootDir>[/\\\\](es|lib|node_modules)[/\\\\]"
     ],
-    "testEnvironment": "node",
     "testURL": "http://localhost",
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
     },
     "transformIgnorePatterns": [
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web",
-      "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules"
-    }
+    ]
   },
   "keywords": [
     "react-component"
@@ -119,13 +122,12 @@
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",
-    "postinstall": "nwb build-react-component src/index.js",
+    "postinstall": "postinstall-build lib",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "0.0.3",
-  "dependencies": {}
+  "version": "0.0.4"
 }
