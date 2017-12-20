@@ -7,9 +7,6 @@
       "react"
     ]
   },
-  "dependencies": {
-    "postinstall-build": "^5.0.1"
-  },
   "description": "Gluons React UI Kit",
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.0",
@@ -36,6 +33,7 @@
     "jest-css-modules": "^1.1.0",
     "lerna": "^2.5.1",
     "nwb": "^0.18.10",
+    "pre-commit": "^1.2.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
@@ -116,13 +114,16 @@
   "peerDependencies": {
     "react": "15.x"
   },
-  "repository": "",
+  "pre-commit": [
+    "build:add"
+  ],
+  "repository": "https://github.com/gluons-ui/gluons",
   "scripts": {
     "build": "nwb build-react-component index.js",
+    "build:add": "nwb build-react-component && git add es/ lib/",
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",
-    "postinstall": "postinstall-build lib",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
