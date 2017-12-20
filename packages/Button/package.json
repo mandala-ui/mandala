@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "nwb build-react-component && git add es/ lib/"
+    "build": "nwb build-react-component"
   },
-  "version": "0.0.10"
+  "version": "0.0.11"
 }

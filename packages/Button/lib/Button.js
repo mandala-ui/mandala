@@ -31,7 +31,6 @@ var Button = function (_PureComponent) {
     var _props = this.props,
         children = _props.children,
         color = _props.color,
-        debugCss = _props.debugCss,
         disabled = _props.disabled,
         onClick = _props.onClick,
         pill = _props.pill,
@@ -40,7 +39,7 @@ var Button = function (_PureComponent) {
     var options = 'bg-' + color + ' ' + (pill ? 'br-pill' : 'br' + radius) + ' ' + (disabled ? 'opacity-40' : 'pointer');
     return _react2.default.createElement(
       'div',
-      { className: 'button ' + (debugCss ? 'debug' : '') },
+      { className: 'button' },
       _react2.default.createElement(
         'button',
         {
@@ -59,7 +58,6 @@ var Button = function (_PureComponent) {
 Button.propTypes = process.env.NODE_ENV !== "production" ? {
   children: _propTypes2.default.node.isRequired,
   color: _propTypes2.default.string,
-  debugCss: _propTypes2.default.bool,
   disabled: _propTypes2.default.bool,
   onClick: _propTypes2.default.func.isRequired,
   pill: _propTypes2.default.bool,
