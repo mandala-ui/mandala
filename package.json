@@ -116,7 +116,7 @@
   "repository": "https://github.com/gluons-ui/gluons",
   "scripts": {
     "build": "nwb build-react-component",
-    "build:add": "nwb build-react-component && git add es/ lib/",
+    "prepare": "nwb build-react-component",
     "build-storybook": "build-storybook",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",

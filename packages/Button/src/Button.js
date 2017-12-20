@@ -6,7 +6,6 @@ class Button extends PureComponent {
     const {
       children,
       color,
-      debugCss,
       disabled,
       onClick,
       pill,
@@ -14,7 +13,7 @@ class Button extends PureComponent {
     } = this.props;
     const options = `bg-${color} ${pill ? 'br-pill' : `br${radius}`} ${disabled ? 'opacity-40' : 'pointer'}`;
     return (
-      <div className={`button ${debugCss ? 'debug' : ''}`}>
+      <div className="button">
         <button
           disabled={disabled}
           className={`${options} bn outline-o ph3 pv2 dim white`}
@@ -30,7 +29,6 @@ class Button extends PureComponent {
 Button.propTypes = {
   children: PropTypes.node.isRequired,
   color: PropTypes.string,
-  debugCss: PropTypes.bool,
   disabled: PropTypes.bool,
   onClick: PropTypes.func.isRequired,
   pill: PropTypes.bool,
