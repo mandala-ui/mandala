@@ -1,33 +1,49 @@
 ![mandala](https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png)
 
-# Mandala UI Component Library
+# Mandala UI
 
-Mandala is a Declarative Component Library built with React and Functional CSS
+Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library
 
-Most UI libraries require you to include their CSS anyway, with the downside of adding that bloat for just their components. Using a functional CSS library allows you to power the Mandala components, as well as your own components with the same syntax.
+## Getting Started
 
-Hopefully the Mandala components kickstarts your React project and inspires your own components and layouts with the libraries
+Check out the Interactive Docs before you decide if this package is right for you.
 
-# Getting Started
+The only dependences are the Mandala CSS Utilities and React.
 
-Check out the Interactive Docs before you make a decision (good or bad).
+You can link the CDN version of the CSS utilities and start to prototype your own layouts and components separate from Mandala, and turn them into Mandala components later.
 
-The only dependences are the Mandala CSS library and React/DOM. If you use the React Components, you will need your own build tools to import/require.
+If you use the React Components, you will need your own build tools to import/require, like create-react-app
 
 If you like you can install the Mandala UI Components as a whole with:
 
 `yarn install mandala`
 
+`import { ProgressBar } from 'mandala'`
+
 But each of the components are published to NPM separately. If you'd just like to use a single component like the ProgressBar you can install the scoped packages.
+
+e.g. `yarn install @mandala-ui/progress-bar`
 
 ---
 
-##### Y U Functional CSS?
+__Benefits:__  
 
-So many reasons, but the simplest answer is that I believe it's a better choice to handle the complexity in the Template, rather than the CSS. Even the best of CSS authors have the Fragile Base Class problem when it comes to CSS.
+Most UI libraries require you to include their CSS anyway, with the downside of adding that bloat for just their components. Using a functional CSS library allows you to power the Mandala components, as well as your own components with the same syntax.
 
-##### Y U no CSS in JS?
+If something doesn't exist in the Mandala Library currently, compose it and submit it!
 
-Not every project is a Javascript SPA, and I am not convinced that it's a smart idea to require a build pipeline for every prototype, idea or product.
+__Goals:__
 
-You can link the CDN version of the CSS utilities and start to prototype your own layouts and components.
+- Help people build consistent yet customizable website and application UI
+- Promote Composition over Inheritance at every level of the interface (CSS and JS)
+- Reuse as much code and as many components as possible to reduce size and effort.
+- Share component ideas and techniques with the community
+
+
+##### Why Functional CSS?
+
+So many reasons, but the simplest answer is that we believe it's a better choice to handle the complexity of CSS in the Template, rather than the CSS level. Even the best of CSS authors have the Fragile Base Class Problem, and that is amplified across teams of differing skill level.
+
+##### Why don't you use a CSS-in-JS solution?
+
+Not every project is a Javascript Single Page Application, and I am not convinced that it's a smart idea to require a build pipeline for every prototype, idea or product. Sharing the css utilities across projects and ideas promotes adoption of a component library.
