@@ -8,13 +8,13 @@
     ]
   },
   "dependencies": {
-    "@gluons-ui/button": "^0.0.13",
-    "@gluons-ui/progress-bar": "^0.0.5",
-    "@gluons-ui/split-button": "^0.0.5",
-    "@gluons-ui/tag": "^0.0.5",
+    "@mandala-ui/button": "^0.0.14",
+    "@mandala-ui/progress-bar": "^0.0.7",
+    "@mandala-ui/split-button": "^0.0.6",
+    "@mandala-ui/tag": "^0.0.6",
     "tachyons": "^4.7.4"
   },
-  "description": "Gluons React UI Kit",
+  "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.0",
     "@storybook/addon-info": "^3.2.0",
@@ -85,8 +85,7 @@
   "files": [
     "css",
     "es",
-    "lib",
-    "umd"
+    "lib"
   ],
   "homepage": "",
   "jest": {
@@ -115,11 +114,11 @@
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "name": "@gluons-ui/gluons",
+  "name": "mandala",
   "peerDependencies": {
     "react": "15.x"
   },
-  "repository": "https://github.com/gluons-ui/gluons",
+  "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {
     "build": "nwb build-react-component",
     "build-storybook": "build-storybook",
@@ -132,5 +131,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "0.0.8"
+  "version": "1.1.0"
 }
