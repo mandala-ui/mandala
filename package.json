@@ -121,7 +121,7 @@
   "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {
     "build": "nwb build-react-component",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "deploy-storybook": "storybook-to-ghpages",
     "prepare": "nwb build-react-component",
