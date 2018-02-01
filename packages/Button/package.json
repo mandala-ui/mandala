@@ -1,6 +1,6 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Kit Button Component",
+  "description": "Mandala UI Kit Button Component",
   "keywords": [
     "react",
     "css",
@@ -16,12 +16,12 @@
   "license": "MIT",
   "main": "lib/Button.js",
   "module": "es/Button.js",
-  "name": "@gluons-ui/button",
+  "name": "@mandala-ui/button",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.13"
+  "version": "0.0.14"
 }

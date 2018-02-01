@@ -1,6 +1,6 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Tag Component",
+  "description": "Mandala UI Tag Component",
   "keywords": [
     "react",
     "css",
@@ -16,12 +16,12 @@
   "license": "MIT",
   "main": "lib/Tag.js",
   "module": "es/Tag.js",
-  "name": "@gluons-ui/tag",
+  "name": "@mandala-ui/tag",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.5"
+  "version": "0.0.6"
 }

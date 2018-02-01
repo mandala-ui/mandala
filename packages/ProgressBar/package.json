@@ -1,6 +1,6 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Progress Bar Component",
+  "description": "Mandala UI Progress Bar Component",
   "keywords": [
     "react",
     "css",
@@ -16,12 +16,12 @@
   "license": "MIT",
   "main": "lib/ProgressBar.js",
   "module": "es/ProgressBar.js",
-  "name": "@gluons-ui/progress-bar",
+  "name": "@mandala-ui/progress-bar",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }

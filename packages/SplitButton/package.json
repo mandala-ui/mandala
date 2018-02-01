@@ -1,6 +1,6 @@
 {
   "author": "Lucas K Allmon",
-  "description": "Gluons UI Split Button Component",
+  "description": "Mandala UI Split Button Component",
   "keywords": [
     "react",
     "css",
@@ -16,12 +16,12 @@
   "license": "MIT",
   "main": "lib/SplitButton.js",
   "module": "es/SplitButton.js",
-  "name": "@gluons-ui/split-button",
+  "name": "@mandala-ui/split-button",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
