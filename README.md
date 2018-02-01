@@ -1,3 +1,5 @@
+![mandala](https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png)
+
 # Mandala UI Component Library
 
 Mandala is a Declarative Component Library built with React and Functional CSS
