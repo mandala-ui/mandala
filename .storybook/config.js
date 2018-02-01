@@ -5,8 +5,8 @@ import { configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
 setOptions({
-  name: 'Gluons UI Kit',
-  url: 'https://github.com/gluons-ui/gluons',
+  name: 'Mandala UI Kit',
+  url: 'https://github.com/mandala-ui/mandala',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,

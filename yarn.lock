@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@gluons-ui/button@^0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@gluons-ui/button/-/button-0.0.13.tgz#438eefb3e5a59df5423fc9be596ad7bab74760f7"
+"@mandala-ui/button@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/button/-/button-0.0.14.tgz#3ccb2cd0468ef8396df7bfcf7faa423dba3dec87"
 
-"@gluons-ui/progress-bar@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@gluons-ui/progress-bar/-/progress-bar-0.0.5.tgz#5b269ada2add96c0e9ee80cb6673b83b8352cbdc"
+"@mandala-ui/progress-bar@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/progress-bar/-/progress-bar-0.0.7.tgz#104cd29019980b07ea71009999a113bce40b06b9"
 
-"@gluons-ui/split-button@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@gluons-ui/split-button/-/split-button-0.0.5.tgz#6ccb6c8411f18385eb490e76cc5edeebed2ec4bd"
+"@mandala-ui/split-button@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/split-button/-/split-button-0.0.6.tgz#3857a25226b78af3e28978cb26ee25c3ef2a739c"
 
-"@gluons-ui/tag@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@gluons-ui/tag/-/tag-0.0.5.tgz#f4132ad4716217e3b2bd8730e4a65bd8b994028d"
+"@mandala-ui/tag@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/tag/-/tag-0.0.6.tgz#31fc37422de896701d12743f05375de7c14e3242"
 
 "@storybook/addon-actions@^3.2.0":
   version "3.2.0"
