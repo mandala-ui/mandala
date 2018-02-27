@@ -48,9 +48,9 @@ storiesOf('ProgressBar', module)
     () =>
       (<ProgressBar
         background={text('Background', 'light-gray')}
-        color={text('Color', 'blue')}
+        color={text('Color', 'gray')}
         large={boolean('Large', false)}
-        percentage={number('Percentage', 25,
+        percentage={number('Percentage', 50,
           {
             range: true,
             min: 0,
