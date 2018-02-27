@@ -13,35 +13,34 @@ class Button extends PureComponent {
     } = this.props;
     const options = `bg-${color} ${pill ? 'br-pill' : `br${radius}`} ${disabled ? 'opacity-40' : 'pointer'}`;
     return (
-      <div className="button">
-        <button
-          disabled={disabled}
-          className={`${options} bn outline-o ph3 pv2 dim white`}
-          onClick={onClick}
-        >
-          {children}
-        </button>
-      </div>
+      <button
+        disabled={disabled}
+        className={`${options} bn outline-o ph3 pv2 white`}
+        onClick={onClick}
+        style={{ fontFamily: 'inherit' }}
+      >
+        {children || null}
+      </button>
     );
   }
 }
 
 Button.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   color: PropTypes.string,
   disabled: PropTypes.bool,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   pill: PropTypes.bool,
   radius: PropTypes.number,
 };
 
 Button.defaultProps = {
   children: null,
-  color: 'blue',
-  debugCss: false,
+  color: 'gray',
   disabled: false,
+  onClick: () => {},
   pill: false,
-  radius: 2,
+  radius: 0,
 };
 
 export default Button;
