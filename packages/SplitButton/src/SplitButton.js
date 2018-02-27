@@ -53,7 +53,7 @@ SplitButton.propTypes = {
   isOn: PropTypes.bool,
   offColor: PropTypes.string,
   offText: PropTypes.string,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   onColor: PropTypes.string,
   onText: PropTypes.string,
   rounded: PropTypes.bool,
