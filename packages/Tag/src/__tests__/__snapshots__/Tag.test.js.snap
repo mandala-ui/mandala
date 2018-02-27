@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> renders defaults correctly 1`] = `
+<div
+  className="bg-gray br-pill f7 dib ph2 pv1 white"
+/>
+`;

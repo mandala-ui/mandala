@@ -84,7 +84,9 @@ storiesOf('Tag', module)
   .add(
     'interactive',
     () =>
-      (<Tag>
-        {text('Tag Text', 'Tag')}
+      (<Tag
+        color={text('Color', 'gray')}
+      >
+        Text
       </Tag>),
   );
