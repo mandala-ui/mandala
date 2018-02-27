@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SplitButton /> renders Off correctly 1`] = `
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+              br-pill flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+                  pointer
+                  bg-dark-red"
+      disabled={null}
+      onClick={null}
+    >
+      <span
+        className="white f7 tracked-light ttu"
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+                  pointer
+                  bg-moon-gray shadow-2"
+      disabled={null}
+      onClick={null}
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<SplitButton /> renders On correctly 1`] = `
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+              br-pill flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+                  pointer
+                  bg-moon-gray shadow-2 z-1"
+      disabled={null}
+      onClick={null}
+    >
+      <span
+        className="gray f7 tracked-light ttu"
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+                  pointer
+                  bg-green gray"
+      disabled={null}
+      onClick={null}
+    >
+      <span
+        className="f7 tracked-light ttu white"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
+`;

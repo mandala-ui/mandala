@@ -1,15 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-
-const minMax = (number) => {
-  if (number < 0) {
-    return 0;
-  }
-  if (number > 100) {
-    return 100;
-  }
-  return number;
-};
+import clamp from 'lodash/clamp';
 
 class ProgressBar extends PureComponent {
   render() {
@@ -20,12 +11,14 @@ class ProgressBar extends PureComponent {
       percentage,
       rounded,
     } = this.props;
+    const innerClasses = `${large ? 'h2' : 'h1'} bg-${color} ${rounded ? 'br-pill' : ''}`;
+    const outerClasses = `bg-${background} ${large ? 'h2' : 'h1'} ${rounded ? 'br-pill' : ''}`;
     return (
       <div className="progress-bar">
-        <div className={`${large ? 'h2' : 'h1'} bg-${background} ${rounded ? 'br-pill' : ''} w-100 overflow-hidden`}>
+        <div className={`${outerClasses} overflow-hidden w-100`}>
           <div
-            className={`${large ? 'h2' : 'h1'} bg-${color} ${rounded ? 'br-pill' : ''} shadow-2`}
-            style={{ width: `${minMax(percentage)}%` }}
+            className={`${innerClasses} shadow-2`}
+            style={{ width: `${clamp(percentage, 0, 100)}%` }}
           />
         </div>
       </div>
@@ -43,9 +36,9 @@ ProgressBar.propTypes = {
 
 ProgressBar.defaultProps = {
   background: 'light-gray',
-  color: 'blue',
+  color: 'gray',
   large: false,
-  percentage: 90,
+  percentage: 50,
   rounded: true,
 };
 

@@ -11,7 +11,7 @@ import {
 } from '../src';
 
 const CenterPadding = storyFn => (
-  <div className="pa4 tc center w-100">
+  <div className="pa4 tc center w-100 courier">
     { storyFn() }
   </div>
 );
@@ -24,12 +24,11 @@ storiesOf('Button', module)
     'interactive',
     () =>
       (<Button
-        color={text('Color', 'blue')}
-        debugCss={boolean('Debug CSS', false)}
+        color={text('Color', 'gray')}
         large={boolean('Disabled', false)}
         onClick={action('Button onClick Event')}
         pill={boolean('Pill', false)}
-        radius={number('Radius', 2,
+        radius={number('Radius', 0,
           {
             range: true,
             min: 0,
@@ -37,7 +36,7 @@ storiesOf('Button', module)
             step: 1,
           })}
       >
-        {text('Button Text', 'I am a BUTTON')}
+        Button
       </Button>),
   );
 
@@ -48,9 +47,9 @@ storiesOf('ProgressBar', module)
     () =>
       (<ProgressBar
         background={text('Background', 'light-gray')}
-        color={text('Color', 'blue')}
+        color={text('Color', 'gray')}
         large={boolean('Large', false)}
-        percentage={number('Percentage', 25,
+        percentage={number('Percentage', 50,
           {
             range: true,
             min: 0,
@@ -84,7 +83,9 @@ storiesOf('Tag', module)
   .add(
     'interactive',
     () =>
-      (<Tag>
-        {text('Tag Text', 'Tag')}
+      (<Tag
+        color={text('Color', 'gray')}
+      >
+        Text
       </Tag>),
   );
