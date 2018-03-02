@@ -1,6 +1,7 @@
 ![mandala](https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png)
 
 # Mandala UI
+[![CircleCI](https://circleci.com/gh/mandala-ui/mandala/tree/master.svg?style=svg)](https://circleci.com/gh/mandala-ui/mandala/tree/master)
 
 Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library
 
