@@ -88,10 +88,10 @@
     "es",
     "lib"
   ],
-  "homepage": "",
+  "homepage": "https://mandala-ui.github.io/mandala/",
   "jest": {
     "collectCoverageFrom": [
-      "tests/*.{js,jsx}"
+      "packages/**/*.{js,jsx}"
     ],
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
@@ -99,7 +99,7 @@
     },
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
-      "<rootDir>[/\\\\](es|lib|node_modules)[/\\\\]"
+      "<rootDir>[/\\\\](build|docs|es|lib|node_modules)[/\\\\]"
     ],
     "testURL": "http://localhost",
     "transform": {
