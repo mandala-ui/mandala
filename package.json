@@ -12,6 +12,7 @@
     "@mandala-ui/progress-bar": "^0.0.7",
     "@mandala-ui/split-button": "^0.0.6",
     "@mandala-ui/tag": "^0.0.6",
+    "coveralls": "^3.0.0",
     "tachyons": "^4.7.4"
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
@@ -123,6 +124,7 @@
     "build": "nwb build-react-component",
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "deploy-storybook": "storybook-to-ghpages",
     "prepare": "nwb build-react-component",
     "start": "yarn run storybook",
