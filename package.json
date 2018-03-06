@@ -50,7 +50,8 @@
   "eslintConfig": {
     "env": {
       "browser": true,
-      "jest": true
+      "jest": true,
+      "react-percy/globals": true
     },
     "extends": [
       "airbnb"
