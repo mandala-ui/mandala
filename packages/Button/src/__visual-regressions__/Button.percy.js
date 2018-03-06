@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../Button';
-import css from '../../../../node_modules/tachyons/css/tachyons.min.css'; //eslint-disable-line
+import css from '../../../../node_modules/tachyons/css/tachyons.min.css';
 
 percySnapshot('Button Default', () => <Button>Click Me</Button>);
 percySnapshot('Button Disabled', () => <Button disabled>Click Me</Button>);

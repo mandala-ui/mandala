@@ -11,9 +11,7 @@
     "@mandala-ui/button": "^0.0.14",
     "@mandala-ui/progress-bar": "^0.0.7",
     "@mandala-ui/split-button": "^0.0.6",
-    "@mandala-ui/tag": "^0.0.6",
-    "coveralls": "^3.0.0",
-    "tachyons": "^4.7.4"
+    "@mandala-ui/tag": "^0.0.6"
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
@@ -30,6 +28,7 @@
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-loader": "^1.6.1",
@@ -38,13 +37,15 @@
     "eslint-plugin-jest": "^20.0.3",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-react-percy": "^0.2.0",
     "jest": "^20.0.4",
     "jest-css-modules": "^1.1.0",
     "lerna": "^2.5.1",
     "nwb": "^0.18.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-test-renderer": "^15.5.4"
+    "react-test-renderer": "^15.5.4",
+    "tachyons": "^4.7.4"
   },
   "eslintConfig": {
     "env": {
@@ -59,7 +60,8 @@
     },
     "parser": "babel-eslint",
     "plugins": [
-      "jest"
+      "jest",
+      "react-percy"
     ],
     "rules": {
       "import/extensions": "off",
@@ -97,7 +99,7 @@
       "!**/vendor/**",
       "!**/es/**",
       "!**/lib/**",
-      "!**/__percy__/**"
+      "!**/__visual-regressions__/**"
     ],
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
