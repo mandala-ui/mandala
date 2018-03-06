@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
-import css from '../node_modules/tachyons/css/tachyons.min.css'; //eslint-disable-line
+import css from 'tachyons'; //eslint-disable-line
 import {
   Button,
   ProgressBar,
