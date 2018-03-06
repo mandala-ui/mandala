@@ -17,6 +17,7 @@
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
+    "@percy/react": "^0.4.0",
     "@storybook/addon-actions": "^3.2.0",
     "@storybook/addon-info": "^3.2.0",
     "@storybook/addon-knobs": "^3.2.0",
@@ -91,13 +92,21 @@
   "homepage": "https://mandala-ui.github.io/mandala/",
   "jest": {
     "collectCoverageFrom": [
-      "packages/**/*.{js,jsx}"
+      "packages/**/*{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/es/**",
+      "!**/lib/**",
+      "!**/__percy__/**"
     ],
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
       "^react-native$": "react-native-web"
     },
     "testEnvironment": "node",
+    "testMatch": [
+      "**/?(*.)(spec|test).js?(x)"
+    ],
     "testPathIgnorePatterns": [
       "<rootDir>[/\\\\](build|docs|es|lib|node_modules)[/\\\\]"
     ],
@@ -127,6 +136,7 @@
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "deploy-storybook": "storybook-to-ghpages",
     "prepare": "nwb build-react-component",
+    "percy": "react-percy",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
