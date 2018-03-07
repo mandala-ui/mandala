@@ -90,7 +90,8 @@ storiesOf('Tag', module)
     'interactive',
     () =>
       (<Tag
-        color={text('Color', 'gray')}
+        color={text('Color', 'blue')}
+        large={boolean('Large', false)}
       >
         Text
       </Tag>),

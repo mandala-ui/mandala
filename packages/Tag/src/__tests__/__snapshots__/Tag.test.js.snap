@@ -2,6 +2,6 @@
 
 exports[`<Tag /> renders defaults correctly 1`] = `
 <div
-  className="bg-gray br-pill f7 dib ph2 pv1 white"
+  className="bg-blue f7 ph2 pv1 dib br-pill white"
 />
 `;

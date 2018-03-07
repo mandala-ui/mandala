@@ -121,8 +121,17 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ]
   },
-  "keywords": [
-    "react-component"
+  "keywords":  [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
   ],
   "license": "MIT",
   "main": "lib/index.js",

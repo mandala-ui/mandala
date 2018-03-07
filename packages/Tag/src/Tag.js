@@ -6,9 +6,11 @@ class Tag extends PureComponent {
     const {
       children,
       color,
+      large,
     } = this.props;
+    const options = `bg-${color} ${large ? 'f5 ph3 pv2' : 'f7 ph2 pv1'}`;
     return (
-      <div className={`bg-${color} br-pill f7 dib ph2 pv1 white`}>
+      <div className={`${options} dib br-pill white`}>
         {children || null}
       </div>
     );
@@ -18,11 +20,13 @@ class Tag extends PureComponent {
 Tag.propTypes = {
   color: PropTypes.string,
   children: PropTypes.node,
+  large: PropTypes.bool,
 };
 
 Tag.defaultProps = {
   children: null,
-  color: 'gray',
+  color: 'blue',
+  large: false,
 };
 
 export default Tag;
