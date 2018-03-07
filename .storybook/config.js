@@ -12,7 +12,7 @@ setOptions({
   showDownPanel: true,
   showSearchBox: false,
   downPanelInRight: true,
-  sortStoriesByKind: false,
+  sortStoriesByKind: true,
 });
 
 configure(() => require('../stories'), module); //eslint-disable-line

@@ -11,11 +11,11 @@ class Button extends PureComponent {
       pill,
       radius,
     } = this.props;
-    const options = `bg-${color} ${pill ? 'br-pill' : `br${radius}`} ${disabled ? 'opacity-40' : 'pointer'}`;
+    const options = `bg-${color} ${pill ? 'br-pill' : `br${radius}`} ${disabled ? 'o-40' : 'pointer'}`;
     return (
       <button
         disabled={disabled}
-        className={`${options} bn outline-o ph3 pv2 white`}
+        className={`${options} bn outline-0 ph3 pv2 white`}
         onClick={onClick}
         style={{ fontFamily: 'inherit' }}
       >
