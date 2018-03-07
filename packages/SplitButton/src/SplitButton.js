@@ -8,16 +8,17 @@ class SplitButton extends PureComponent {
       disabled,
       isOn,
       offColor,
-      offText,
       onClick,
       onColor,
-      onText,
-      rounded } = this.props;
+      pill,
+      radius,
+      showText,
+    } = this.props;
     return (
       <div className="split-button">
         <div
           className={`b--gray ba
-            ${rounded ? 'br-pill' : 'br2'} flex h2 overflow-hidden w4`}
+            ${pill ? 'br-pill' : `br${radius}`} flex h2 overflow-hidden w4`}
         >
           <button
             className={`bn w-50
@@ -27,7 +28,7 @@ class SplitButton extends PureComponent {
             onClick={onClick}
           >
             <span className={`${isOn ? 'gray' : 'white'} f7 tracked-light ttu`}>
-              {offText}
+              { showText ? 'off' : null }
             </span>
           </button>
           <button
@@ -38,7 +39,7 @@ class SplitButton extends PureComponent {
             onClick={onClick}
           >
             <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
-              {onText}
+              { showText ? 'on' : null}
             </span>
           </button>
         </div>
@@ -52,11 +53,11 @@ SplitButton.propTypes = {
   disabled: PropTypes.bool,
   isOn: PropTypes.bool,
   offColor: PropTypes.string,
-  offText: PropTypes.string,
   onClick: PropTypes.func,
   onColor: PropTypes.string,
-  onText: PropTypes.string,
-  rounded: PropTypes.bool,
+  pill: PropTypes.bool,
+  radius: PropTypes.number,
+  showText: PropTypes.bool,
 };
 
 SplitButton.defaultProps = {
@@ -68,7 +69,9 @@ SplitButton.defaultProps = {
   offText: 'off',
   onColor: 'green',
   onText: 'on',
-  rounded: true,
+  pill: false,
+  radius: 0,
+  showText: true,
 };
 
 export default SplitButton;

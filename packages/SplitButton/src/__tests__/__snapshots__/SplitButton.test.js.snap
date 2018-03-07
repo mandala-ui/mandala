@@ -6,7 +6,7 @@ exports[`<SplitButton /> renders Off correctly 1`] = `
 >
   <div
     className="b--gray ba
-              br-pill flex h2 overflow-hidden w4"
+              br0 flex h2 overflow-hidden w4"
   >
     <button
       className="bn w-50
@@ -44,7 +44,7 @@ exports[`<SplitButton /> renders On correctly 1`] = `
 >
   <div
     className="b--gray ba
-              br-pill flex h2 overflow-hidden w4"
+              br0 flex h2 overflow-hidden w4"
   >
     <button
       className="bn w-50
