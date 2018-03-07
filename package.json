@@ -121,7 +121,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ]
   },
-  "keywords":  [
+  "keywords": [
     "react",
     "css",
     "library",
@@ -155,5 +155,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
