@@ -14,12 +14,14 @@ class ProgressBar extends PureComponent {
     const innerClasses = `${large ? 'h2' : 'h1'} bg-${color} ${rounded ? 'br-pill' : ''}`;
     const outerClasses = `bg-${background} ${large ? 'h2' : 'h1'} ${rounded ? 'br-pill' : ''}`;
     return (
-      <div className="progress-bar">
-        <div className={`${outerClasses} overflow-hidden w-100`}>
-          <div
-            className={`${innerClasses} shadow-2`}
-            style={{ width: `${clamp(percentage, 0, 100)}%` }}
-          />
+      <div className="progress-bar w-100">
+        <div className="w-100">
+          <div className={`${outerClasses} overflow-hidden w-100`}>
+            <div
+              className={`${innerClasses} shadow-2`}
+              style={{ width: `${clamp(percentage, 0, 100)}%` }}
+            />
+          </div>
         </div>
       </div>
     );

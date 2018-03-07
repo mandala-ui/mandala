@@ -4,13 +4,15 @@ import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import css from 'tachyons'; //eslint-disable-line
 import Button from '../packages/Button/src/Button.js';
-import ProgressBar from '../packages/ProgressBar';
-import SplitButton from '../packages/SplitButton';
-import Tag from '../packages/Tag';
+import ProgressBar from '../packages/ProgressBar/src/ProgressBar.js';
+import SplitButton from '../packages/SplitButton/src/SplitButton.js';
+import Tag from '../packages/Tag/src/Tag.js';
 
 const CenterPadding = storyFn => (
-  <div className="ma4 tc center w-100 sans-serif">
-    { storyFn() }
+  <div className="">
+    <div className="pa5 tc center w-100 flex justify-center sans-serif">
+      { storyFn() }
+    </div>
   </div>
 );
 
@@ -67,12 +69,18 @@ storiesOf('SplitButton', module)
         disabled={boolean('Disabled', false)}
         baseColor={text('Base Color', 'moon-gray')}
         offText={text('Off Text', 'off')}
-        offColor={text('Off Color', 'dark-red')}
         onColor={text('On Color', 'green')}
-        onText={text('On Text', 'on')}
         onClick={action('SplitButton onClick Event')}
         isOn={boolean('Is On', false)}
-        rounded={boolean('Rounded', true)}
+        pill={boolean('Pill', false)}
+        radius={number('Radius', 0,
+          {
+            range: true,
+            min: 0,
+            max: 3,
+            step: 1,
+          })}
+        showText={boolean('Show Text', true)}
       />),
   );
 
