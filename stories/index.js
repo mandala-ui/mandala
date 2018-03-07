@@ -54,7 +54,7 @@ storiesOf('ProgressBar', module)
             max: 100,
             step: 1,
           })}
-        rounded={boolean('Rounded', true)}
+        rounded={boolean('Rounded', false)}
       />),
   );
 

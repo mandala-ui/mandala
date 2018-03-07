@@ -5,10 +5,10 @@ exports[`<ProgressBar /> renders defaults correctly 1`] = `
   className="progress-bar"
 >
   <div
-    className="bg-light-gray h1 br-pill overflow-hidden w-100"
+    className="bg-light-gray h1  overflow-hidden w-100"
   >
     <div
-      className="h1 bg-gray br-pill shadow-2"
+      className="h1 bg-gray  shadow-2"
       style={
         Object {
           "width": "50%",
@@ -24,10 +24,10 @@ exports[`<ProgressBar /> renders large version correctly 1`] = `
   className="progress-bar"
 >
   <div
-    className="bg-light-gray h2 br-pill overflow-hidden w-100"
+    className="bg-light-gray h2  overflow-hidden w-100"
   >
     <div
-      className="h2 bg-gray br-pill shadow-2"
+      className="h2 bg-gray  shadow-2"
       style={
         Object {
           "width": "50%",
