@@ -23,5 +23,5 @@
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "0.0.15"
+  "version": "0.0.16"
 }
