@@ -3,15 +3,13 @@ import { storiesOf, addDecorator } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import css from 'tachyons'; //eslint-disable-line
-import {
-  Button,
-  ProgressBar,
-  SplitButton,
-  Tag,
-} from '../src';
+import Button from '../packages/Button/src/Button.js';
+import ProgressBar from '../packages/ProgressBar';
+import SplitButton from '../packages/SplitButton';
+import Tag from '../packages/Tag';
 
 const CenterPadding = storyFn => (
-  <div className="pa4 tc center w-100 courier">
+  <div className="ma4 tc center w-100 sans-serif">
     { storyFn() }
   </div>
 );
@@ -25,7 +23,7 @@ storiesOf('Button', module)
     () =>
       (<Button
         color={text('Color', 'gray')}
-        large={boolean('Disabled', false)}
+        disabled={boolean('Disabled', false)}
         onClick={action('Button onClick Event')}
         pill={boolean('Pill', false)}
         radius={number('Radius', 0,
@@ -36,7 +34,7 @@ storiesOf('Button', module)
             step: 1,
           })}
       >
-        Button
+        Click Me
       </Button>),
   );
 
