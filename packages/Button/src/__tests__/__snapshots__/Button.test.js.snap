@@ -2,7 +2,7 @@
 
 exports[`<Button /> renders defaults correctly 1`] = `
 <button
-  className="bg-gray br0 pointer bn outline-o ph3 pv2 white"
+  className="bg-gray br0 pointer bn outline-0 ph3 pv2 white"
   disabled={false}
   onClick={[Function]}
   style={
