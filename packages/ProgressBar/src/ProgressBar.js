@@ -39,7 +39,7 @@ ProgressBar.defaultProps = {
   color: 'gray',
   large: false,
   percentage: 50,
-  rounded: true,
+  rounded: false,
 };
 
 export default ProgressBar;
