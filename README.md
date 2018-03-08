@@ -1,7 +1,7 @@
 ![mandala](https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png)
 
 # Mandala UI
-[![CircleCI](https://circleci.com/gh/mandala-ui/mandala/tree/master.svg?style=svg)](https://circleci.com/gh/mandala-ui/mandala/tree/master) [![Coverage Status](https://coveralls.io/repos/github/mandala-ui/mandala/badge.svg)](https://coveralls.io/github/mandala-ui/mandala)
+[![CircleCI](https://circleci.com/gh/mandala-ui/mandala/tree/master.svg?style=svg)](https://circleci.com/gh/mandala-ui/mandala/tree/master) [![Coverage Status](https://coveralls.io/repos/github/mandala-ui/mandala/badge.svg?branch=master&service=github)](https://coveralls.io/github/mandala-ui/mandala)
 
 Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library
 
