@@ -1,16 +1,463 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> renders defaults correctly 1`] = `
-<button
-  className="bg-gray br0 pointer bn outline-0 ph3 pv2 white"
-  disabled={false}
-  onClick={[Function]}
-  style={
-    Object {
-      "fontFamily": "inherit",
-    }
-  }
+exports[`<Button /> Rendering can render custom color 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="blue"
+    disabled={false}
+    onClick={[Function]}
+    pill={false}
+    radius={0}
 >
-  Button
-</button>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-blue br0 pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-blue br0 pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Default 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={false}
+    onClick={[Function]}
+    pill={false}
+    radius={0}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Disabled 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={true}
+    onClick={[Function]}
+    pill={false}
+    radius={0}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40",
+      "disabled": true,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40",
+        "disabled": true,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Pill 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={false}
+    onClick={[Function]}
+    pill={true}
+    radius={0}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Radius 1 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={false}
+    onClick={[Function]}
+    pill={false}
+    radius={1}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Radius 2 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={false}
+    onClick={[Function]}
+    pill={false}
+    radius={2}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Button /> Rendering renders Radius 3 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button
+    color="gray"
+    disabled={false}
+    onClick={[Function]}
+    pill={false}
+    radius={3}
+>
+    Click Me
+</Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Click Me",
+      "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer",
+      "disabled": false,
+      "onClick": [Function],
+      "style": Object {
+        "fontFamily": "inherit",
+      },
+    },
+    "ref": null,
+    "rendered": "Click Me",
+    "type": "button",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Click Me",
+        "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer",
+        "disabled": false,
+        "onClick": [Function],
+        "style": Object {
+          "fontFamily": "inherit",
+        },
+      },
+      "ref": null,
+      "rendered": "Click Me",
+      "type": "button",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
 `;

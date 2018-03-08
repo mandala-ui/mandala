@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import clamp from 'lodash/clamp';
 
 class SplitButton extends PureComponent {
   render() {
@@ -18,16 +19,16 @@ class SplitButton extends PureComponent {
       <div className="split-button">
         <div
           className={`b--gray ba
-            ${pill ? 'br-pill' : `br${radius}`} flex h2 overflow-hidden w4`}
+            ${pill ? 'br-pill' : `br${clamp(radius, 0, 3)}`} flex h2 overflow-hidden w4`}
         >
           <button
             className={`bn w-50
-              ${disabled ? 'o-60' : 'pointer'}
+              ${disabled ? 'o-40' : 'pointer'}
               ${isOn ? `bg-${baseColor} shadow-2 z-1` : `bg-${offColor}`}`}
             disabled={disabled ? 'disabled' : null}
             onClick={onClick}
           >
-            <span className={`${isOn ? 'gray' : 'white'} f7 tracked-light ttu`}>
+            <span className={`f7 tracked-light ttu ${isOn ? 'gray' : 'white'} `}>
               { showText ? 'off' : null }
             </span>
           </button>
@@ -53,7 +54,7 @@ SplitButton.propTypes = {
   disabled: PropTypes.bool,
   isOn: PropTypes.bool,
   offColor: PropTypes.string,
-  onClick: PropTypes.func,
+  onClick: PropTypes.func.isRequired,
   onColor: PropTypes.string,
   pill: PropTypes.bool,
   radius: PropTypes.number,
@@ -64,7 +65,6 @@ SplitButton.defaultProps = {
   baseColor: 'moon-gray',
   disabled: false,
   isOn: false,
-  onClick: null,
   offColor: 'dark-red',
   offText: 'off',
   onColor: 'green',

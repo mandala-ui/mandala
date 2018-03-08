@@ -1,77 +1,1921 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SplitButton /> renders Off correctly 1`] = `
-<div
-  className="split-button"
+exports[`<SplitButton /> renders Default (OFF) correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={false}
+    isOn={false}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={false}
+    radius={0}
+    showText={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
 >
-  <div
-    className="b--gray ba
-              br0 flex h2 overflow-hidden w4"
-  >
-    <button
-      className="bn w-50
-                  pointer
-                  bg-dark-red"
-      disabled={null}
-      onClick={null}
-    >
-      <span
-        className="white f7 tracked-light ttu"
-      >
-        off
-      </span>
-    </button>
-    <button
-      className="bn w-50
-                  pointer
-                  bg-moon-gray shadow-2"
-      disabled={null}
-      onClick={null}
-    >
-      <span
-        className="f7 tracked-light ttu gray"
-      >
-        on
-      </span>
-    </button>
-  </div>
-</div>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-dark-red"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white "
+                >
+                        off
+                </span>
+        </button>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-moon-gray shadow-2"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray"
+                >
+                        on
+                </span>
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white "
+            >
+                        off
+            </span>
+</button>,
+          <button
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray"
+            >
+                        on
+            </span>
+</button>,
+        ],
+        "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white "
+>
+              off
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-dark-red",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "off",
+              "className": "f7 tracked-light ttu white ",
+            },
+            "ref": null,
+            "rendered": "off",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray"
+>
+              on
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on",
+              "className": "f7 tracked-light ttu gray",
+            },
+            "ref": null,
+            "rendered": "on",
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-dark-red"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white "
+                    >
+                              off
+                    </span>
+          </button>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-moon-gray shadow-2"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray"
+                    >
+                              on
+                    </span>
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              pointer
+              bg-dark-red"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white "
+              >
+                            off
+              </span>
+</button>,
+            <button
+              className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray"
+              >
+                            on
+              </span>
+</button>,
+          ],
+          "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white "
+>
+                off
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-dark-red",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "off",
+                "className": "f7 tracked-light ttu white ",
+              },
+              "ref": null,
+              "rendered": "off",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray"
+>
+                on
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on",
+                "className": "f7 tracked-light ttu gray",
+              },
+              "ref": null,
+              "rendered": "on",
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
 `;
 
-exports[`<SplitButton /> renders On correctly 1`] = `
-<div
-  className="split-button"
+exports[`<SplitButton /> renders Disabled state correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={true}
+    isOn={false}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={false}
+    radius={0}
+    showText={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
 >
-  <div
-    className="b--gray ba
-              br0 flex h2 overflow-hidden w4"
-  >
-    <button
-      className="bn w-50
-                  pointer
-                  bg-moon-gray shadow-2 z-1"
-      disabled={null}
-      onClick={null}
-    >
-      <span
-        className="gray f7 tracked-light ttu"
-      >
-        off
-      </span>
-    </button>
-    <button
-      className="bn w-50
-                  pointer
-                  bg-green gray"
-      disabled={null}
-      onClick={null}
-    >
-      <span
-        className="f7 tracked-light ttu white"
-      >
-        on
-      </span>
-    </button>
-  </div>
-</div>
+        <button
+                className="bn w-50
+                      o-40
+                      bg-dark-red"
+                disabled="disabled"
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white "
+                >
+                        off
+                </span>
+        </button>
+        <button
+                className="bn w-50
+                      o-60
+                      bg-moon-gray shadow-2"
+                disabled="disabled"
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray"
+                >
+                        on
+                </span>
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              o-40
+              bg-dark-red"
+            disabled="disabled"
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white "
+            >
+                        off
+            </span>
+</button>,
+          <button
+            className="bn w-50
+              o-60
+              bg-moon-gray shadow-2"
+            disabled="disabled"
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray"
+            >
+                        on
+            </span>
+</button>,
+        ],
+        "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white "
+>
+              off
+</span>,
+            "className": "bn w-50
+              o-40
+              bg-dark-red",
+            "disabled": "disabled",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "off",
+              "className": "f7 tracked-light ttu white ",
+            },
+            "ref": null,
+            "rendered": "off",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray"
+>
+              on
+</span>,
+            "className": "bn w-50
+              o-60
+              bg-moon-gray shadow-2",
+            "disabled": "disabled",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on",
+              "className": "f7 tracked-light ttu gray",
+            },
+            "ref": null,
+            "rendered": "on",
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        o-40
+                        bg-dark-red"
+                    disabled="disabled"
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white "
+                    >
+                              off
+                    </span>
+          </button>
+          <button
+                    className="bn w-50
+                        o-60
+                        bg-moon-gray shadow-2"
+                    disabled="disabled"
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray"
+                    >
+                              on
+                    </span>
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              o-40
+              bg-dark-red"
+              disabled="disabled"
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white "
+              >
+                            off
+              </span>
+</button>,
+            <button
+              className="bn w-50
+              o-60
+              bg-moon-gray shadow-2"
+              disabled="disabled"
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray"
+              >
+                            on
+              </span>
+</button>,
+          ],
+          "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white "
+>
+                off
+</span>,
+              "className": "bn w-50
+              o-40
+              bg-dark-red",
+              "disabled": "disabled",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "off",
+                "className": "f7 tracked-light ttu white ",
+              },
+              "ref": null,
+              "rendered": "off",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray"
+>
+                on
+</span>,
+              "className": "bn w-50
+              o-60
+              bg-moon-gray shadow-2",
+              "disabled": "disabled",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on",
+                "className": "f7 tracked-light ttu gray",
+              },
+              "ref": null,
+              "rendered": "on",
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<SplitButton /> renders No Text correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={false}
+    isOn={false}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={false}
+    radius={0}
+    showText={false}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-dark-red"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white "
+                />
+        </button>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-moon-gray shadow-2"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray"
+                />
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white "
+            />
+</button>,
+          <button
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray"
+            />
+</button>,
+        ],
+        "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white "
+/>,
+            "className": "bn w-50
+              pointer
+              bg-dark-red",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": null,
+              "className": "f7 tracked-light ttu white ",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray"
+/>,
+            "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": null,
+              "className": "f7 tracked-light ttu gray",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-dark-red"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white "
+                    />
+          </button>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-moon-gray shadow-2"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray"
+                    />
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              pointer
+              bg-dark-red"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white "
+              />
+</button>,
+            <button
+              className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray"
+              />
+</button>,
+          ],
+          "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white "
+/>,
+              "className": "bn w-50
+              pointer
+              bg-dark-red",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "f7 tracked-light ttu white ",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray"
+/>,
+              "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": null,
+                "className": "f7 tracked-light ttu gray",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<SplitButton /> renders ON correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={false}
+    isOn={true}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={false}
+    radius={0}
+    showText={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-moon-gray shadow-2 z-1"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray "
+                >
+                        off
+                </span>
+        </button>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-green gray"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white"
+                >
+                        on
+                </span>
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray "
+            >
+                        off
+            </span>
+</button>,
+          <button
+            className="bn w-50
+              pointer
+              bg-green gray"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white"
+            >
+                        on
+            </span>
+</button>,
+        ],
+        "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray "
+>
+              off
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "off",
+              "className": "f7 tracked-light ttu gray ",
+            },
+            "ref": null,
+            "rendered": "off",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white"
+>
+              on
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-green gray",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on",
+              "className": "f7 tracked-light ttu white",
+            },
+            "ref": null,
+            "rendered": "on",
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-moon-gray shadow-2 z-1"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray "
+                    >
+                              off
+                    </span>
+          </button>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-green gray"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white"
+                    >
+                              on
+                    </span>
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray "
+              >
+                            off
+              </span>
+</button>,
+            <button
+              className="bn w-50
+              pointer
+              bg-green gray"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white"
+              >
+                            on
+              </span>
+</button>,
+          ],
+          "className": "b--gray ba
+            br0 flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray "
+>
+                off
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "off",
+                "className": "f7 tracked-light ttu gray ",
+              },
+              "ref": null,
+              "rendered": "off",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white"
+>
+                on
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-green gray",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on",
+                "className": "f7 tracked-light ttu white",
+              },
+              "ref": null,
+              "rendered": "on",
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<SplitButton /> renders Pill correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={false}
+    isOn={false}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={true}
+    radius={0}
+    showText={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br-pill flex h2 overflow-hidden w4"
+>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-dark-red"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white "
+                >
+                        off
+                </span>
+        </button>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-moon-gray shadow-2"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray"
+                >
+                        on
+                </span>
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white "
+            >
+                        off
+            </span>
+</button>,
+          <button
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray"
+            >
+                        on
+            </span>
+</button>,
+        ],
+        "className": "b--gray ba
+            br-pill flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white "
+>
+              off
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-dark-red",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "off",
+              "className": "f7 tracked-light ttu white ",
+            },
+            "ref": null,
+            "rendered": "off",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray"
+>
+              on
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on",
+              "className": "f7 tracked-light ttu gray",
+            },
+            "ref": null,
+            "rendered": "on",
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br-pill flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-dark-red"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white "
+                    >
+                              off
+                    </span>
+          </button>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-moon-gray shadow-2"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray"
+                    >
+                              on
+                    </span>
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              pointer
+              bg-dark-red"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white "
+              >
+                            off
+              </span>
+</button>,
+            <button
+              className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray"
+              >
+                            on
+              </span>
+</button>,
+          ],
+          "className": "b--gray ba
+            br-pill flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white "
+>
+                off
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-dark-red",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "off",
+                "className": "f7 tracked-light ttu white ",
+              },
+              "ref": null,
+              "rendered": "off",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray"
+>
+                on
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on",
+                "className": "f7 tracked-light ttu gray",
+              },
+              "ref": null,
+              "rendered": "on",
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<SplitButton /> renders Radius 1 correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplitButton
+    baseColor="moon-gray"
+    disabled={false}
+    isOn={false}
+    offColor="dark-red"
+    offText="off"
+    onClick={[Function]}
+    onColor="green"
+    onText="on"
+    pill={false}
+    radius={1}
+    showText={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="b--gray ba
+            br1 flex h2 overflow-hidden w4"
+>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-dark-red"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu white "
+                >
+                        off
+                </span>
+        </button>
+        <button
+                className="bn w-50
+                      pointer
+                      bg-moon-gray shadow-2"
+                disabled={null}
+                onClick={[Function]}
+        >
+                <span
+                        className="f7 tracked-light ttu gray"
+                >
+                        on
+                </span>
+        </button>
+</div>,
+      "className": "split-button",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu white "
+            >
+                        off
+            </span>
+</button>,
+          <button
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={[Function]}
+>
+            <span
+                        className="f7 tracked-light ttu gray"
+            >
+                        on
+            </span>
+</button>,
+        ],
+        "className": "b--gray ba
+            br1 flex h2 overflow-hidden w4",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu white "
+>
+              off
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-dark-red",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "off",
+              "className": "f7 tracked-light ttu white ",
+            },
+            "ref": null,
+            "rendered": "off",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="f7 tracked-light ttu gray"
+>
+              on
+</span>,
+            "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+            "disabled": null,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on",
+              "className": "f7 tracked-light ttu gray",
+            },
+            "ref": null,
+            "rendered": "on",
+            "type": "span",
+          },
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="b--gray ba
+            br1 flex h2 overflow-hidden w4"
+>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-dark-red"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu white "
+                    >
+                              off
+                    </span>
+          </button>
+          <button
+                    className="bn w-50
+                        pointer
+                        bg-moon-gray shadow-2"
+                    disabled={null}
+                    onClick={[Function]}
+          >
+                    <span
+                              className="f7 tracked-light ttu gray"
+                    >
+                              on
+                    </span>
+          </button>
+</div>,
+        "className": "split-button",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="bn w-50
+              pointer
+              bg-dark-red"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu white "
+              >
+                            off
+              </span>
+</button>,
+            <button
+              className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+              disabled={null}
+              onClick={[Function]}
+>
+              <span
+                            className="f7 tracked-light ttu gray"
+              >
+                            on
+              </span>
+</button>,
+          ],
+          "className": "b--gray ba
+            br1 flex h2 overflow-hidden w4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu white "
+>
+                off
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-dark-red",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "off",
+                "className": "f7 tracked-light ttu white ",
+              },
+              "ref": null,
+              "rendered": "off",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="f7 tracked-light ttu gray"
+>
+                on
+</span>,
+              "className": "bn w-50
+              pointer
+              bg-moon-gray shadow-2",
+              "disabled": null,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on",
+                "className": "f7 tracked-light ttu gray",
+              },
+              "ref": null,
+              "rendered": "on",
+              "type": "span",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
 `;
