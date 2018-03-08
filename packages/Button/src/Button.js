@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import clamp from 'lodash/clamp';
 
 class Button extends PureComponent {
   render() {
@@ -11,11 +12,11 @@ class Button extends PureComponent {
       pill,
       radius,
     } = this.props;
-    const options = `bg-${color} ${pill ? 'br-pill' : `br${radius}`} ${disabled ? 'o-40' : 'pointer'}`;
+    const options = `bg-${color} ${pill ? 'br-pill' : `br${clamp(radius, 0, 3)}`} ${disabled ? 'o-40' : 'pointer'}`;
     return (
       <button
         disabled={disabled}
-        className={`${options} bn outline-0 ph3 pv2 white`}
+        className={`button bn outline-0 ph3 pv2 white ${options}`}
         onClick={onClick}
         style={{ fontFamily: 'inherit' }}
       >
@@ -29,7 +30,7 @@ Button.propTypes = {
   children: PropTypes.node,
   color: PropTypes.string,
   disabled: PropTypes.bool,
-  onClick: PropTypes.func,
+  onClick: PropTypes.func.isRequired,
   pill: PropTypes.bool,
   radius: PropTypes.number,
 };
@@ -38,7 +39,6 @@ Button.defaultProps = {
   children: null,
   color: 'gray',
   disabled: false,
-  onClick: () => {},
   pill: false,
   radius: 0,
 };

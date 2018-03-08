@@ -1,18 +1,36 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-15';
 import ProgressBar from '../ProgressBar';
 
+configure({ adapter: new Adapter() });
+
 describe('<ProgressBar />', () => {
-  it('renders defaults correctly', () => {
-    const comp = renderer.create(
-      <ProgressBar />,
-    ).toJSON();
-    expect(comp).toMatchSnapshot();
+  it('renders defaults', () => {
+    expect(shallow(<ProgressBar />)).toMatchSnapshot();
   });
+
+  it('renders custom color', () => {
+    expect(shallow(<ProgressBar color="blue" />)).toMatchSnapshot();
+  });
+
+  it('renders custom background color', () => {
+    expect(shallow(<ProgressBar color="blue" />)).toMatchSnapshot();
+  });
+
   it('renders large version correctly', () => {
-    const comp = renderer.create(
-      <ProgressBar large />,
-    ).toJSON();
-    expect(comp).toMatchSnapshot();
+    expect(shallow(<ProgressBar large />)).toMatchSnapshot();
+  });
+
+  it('renders rounded version correctly', () => {
+    expect(shallow(<ProgressBar rounded />)).toMatchSnapshot();
+  });
+
+  it('renders 0% correctly', () => {
+    expect(shallow(<ProgressBar percentage={0} />)).toMatchSnapshot();
+  });
+
+  it('renders 100% correctly', () => {
+    expect(shallow(<ProgressBar percentage={100} />)).toMatchSnapshot();
   });
 });

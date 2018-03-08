@@ -10,7 +10,7 @@ class Tag extends PureComponent {
     } = this.props;
     const options = `bg-${color} ${large ? 'f5 ph3 pv2' : 'f7 ph2 pv1'}`;
     return (
-      <div className={`${options} dib br-pill white`}>
+      <div className={`tag br-pill dib white ${options}`}>
         {children || null}
       </div>
     );

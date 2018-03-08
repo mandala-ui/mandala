@@ -1,20 +1,65 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-15';
 import SplitButton from '../SplitButton';
 
+configure({ adapter: new Adapter() });
+
 describe('<SplitButton />', () => {
-  it('renders Off correctly', () => {
-    const comp = renderer.create(
-      <SplitButton />,
-    ).toJSON();
-    expect(comp).toMatchSnapshot();
+  const mockFn = jest.fn();
+  const component = shallow(<SplitButton onClick={mockFn} />);
+
+  it('fires it\'s onClick click prop when clicked', () => {
+    component.find('button').first().simulate('click');
+    expect(mockFn).toHaveBeenCalled();
   });
-  it('renders On correctly', () => {
-    const comp = renderer.create(
+
+  it('renders Default (OFF) correctly', () => {
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders ON correctly', () => {
+    expect(shallow(
       <SplitButton
+        onClick={mockFn}
         isOn
-      />,
-    ).toJSON();
-    expect(comp).toMatchSnapshot();
+      />))
+      .toMatchSnapshot();
+  });
+
+  it('renders Pill correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        pill
+      />))
+      .toMatchSnapshot();
+  });
+
+  it('renders Radius 1 correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        radius={1}
+      />))
+      .toMatchSnapshot();
+  });
+
+  it('renders No Text correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        showText={false}
+      />))
+      .toMatchSnapshot();
+  });
+
+  it('renders Disabled state correctly', () => {
+    expect(shallow(
+      <SplitButton
+        disabled
+        onClick={mockFn}
+      />))
+      .toMatchSnapshot();
   });
 });
