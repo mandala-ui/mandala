@@ -11,7 +11,8 @@
     "@mandala-ui/button": "^0.0.14",
     "@mandala-ui/progress-bar": "^0.0.7",
     "@mandala-ui/split-button": "^0.0.6",
-    "@mandala-ui/tag": "^0.0.6"
+    "@mandala-ui/tag": "^0.0.6",
+    "uuid": "^3.2.1"
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {

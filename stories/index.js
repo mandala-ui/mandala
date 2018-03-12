@@ -7,6 +7,7 @@ import Button from '../packages/Button/src/Button.js';
 import ProgressBar from '../packages/ProgressBar/src/ProgressBar.js';
 import SplitButton from '../packages/SplitButton/src/SplitButton.js';
 import Tag from '../packages/Tag/src/Tag.js';
+import List from '../packages/List/src/List.js';
 
 const CenterPadding = storyFn => (
   <div className="">
@@ -38,6 +39,32 @@ storiesOf('Button', module)
       >
         Click Me
       </Button>),
+  );
+
+storiesOf('List', module)
+  .addDecorator(withKnobs)
+  .add(
+    'interactive',
+    () => (
+      <List
+        lineColor={text('Line Color', 'gray')}
+        lined={boolean('Lined', false)}
+        lineWidth={number('Line Width', 0,
+          {
+            range: true,
+            min: 0,
+            max: 5,
+            step: 1,
+          })}
+        ordered={boolean('Ordered', false)}
+      >
+        <span>This just needs to be an element of some type</span>
+        <span>It can be nearly anything</span>
+        <p>It will inherit styles though</p>
+        <h2>So you are responsible for taking care of that</h2>
+        <span>This just needs to be an element of some type</span>
+      </List>
+    ),
   );
 
 storiesOf('ProgressBar', module)
