@@ -12,8 +12,7 @@
     "@mandala-ui/list": "^1.0.1",
     "@mandala-ui/progress-bar": "^1.0.0",
     "@mandala-ui/split-button": "^1.0.0",
-    "@mandala-ui/tag": "^1.0.0",
-    "uuid": "^3.2.1"
+    "@mandala-ui/tag": "^1.0.0"
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
@@ -159,5 +158,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.1.1"
+  "version": "1.2.0"
 }

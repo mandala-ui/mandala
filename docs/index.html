@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>Mandala</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://rawgit.com/fenderdigital/css-utilities/master/dist/utilities.min.css">
-  <body class="h-100 tc bg-lightest-blue">
-    <img class="mw8 w-100" src="https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png" alt="Mandala Logo">
-    <h1 class="f-headline">Mandala</h1>
-    <h3 class="fw3">Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library</h3>
-    <a class="link b dark-blue db ma3" href="https://github.com/mandala-ui/mandala">Github</a>
+<title>Mandala</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css">
+
+<body class="vh-100 bg-lightest-blue sans-serif ph3">
+  <div class="tc">
+    <img class="mw7 w-100" src="https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png" alt="Mandala Logo">
+    <h1 class="f-headline serif mv0">Mandala</h1>
+    <h3 class="fw3">
+        Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library (<a class="link dark-blue" href="https://tachyons.io">Tachyons.io</a>)
+      </h3>
     <a class="link b dark-blue db ma3" href="/mandala/interactive/index.html">Interactive Component Documentation</a>
-  </body>
+    <a class="link b dark-blue db ma3" href="http://tachyons.io/docs/" target="_blank">CSS Documentation</a>
+    <a class="link b dark-blue db ma3" href="https://github.com/mandala-ui/mandala">Github</a>
+  </div>
+
+  <section class="flex flex-column flex-row-l">
+    <div class="w-100 w-50-l">
+      <h3 class="i">
+        Why Functional CSS?
+      </h3>
+      <p class="measure-wide">
+        So many reasons, but the simplest answer is that we believe it's a better choice to handle the complexity of CSS in the Template, rather than the CSS level.
+      </p>
+      <p class="measure-wide">
+        Even the best of CSS authors can suffer the Fragile Base Class Problem, and that is amplified across teams of differing skill level.
+      </p>
+      <h3 class="i">
+        Why don't you use a CSS-in-JS solution?
+      </h3>
+      <p class="measure-wide">
+        Not every project is a Javascript Single Page Application, and I am not convinced that it's a smart idea to require a build pipeline for every prototype, idea or product. Sharing the css utilities across projects and ideas promotes adoption of a component
+        library.
+      </p>
+    </div>
+    <div class="w-100 w-50-l">
+      <h3>
+        Benefits
+      </h3>
+      <p class="measure-wide">
+        Most UI libraries require you to include their CSS anyway, with the downside of adding that bloat for just their components. Using a functional CSS library allows you to power the Mandala components, as well as your own components with the same syntax.
+      </p>
+      <p>
+        If something doesn't exist in the Mandala Library currently, compose it and submit it!
+      </p>
+
+      <h3>
+        Goals
+      </h3>
+      <ul class="list pl0">
+        <li>
+          - Help people build consistent yet customizable website and application UI
+        </li>
+        <li>
+          - Promote Composition over Inheritance at every level of the interface (CSS and JS)
+        </li>
+        <li>
+          - Reuse as much code and as many components as possible to reduce size and effort.
+        </li>
+        <li>
+          - Share component ideas and techniques with the community
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
+
 </html>
