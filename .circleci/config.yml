@@ -26,7 +26,10 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install
+      - run:
+          name: "Install dependencies"
+          command: |
+            yarn install
 
       - save_cache:
           paths:
@@ -34,6 +37,15 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn test:coverage
-      - run: yarn run coveralls
-      - run: yarn run percy
+      - run:
+          name: "Test Coverage"
+          command: |
+            yarn run test:coverage
+      - run:
+          name: "Report Coverage"
+          command: |
+            yarn run coveralls
+      - run:
+          name: "Visual Regressions"
+          command: |
+            yarn run coveralls
