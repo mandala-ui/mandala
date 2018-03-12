@@ -8,10 +8,11 @@
     ]
   },
   "dependencies": {
-    "@mandala-ui/button": "^0.0.14",
-    "@mandala-ui/progress-bar": "^0.0.7",
-    "@mandala-ui/split-button": "^0.0.6",
-    "@mandala-ui/tag": "^0.0.6",
+    "@mandala-ui/button": "^1.0.0",
+    "@mandala-ui/list": "^1.0.1",
+    "@mandala-ui/progress-bar": "^1.0.0",
+    "@mandala-ui/split-button": "^1.0.0",
+    "@mandala-ui/tag": "^1.0.0",
     "uuid": "^3.2.1"
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
