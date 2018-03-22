@@ -146,6 +146,7 @@
   },
   "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {
+    "argos": "argos upload tmp/output/chrome --ignore **/*.diff.png --token $ARGOS_TOKEN || true",
     "build": "nwb build-react-component",
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
