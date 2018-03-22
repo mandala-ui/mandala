@@ -25,6 +25,7 @@
     "@storybook/addon-storyshots": "^3.2.3",
     "@storybook/react": "^3.2.3",
     "@storybook/storybook-deployer": "^2.0.0",
+    "argos-cli": "^0.0.9",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
@@ -145,6 +146,7 @@
   },
   "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {
+    "argos": "argos upload tmp/output/chrome --ignore **/*.diff.png --token $ARGOS_TOKEN --branch $ARGOS_BRANCH --commit $ARGOS_COMMIT",
     "build": "nwb build-react-component",
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
