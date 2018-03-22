@@ -388,7 +388,7 @@ ShallowWrapper {
     background="light-gray"
     color="blue"
     large={false}
-    percentage={50}
+    percentage={75}
     rounded={false}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -413,7 +413,7 @@ ShallowWrapper {
                         className="h1 bg-blue  shadow-2"
                         style={
                                 Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                         }
                 />
@@ -434,7 +434,7 @@ ShallowWrapper {
                     className="h1 bg-blue  shadow-2"
                     style={
                               Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                     }
           />
@@ -451,7 +451,7 @@ ShallowWrapper {
             className="h1 bg-blue  shadow-2"
             style={
                         Object {
-                                    "width": "50%",
+                                    "width": "75%",
                                   }
             }
 />,
@@ -465,7 +465,7 @@ ShallowWrapper {
           "props": Object {
             "className": "h1 bg-blue  shadow-2",
             "style": Object {
-              "width": "50%",
+              "width": "75%",
             },
           },
           "ref": null,
@@ -494,7 +494,7 @@ ShallowWrapper {
                               className="h1 bg-blue  shadow-2"
                               style={
                                         Object {
-                                                  "width": "50%",
+                                                  "width": "75%",
                                                 }
                               }
                     />
@@ -515,7 +515,7 @@ ShallowWrapper {
                         className="h1 bg-blue  shadow-2"
                         style={
                                     Object {
-                                                "width": "50%",
+                                                "width": "75%",
                                               }
                         }
             />
@@ -532,7 +532,7 @@ ShallowWrapper {
               className="h1 bg-blue  shadow-2"
               style={
                             Object {
-                                          "width": "50%",
+                                          "width": "75%",
                                         }
               }
 />,
@@ -546,7 +546,7 @@ ShallowWrapper {
             "props": Object {
               "className": "h1 bg-blue  shadow-2",
               "style": Object {
-                "width": "50%",
+                "width": "75%",
               },
             },
             "ref": null,
@@ -578,7 +578,7 @@ ShallowWrapper {
     background="light-gray"
     color="blue"
     large={false}
-    percentage={50}
+    percentage={75}
     rounded={false}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -603,7 +603,7 @@ ShallowWrapper {
                         className="h1 bg-blue  shadow-2"
                         style={
                                 Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                         }
                 />
@@ -624,7 +624,7 @@ ShallowWrapper {
                     className="h1 bg-blue  shadow-2"
                     style={
                               Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                     }
           />
@@ -641,7 +641,7 @@ ShallowWrapper {
             className="h1 bg-blue  shadow-2"
             style={
                         Object {
-                                    "width": "50%",
+                                    "width": "75%",
                                   }
             }
 />,
@@ -655,7 +655,7 @@ ShallowWrapper {
           "props": Object {
             "className": "h1 bg-blue  shadow-2",
             "style": Object {
-              "width": "50%",
+              "width": "75%",
             },
           },
           "ref": null,
@@ -684,7 +684,7 @@ ShallowWrapper {
                               className="h1 bg-blue  shadow-2"
                               style={
                                         Object {
-                                                  "width": "50%",
+                                                  "width": "75%",
                                                 }
                               }
                     />
@@ -705,7 +705,7 @@ ShallowWrapper {
                         className="h1 bg-blue  shadow-2"
                         style={
                                     Object {
-                                                "width": "50%",
+                                                "width": "75%",
                                               }
                         }
             />
@@ -722,7 +722,7 @@ ShallowWrapper {
               className="h1 bg-blue  shadow-2"
               style={
                             Object {
-                                          "width": "50%",
+                                          "width": "75%",
                                         }
               }
 />,
@@ -736,7 +736,7 @@ ShallowWrapper {
             "props": Object {
               "className": "h1 bg-blue  shadow-2",
               "style": Object {
-                "width": "50%",
+                "width": "75%",
               },
             },
             "ref": null,
@@ -768,7 +768,7 @@ ShallowWrapper {
     background="light-gray"
     color="gray"
     large={false}
-    percentage={50}
+    percentage={75}
     rounded={false}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -793,7 +793,7 @@ ShallowWrapper {
                         className="h1 bg-gray  shadow-2"
                         style={
                                 Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                         }
                 />
@@ -814,7 +814,7 @@ ShallowWrapper {
                     className="h1 bg-gray  shadow-2"
                     style={
                               Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                     }
           />
@@ -831,7 +831,7 @@ ShallowWrapper {
             className="h1 bg-gray  shadow-2"
             style={
                         Object {
-                                    "width": "50%",
+                                    "width": "75%",
                                   }
             }
 />,
@@ -845,7 +845,7 @@ ShallowWrapper {
           "props": Object {
             "className": "h1 bg-gray  shadow-2",
             "style": Object {
-              "width": "50%",
+              "width": "75%",
             },
           },
           "ref": null,
@@ -874,7 +874,7 @@ ShallowWrapper {
                               className="h1 bg-gray  shadow-2"
                               style={
                                         Object {
-                                                  "width": "50%",
+                                                  "width": "75%",
                                                 }
                               }
                     />
@@ -895,7 +895,7 @@ ShallowWrapper {
                         className="h1 bg-gray  shadow-2"
                         style={
                                     Object {
-                                                "width": "50%",
+                                                "width": "75%",
                                               }
                         }
             />
@@ -912,7 +912,7 @@ ShallowWrapper {
               className="h1 bg-gray  shadow-2"
               style={
                             Object {
-                                          "width": "50%",
+                                          "width": "75%",
                                         }
               }
 />,
@@ -926,7 +926,7 @@ ShallowWrapper {
             "props": Object {
               "className": "h1 bg-gray  shadow-2",
               "style": Object {
-                "width": "50%",
+                "width": "75%",
               },
             },
             "ref": null,
@@ -958,7 +958,7 @@ ShallowWrapper {
     background="light-gray"
     color="gray"
     large={true}
-    percentage={50}
+    percentage={75}
     rounded={false}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -983,7 +983,7 @@ ShallowWrapper {
                         className="h2 bg-gray  shadow-2"
                         style={
                                 Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                         }
                 />
@@ -1004,7 +1004,7 @@ ShallowWrapper {
                     className="h2 bg-gray  shadow-2"
                     style={
                               Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                     }
           />
@@ -1021,7 +1021,7 @@ ShallowWrapper {
             className="h2 bg-gray  shadow-2"
             style={
                         Object {
-                                    "width": "50%",
+                                    "width": "75%",
                                   }
             }
 />,
@@ -1035,7 +1035,7 @@ ShallowWrapper {
           "props": Object {
             "className": "h2 bg-gray  shadow-2",
             "style": Object {
-              "width": "50%",
+              "width": "75%",
             },
           },
           "ref": null,
@@ -1064,7 +1064,7 @@ ShallowWrapper {
                               className="h2 bg-gray  shadow-2"
                               style={
                                         Object {
-                                                  "width": "50%",
+                                                  "width": "75%",
                                                 }
                               }
                     />
@@ -1085,7 +1085,7 @@ ShallowWrapper {
                         className="h2 bg-gray  shadow-2"
                         style={
                                     Object {
-                                                "width": "50%",
+                                                "width": "75%",
                                               }
                         }
             />
@@ -1102,7 +1102,7 @@ ShallowWrapper {
               className="h2 bg-gray  shadow-2"
               style={
                             Object {
-                                          "width": "50%",
+                                          "width": "75%",
                                         }
               }
 />,
@@ -1116,7 +1116,7 @@ ShallowWrapper {
             "props": Object {
               "className": "h2 bg-gray  shadow-2",
               "style": Object {
-                "width": "50%",
+                "width": "75%",
               },
             },
             "ref": null,
@@ -1148,7 +1148,7 @@ ShallowWrapper {
     background="light-gray"
     color="gray"
     large={false}
-    percentage={50}
+    percentage={75}
     rounded={true}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -1173,7 +1173,7 @@ ShallowWrapper {
                         className="h1 bg-gray br-pill shadow-2"
                         style={
                                 Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                         }
                 />
@@ -1194,7 +1194,7 @@ ShallowWrapper {
                     className="h1 bg-gray br-pill shadow-2"
                     style={
                               Object {
-                                        "width": "50%",
+                                        "width": "75%",
                                       }
                     }
           />
@@ -1211,7 +1211,7 @@ ShallowWrapper {
             className="h1 bg-gray br-pill shadow-2"
             style={
                         Object {
-                                    "width": "50%",
+                                    "width": "75%",
                                   }
             }
 />,
@@ -1225,7 +1225,7 @@ ShallowWrapper {
           "props": Object {
             "className": "h1 bg-gray br-pill shadow-2",
             "style": Object {
-              "width": "50%",
+              "width": "75%",
             },
           },
           "ref": null,
@@ -1254,7 +1254,7 @@ ShallowWrapper {
                               className="h1 bg-gray br-pill shadow-2"
                               style={
                                         Object {
-                                                  "width": "50%",
+                                                  "width": "75%",
                                                 }
                               }
                     />
@@ -1275,7 +1275,7 @@ ShallowWrapper {
                         className="h1 bg-gray br-pill shadow-2"
                         style={
                                     Object {
-                                                "width": "50%",
+                                                "width": "75%",
                                               }
                         }
             />
@@ -1292,7 +1292,7 @@ ShallowWrapper {
               className="h1 bg-gray br-pill shadow-2"
               style={
                             Object {
-                                          "width": "50%",
+                                          "width": "75%",
                                         }
               }
 />,
@@ -1306,7 +1306,7 @@ ShallowWrapper {
             "props": Object {
               "className": "h1 bg-gray br-pill shadow-2",
               "style": Object {
-                "width": "50%",
+                "width": "75%",
               },
             },
             "ref": null,
