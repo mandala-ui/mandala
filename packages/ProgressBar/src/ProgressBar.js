@@ -40,7 +40,7 @@ ProgressBar.defaultProps = {
   background: 'light-gray',
   color: 'gray',
   large: false,
-  percentage: 50,
+  percentage: 75,
   rounded: false,
 };
 
