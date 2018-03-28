@@ -2,25 +2,31 @@
 # yarn lockfile v1
 
 
-"@mandala-ui/button@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/button/-/button-1.0.0.tgz#c7ed18f920c958ea7a4173e3219696fc01116d42"
+"@mandala-ui/button@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/button/-/button-1.0.1.tgz#5e162d97734239a9c01850440276c046fbaf6b61"
+  dependencies:
+    lodash.clamp "^4.0.3"
 
 "@mandala-ui/list@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.1.tgz#80bfb9cfeff07c9feeee5cb6587d1357aff5c5f9"
 
-"@mandala-ui/outline-dot@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/outline-dot/-/outline-dot-1.0.0.tgz#94ad0b4d0d64535eb6b40f68a8afd20b88a473a8"
+"@mandala-ui/outline-dot@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/outline-dot/-/outline-dot-1.0.1.tgz#aee25b56e646bb4fcded8724b40a1d9f00c6eed7"
 
-"@mandala-ui/progress-bar@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/progress-bar/-/progress-bar-1.0.0.tgz#4f365f9558afe9774c3e4d9713b45f95fa9a8d21"
+"@mandala-ui/progress-bar@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/progress-bar/-/progress-bar-1.0.1.tgz#fe04f056144ad4fe04200039da62690a7e345712"
+  dependencies:
+    lodash.clamp "^4.0.3"
 
-"@mandala-ui/split-button@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/split-button/-/split-button-1.0.0.tgz#123b6944a113864ca3b610b9fbfc99d82e54c27a"
+"@mandala-ui/split-button@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/split-button/-/split-button-1.0.1.tgz#30990f4e520b34756bac87008a502cb99f2369fa"
+  dependencies:
+    lodash.clamp "^4.0.3"
 
 "@mandala-ui/tag@^1.0.0":
   version "1.0.0"
@@ -6067,6 +6073,10 @@ lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
 
+lodash.clamp@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/lodash.clamp/-/lodash.clamp-4.0.3.tgz#5c24bedeeeef0753560dc2b4cb4671f90a6ddfaa"
+
 lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
@@ -9060,9 +9070,9 @@ table@^4.0.1:
     slice-ansi "0.0.4"
     string-width "^2.0.0"
 
-tachyons@^4.7.4:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.9.0.tgz#2df058ea6b6eb3d2be12d62a69fecb0f6b1e0534"
+tachyons@^4.9.1:
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.9.1.tgz#f88d7059d6e53c833bf9351a26f18314c8fdc76a"
 
 tapable@^0.2.5, tapable@^0.2.7, tapable@~0.2.5:
   version "0.2.7"
