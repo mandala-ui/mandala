@@ -35,11 +35,11 @@ OutlineDot.propTypes = {
 
 OutlineDot.defaultProps = {
   borderColor: 'black',
-  borderWidth: 1,
+  borderWidth: 0,
   innerBorderWidth: 1,
   innerColor: 'white',
   color: 'black',
-  large: true,
+  large: false,
 };
 
 export default OutlineDot;
