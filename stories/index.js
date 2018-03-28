@@ -11,10 +11,8 @@ import SplitButton from '../packages/SplitButton/src/SplitButton.js';
 import Tag from '../packages/Tag/src/Tag.js';
 
 const CenterPadding = storyFn => (
-  <div className="">
-    <div className="pa5 tc center w-100 flex justify-center sans-serif">
-      { storyFn() }
-    </div>
+  <div className="pa5 tc center w-100 flex justify-center sans-serif">
+    { storyFn() }
   </div>
 );
 
@@ -48,6 +46,8 @@ storiesOf('List', module)
     'interactive',
     () => (
       <List
+        contained={boolean('Contained', false)}
+        indented={boolean('Indented', false)}
         lineColor={text('Line Color', 'gray')}
         lined={boolean('Lined', false)}
         lineWidth={number('Line Width', 0,
@@ -61,9 +61,8 @@ storiesOf('List', module)
       >
         <span>This just needs to be an element of some type</span>
         <span>It can be nearly anything</span>
-        <p>It will inherit styles though</p>
-        <h2>So you are responsible for taking care of that</h2>
-        <span>This just needs to be an element of some type</span>
+        <span>It will inherit styles though</span>
+        <span>So you are responsible for taking care of that</span>
       </List>
     ),
   );
@@ -95,7 +94,7 @@ storiesOf('OutlineDot', module)
     () =>
       (<OutlineDot
         borderColor={text('Border Color', 'black')}
-        borderWidth={number('Border Width', 1, {
+        borderWidth={number('Border Width', 0, {
           range: true,
           min: 0,
           max: 5,

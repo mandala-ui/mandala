@@ -28,6 +28,9 @@ describe('<List />', () => {
     const component = shallow(
       <List
         ordered
+        lined
+        contained
+        indented
       >
         <p>A child</p>
         <p>A child</p>
@@ -42,6 +45,34 @@ describe('<List />', () => {
   it('should render a group of ListItems when passed children', () => {
     expect(shallow(
       <List>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+      </List>,
+    )).toMatchSnapshot();
+  });
+
+  it('should remove the last bottom border if "contained" prop is present', () => {
+    expect(shallow(
+      <List
+        contained
+      >
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+      </List>,
+    )).toMatchSnapshot();
+  });
+
+  it('should add space if the "indented" prop is present', () => {
+    expect(shallow(
+      <List
+        indented
+      >
         <p>A child</p>
         <p>A child</p>
         <p>A child</p>

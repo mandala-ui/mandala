@@ -5,41 +5,45 @@ import ListItem from './ListItem';
 class List extends PureComponent {
   render() {
     const {
+      children,
+      contained,
+      indented,
       lineColor,
       lined,
       lineWidth,
-      children,
       ordered,
     } = this.props;
-    const listStyle = 'list ma0 pa0 tl';
     const childArray = React.Children.toArray(children);
     return (
       <div className="list">
         { ordered ?
-          <ol className={listStyle} >
-            { childArray.map((child, index) => (
+          <ol className="list ma0 pa0 tl">
+            { childArray.map((child, index, array) => (
               <ListItem
                 borderColor={lineColor}
                 borderWidth={lineWidth}
-                hasBorder={lined}
-                key={`list-item-${index}`}
+                hasBorder={contained && (index === array.length - 1) ? false : lined}
+                indented={indented}
+                key={`list-item-${index + 1}`}
               >
-                {child}
+                {`${index + 1}. `}{child}
               </ListItem>
             ))
             }
           </ol>
           :
-          <ul className={listStyle}>
-            { childArray.map((child, index) =>
-              (<ListItem
+          <ul className="list ma0 pa0 tl">
+            { childArray.map((child, index, array) => (
+              <ListItem
                 borderColor={lineColor}
                 borderWidth={lineWidth}
-                hasBorder={lined}
-                key={`list-item-${index}`}
+                hasBorder={contained && (index === array.length - 1) ? false : lined}
+                indented={indented}
+                key={`list-item-${index + 1}`}
               >
                 {child}
-              </ListItem>))
+              </ListItem>
+            ))
             }
           </ul>
         }
@@ -49,20 +53,23 @@ class List extends PureComponent {
 }
 
 List.propTypes = {
+  children: PropTypes.node,
+  contained: PropTypes.bool,
+  indented: PropTypes.bool,
   lined: PropTypes.bool,
   lineColor: PropTypes.string,
-  children: PropTypes.node,
   lineWidth: PropTypes.number,
   ordered: PropTypes.bool,
 };
 
 List.defaultProps = {
+  children: null,
+  contained: false,
+  indented: false,
   lined: false,
   lineColor: 'gray',
   lineWidth: 0,
-  children: null,
   ordered: false,
-  radius: 0,
 };
 
 export default List;

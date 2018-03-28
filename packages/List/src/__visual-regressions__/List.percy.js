@@ -53,4 +53,34 @@ suite('<List />', { widths: breakpoints }, () => {
       <p>I am a child of the list</p>
     </List>
   ));
+  percySnapshot('Contained', () => (
+    <List
+      contained
+      lineColor="blue"
+      lined
+      lineWidth={1}
+    >
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+    </List>
+  ));
+  percySnapshot('Indented', () => (
+    <List
+      indented
+      lineColor="green"
+      lined
+      lineWidth={1}
+    >
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+      <p>I am a child of the list</p>
+    </List>
+  ));
 });
