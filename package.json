@@ -10,6 +10,7 @@
   "dependencies": {
     "@mandala-ui/button": "^1.0.0",
     "@mandala-ui/list": "^1.0.1",
+    "@mandala-ui/outline-dot": "^1.0.0",
     "@mandala-ui/progress-bar": "^1.0.0",
     "@mandala-ui/split-button": "^1.0.0",
     "@mandala-ui/tag": "^1.0.0"
@@ -24,7 +25,6 @@
     "@storybook/addon-options": "^3.2.3",
     "@storybook/addon-storyshots": "^3.2.3",
     "@storybook/react": "^3.2.3",
-    "@storybook/storybook-deployer": "^2.0.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
     "babel-preset-es2015": "^6.24.1",
@@ -149,7 +149,6 @@
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
-    "deploy-storybook": "storybook-to-ghpages",
     "prepare": "nwb build-react-component",
     "percy": "react-percy",
     "start": "yarn run storybook",
@@ -158,5 +157,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.2.0"
+  "version": "1.3.0"
 }
