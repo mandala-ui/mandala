@@ -1,0 +1,27 @@
+{
+  "author": "Lucas K Allmon",
+  "description": "Mandala UI Column Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
+  ],
+  "license": "MIT",
+  "main": "lib/Column.js",
+  "module": "es/Column.js",
+  "name": "@mandala-ui/column",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "nwb build-react-component"
+  },
+  "version": "0.0.0"
+}

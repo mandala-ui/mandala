@@ -4,6 +4,7 @@ import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import css from 'tachyons'; //eslint-disable-line
 import Button from '../packages/Button/src/Button.js';
+import Column from '../packages/Column/src/Column.js';
 import List from '../packages/List/src/List.js';
 import OutlineDot from '../packages/OutlineDot/src/OutlineDot.js';
 import ProgressBar from '../packages/ProgressBar/src/ProgressBar.js';
@@ -38,6 +39,44 @@ storiesOf('Button', module)
       >
         Click Me
       </Button>),
+  );
+
+storiesOf('Column', module)
+  .addDecorator(withKnobs)
+  .add(
+    'interactive',
+    () => (
+      <Column
+        backgroundColor={text('Backround Color', 'near-white')}
+        borderRadius={number('Border Radius', 2,
+          {
+            range: true,
+            min: 0,
+            max: 4,
+            step: 1,
+          })}
+        padding={number('Padding', 0,
+          {
+            range: true,
+            min: 0,
+            max: 5,
+            step: 1,
+          })}
+      >
+        <List
+          indented
+          lined
+          contained
+        >
+          <span>lorem ipsum</span>
+          <span>lorem ipsum</span>
+          <span>lorem ipsum</span>
+          <span>lorem ipsum</span>
+          <span>lorem ipsum</span>
+          <span>lorem ipsum</span>
+        </List>
+      </Column>
+    ),
   );
 
 storiesOf('List', module)

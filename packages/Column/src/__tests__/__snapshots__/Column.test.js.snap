@@ -1,0 +1,1648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Column /> renders a custom background color 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Column
+    backgroundColor="gray"
+    borderColor={null}
+    padding={2}
+    radius={0}
+>
+    <div>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+    </div>
+</Column>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="
+      bg-gray
+      br0
+      pa2
+      w-100"
+>
+        <div>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+        </div>
+</div>,
+      "className": "column w-100",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+</div>,
+        "className": "
+      bg-gray
+      br0
+      pa2
+      w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="
+      bg-gray
+      br0
+      pa2
+      w-100"
+>
+          <div>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+          </div>
+</div>,
+        "className": "column w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+</div>,
+          "className": "
+      bg-gray
+      br0
+      pa2
+      w-100",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Column /> renders a custom border color 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Column
+    backgroundColor="white"
+    borderColor="red"
+    padding={2}
+    radius={0}
+>
+    <div>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+    </div>
+</Column>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ba b--red
+      bg-white
+      br0
+      pa2
+      w-100"
+>
+        <div>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+        </div>
+</div>,
+      "className": "column w-100",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+</div>,
+        "className": "ba b--red
+      bg-white
+      br0
+      pa2
+      w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ba b--red
+      bg-white
+      br0
+      pa2
+      w-100"
+>
+          <div>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+          </div>
+</div>,
+        "className": "column w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+</div>,
+          "className": "ba b--red
+      bg-white
+      br0
+      pa2
+      w-100",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Column /> renders a custom border radius 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Column
+    backgroundColor="white"
+    borderColor={null}
+    padding={2}
+    radius={3}
+>
+    <div>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+    </div>
+</Column>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="
+      bg-white
+      br3
+      pa2
+      w-100"
+>
+        <div>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+        </div>
+</div>,
+      "className": "column w-100",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+</div>,
+        "className": "
+      bg-white
+      br3
+      pa2
+      w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="
+      bg-white
+      br3
+      pa2
+      w-100"
+>
+          <div>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+          </div>
+</div>,
+        "className": "column w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+</div>,
+          "className": "
+      bg-white
+      br3
+      pa2
+      w-100",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Column /> renders a custom padding 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Column
+    backgroundColor="white"
+    borderColor="red"
+    padding={2}
+    radius={0}
+>
+    <div>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+        <span>
+            lorem ipsum
+        </span>
+    </div>
+</Column>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ba b--red
+      bg-white
+      br0
+      pa2
+      w-100"
+>
+        <div>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+                <span>
+                        lorem ipsum
+                </span>
+        </div>
+</div>,
+      "className": "column w-100",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+          <span>
+                    lorem ipsum
+          </span>
+</div>,
+        "className": "ba b--red
+      bg-white
+      br0
+      pa2
+      w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+            <span>
+              lorem ipsum
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "lorem ipsum",
+            },
+            "ref": null,
+            "rendered": "lorem ipsum",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ba b--red
+      bg-white
+      br0
+      pa2
+      w-100"
+>
+          <div>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+                    <span>
+                              lorem ipsum
+                    </span>
+          </div>
+</div>,
+        "className": "column w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+            <span>
+                        lorem ipsum
+            </span>
+</div>,
+          "className": "ba b--red
+      bg-white
+      br0
+      pa2
+      w-100",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+              <span>
+                lorem ipsum
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lorem ipsum",
+              },
+              "ref": null,
+              "rendered": "lorem ipsum",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Column /> renders defaults correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Column
+    backgroundColor="white"
+    borderColor={null}
+    padding={2}
+    radius={0}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="
+      bg-white
+      br0
+      pa2
+      w-100"
+/>,
+      "className": "column w-100",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "
+      bg-white
+      br0
+      pa2
+      w-100",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="
+      bg-white
+      br0
+      pa2
+      w-100"
+/>,
+        "className": "column w-100",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": null,
+          "className": "
+      bg-white
+      br0
+      pa2
+      w-100",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
