@@ -1,0 +1,27 @@
+{
+  "author": "Lucas K Allmon",
+  "description": "Mandala UI Kit ListHeader Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user"
+  ],
+  "license": "MIT",
+  "main": "lib/ListHeader.js",
+  "module": "es/ListHeader.js",
+  "name": "@mandala-ui/list-header",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "nwb build-react-component"
+  },
+  "version": "0.0.0"
+}

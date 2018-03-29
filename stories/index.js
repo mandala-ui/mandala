@@ -6,6 +6,7 @@ import css from 'tachyons'; //eslint-disable-line
 import Button from '../packages/Button/src/Button.js';
 import Column from '../packages/Column/src/Column.js';
 import List from '../packages/List/src/List.js';
+import ListHeader from '../packages/ListHeader/src/ListHeader.js';
 import OutlineDot from '../packages/OutlineDot/src/OutlineDot.js';
 import ProgressBar from '../packages/ProgressBar/src/ProgressBar.js';
 import SplitButton from '../packages/SplitButton/src/SplitButton.js';
@@ -105,6 +106,28 @@ storiesOf('List', module)
         <span>It will inherit styles though</span>
         <span>So you are responsible for taking care of that</span>
       </List>
+    ),
+  );
+
+storiesOf('ListHeader', module)
+  .addDecorator(withKnobs)
+  .add(
+    'interactive',
+    () => (
+      <ListHeader
+        indented={boolean('Indented', false)}
+        lineColor={text('Line Color', 'black')}
+        lined={boolean('Lined', false)}
+        lineWidth={number('Line Width', 0,
+          {
+            range: true,
+            min: 0,
+            max: 5,
+            step: 1,
+          })}
+      >
+        At the top of a list
+      </ListHeader>
     ),
   );
 
