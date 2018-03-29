@@ -12,6 +12,10 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@mandala-ui/column/-/column-1.0.1.tgz#d0dbf114062c4ee4dede061b098b4671b3d3b080"
 
+"@mandala-ui/list-header@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/list-header/-/list-header-1.0.0.tgz#7b9bcd3323aa150f2b66e532c7e70e2551ecb7d6"
+
 "@mandala-ui/list@^1.0.2":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.4.tgz#170fcc5283f4d79dc97c354d86c9909d53968acd"
