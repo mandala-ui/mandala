@@ -13,6 +13,6 @@ describe('<Tag />', () => {
   });
 
   it('increases the size if large prop is passed', () => {
-    expect(shallow(<Tag large />).find('.tag').hasClass('f5 ph3 pv2')).toEqual(true);
+    expect(shallow(<Tag large />)).toMatchSnapshot();
   });
 });

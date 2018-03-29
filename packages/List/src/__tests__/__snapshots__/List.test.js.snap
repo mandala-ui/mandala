@@ -161,7 +161,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -188,7 +188,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -215,7 +215,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -242,7 +242,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -269,7 +269,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -425,7 +425,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -452,7 +452,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -479,7 +479,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -506,7 +506,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -533,7 +533,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -734,7 +734,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -761,7 +761,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -788,7 +788,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -815,7 +815,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -842,7 +842,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -998,7 +998,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -1025,7 +1025,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -1052,7 +1052,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -1079,7 +1079,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -1106,7 +1106,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -1307,7 +1307,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 0,
@@ -1334,7 +1334,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 0,
@@ -1361,7 +1361,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 0,
@@ -1388,7 +1388,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 0,
@@ -1415,7 +1415,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 0,
@@ -1571,7 +1571,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 0,
@@ -1598,7 +1598,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 0,
@@ -1625,7 +1625,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 0,
@@ -1652,7 +1652,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 0,
@@ -1679,7 +1679,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 0,
@@ -1880,7 +1880,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 2,
@@ -1907,7 +1907,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 2,
@@ -1934,7 +1934,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 2,
@@ -1961,7 +1961,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 2,
@@ -1988,7 +1988,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "red",
             "borderWidth": 2,
@@ -2144,7 +2144,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 2,
@@ -2171,7 +2171,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 2,
@@ -2198,7 +2198,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 2,
@@ -2225,7 +2225,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 2,
@@ -2252,7 +2252,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "red",
               "borderWidth": 2,
@@ -2538,7 +2538,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -2565,7 +2565,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -2592,7 +2592,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -2619,7 +2619,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -2646,7 +2646,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -2802,7 +2802,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -2829,7 +2829,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -2856,7 +2856,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -2883,7 +2883,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -2910,7 +2910,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3111,7 +3111,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3138,7 +3138,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3165,7 +3165,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3192,7 +3192,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3219,7 +3219,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3375,7 +3375,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3402,7 +3402,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3429,7 +3429,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3456,7 +3456,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3483,7 +3483,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -3694,7 +3694,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-1",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3727,7 +3727,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-2",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3760,7 +3760,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-3",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3793,7 +3793,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-4",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3826,7 +3826,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": "list-item-5",
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "borderColor": "gray",
             "borderWidth": 0,
@@ -3998,7 +3998,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-1",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -4031,7 +4031,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-2",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -4064,7 +4064,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-3",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -4097,7 +4097,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-4",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,
@@ -4130,7 +4130,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": "list-item-5",
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "borderColor": "gray",
               "borderWidth": 0,

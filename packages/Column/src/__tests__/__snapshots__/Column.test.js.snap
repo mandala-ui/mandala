@@ -44,11 +44,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="
-      bg-gray
-      br0
-      pa2
-      w-100"
+        className=" bg-gray br0 pa2 w-100"
 >
         <div>
                 <span>
@@ -99,11 +95,7 @@ ShallowWrapper {
                     lorem ipsum
           </span>
 </div>,
-        "className": "
-      bg-gray
-      br0
-      pa2
-      w-100",
+        "className": " bg-gray br0 pa2 w-100",
       },
       "ref": null,
       "rendered": Object {
@@ -214,11 +206,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="
-      bg-gray
-      br0
-      pa2
-      w-100"
+          className=" bg-gray br0 pa2 w-100"
 >
           <div>
                     <span>
@@ -269,11 +257,7 @@ ShallowWrapper {
                         lorem ipsum
             </span>
 </div>,
-          "className": "
-      bg-gray
-      br0
-      pa2
-      w-100",
+          "className": " bg-gray br0 pa2 w-100",
         },
         "ref": null,
         "rendered": Object {
@@ -432,11 +416,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="ba b--red
-      bg-white
-      br0
-      pa2
-      w-100"
+        className="ba b--red bg-white br0 pa2 w-100"
 >
         <div>
                 <span>
@@ -487,11 +467,7 @@ ShallowWrapper {
                     lorem ipsum
           </span>
 </div>,
-        "className": "ba b--red
-      bg-white
-      br0
-      pa2
-      w-100",
+        "className": "ba b--red bg-white br0 pa2 w-100",
       },
       "ref": null,
       "rendered": Object {
@@ -602,11 +578,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="ba b--red
-      bg-white
-      br0
-      pa2
-      w-100"
+          className="ba b--red bg-white br0 pa2 w-100"
 >
           <div>
                     <span>
@@ -657,11 +629,7 @@ ShallowWrapper {
                         lorem ipsum
             </span>
 </div>,
-          "className": "ba b--red
-      bg-white
-      br0
-      pa2
-      w-100",
+          "className": "ba b--red bg-white br0 pa2 w-100",
         },
         "ref": null,
         "rendered": Object {
@@ -820,11 +788,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="
-      bg-white
-      br3
-      pa2
-      w-100"
+        className=" bg-white br3 pa2 w-100"
 >
         <div>
                 <span>
@@ -875,11 +839,7 @@ ShallowWrapper {
                     lorem ipsum
           </span>
 </div>,
-        "className": "
-      bg-white
-      br3
-      pa2
-      w-100",
+        "className": " bg-white br3 pa2 w-100",
       },
       "ref": null,
       "rendered": Object {
@@ -990,11 +950,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="
-      bg-white
-      br3
-      pa2
-      w-100"
+          className=" bg-white br3 pa2 w-100"
 >
           <div>
                     <span>
@@ -1045,11 +1001,7 @@ ShallowWrapper {
                         lorem ipsum
             </span>
 </div>,
-          "className": "
-      bg-white
-      br3
-      pa2
-      w-100",
+          "className": " bg-white br3 pa2 w-100",
         },
         "ref": null,
         "rendered": Object {
@@ -1208,11 +1160,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="ba b--red
-      bg-white
-      br0
-      pa2
-      w-100"
+        className="ba b--red bg-white br0 pa2 w-100"
 >
         <div>
                 <span>
@@ -1263,11 +1211,7 @@ ShallowWrapper {
                     lorem ipsum
           </span>
 </div>,
-        "className": "ba b--red
-      bg-white
-      br0
-      pa2
-      w-100",
+        "className": "ba b--red bg-white br0 pa2 w-100",
       },
       "ref": null,
       "rendered": Object {
@@ -1378,11 +1322,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="ba b--red
-      bg-white
-      br0
-      pa2
-      w-100"
+          className="ba b--red bg-white br0 pa2 w-100"
 >
           <div>
                     <span>
@@ -1433,11 +1373,7 @@ ShallowWrapper {
                         lorem ipsum
             </span>
 </div>,
-          "className": "ba b--red
-      bg-white
-      br0
-      pa2
-      w-100",
+          "className": "ba b--red bg-white br0 pa2 w-100",
         },
         "ref": null,
         "rendered": Object {
@@ -1575,11 +1511,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className="
-      bg-white
-      br0
-      pa2
-      w-100"
+        className=" bg-white br0 pa2 w-100"
 />,
       "className": "column w-100",
     },
@@ -1590,11 +1522,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "
-      bg-white
-      br0
-      pa2
-      w-100",
+        "className": " bg-white br0 pa2 w-100",
       },
       "ref": null,
       "rendered": null,
@@ -1609,11 +1537,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="
-      bg-white
-      br0
-      pa2
-      w-100"
+          className=" bg-white br0 pa2 w-100"
 />,
         "className": "column w-100",
       },
@@ -1624,11 +1548,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": null,
-          "className": "
-      bg-white
-      br0
-      pa2
-      w-100",
+          "className": " bg-white br0 pa2 w-100",
         },
         "ref": null,
         "rendered": null,

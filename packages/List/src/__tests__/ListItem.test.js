@@ -28,6 +28,16 @@ describe('<ListItem />', () => {
     )).toMatchSnapshot();
   });
 
+  it('should render padding if indented', () => {
+    expect(shallow(
+      <ListItem
+        indented
+      >
+        <span>I am a child</span>
+      </ListItem>,
+    )).toMatchSnapshot();
+  });
+
   it('should render a custom border width', () => {
     expect(shallow(
       <ListItem
