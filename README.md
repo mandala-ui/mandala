@@ -1,7 +1,7 @@
 ![mandala](https://user-images.githubusercontent.com/1824267/35699021-a5ebb354-0743-11e8-9bf5-9a648a24c7d0.png)
 
 # Mandala UI
-[![CircleCI](https://circleci.com/gh/mandala-ui/mandala/tree/master.svg?style=shield)](https://circleci.com/gh/mandala-ui/mandala/tree/master) [![Coverage Status](https://coveralls.io/repos/github/mandala-ui/mandala/badge.svg?branch=master&service=github)](https://coveralls.io/github/mandala-ui/mandala) [![DeepScan grade](https://deepscan.io/api/projects/2162/branches/11294/badge/grade.svg)](https://deepscan.io/dashboard#view=project&pid=2162&bid=11294)
+[![CircleCI](https://circleci.com/gh/mandala-ui/mandala/tree/master.svg?style=shield)](https://circleci.com/gh/mandala-ui/mandala/tree/master) [![Coverage Status](https://coveralls.io/repos/github/mandala-ui/mandala/badge.svg?branch=master&service=github)](https://coveralls.io/github/mandala-ui/mandala) [![David-DM](https://david-dm.org/mandala-ui/mandala.svg)](https://david-dm.org/mandala-ui/mandala) [![DeepScan grade](https://deepscan.io/api/projects/2162/branches/11294/badge/grade.svg)](https://deepscan.io/dashboard#view=project&pid=2162&bid=11294)
 
 Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library (Tachyons.io)
 
