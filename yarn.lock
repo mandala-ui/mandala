@@ -8,9 +8,13 @@
   dependencies:
     lodash.clamp "^4.0.3"
 
-"@mandala-ui/list@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.2.tgz#b64026f428f040028bd682427b67bf6f2dc00c53"
+"@mandala-ui/column@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/column/-/column-1.0.1.tgz#d0dbf114062c4ee4dede061b098b4671b3d3b080"
+
+"@mandala-ui/list@^1.0.2":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.4.tgz#170fcc5283f4d79dc97c354d86c9909d53968acd"
 
 "@mandala-ui/outline-dot@^1.0.1":
   version "1.0.1"

@@ -1,6 +1,5 @@
 import React from 'react';
 import Column from '../Column';
-import List from '../../../List';
 import { breakpoints } from '../../../../percy.config.js';
 import css from 'tachyons'; //eslint-disable-line
 
