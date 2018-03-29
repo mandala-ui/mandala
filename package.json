@@ -11,6 +11,7 @@
     "@mandala-ui/button": "^1.0.1",
     "@mandala-ui/column": "^1.0.1",
     "@mandala-ui/list": "^1.0.2",
+    "@mandala-ui/list-header": "^1.0.0",
     "@mandala-ui/outline-dot": "^1.0.1",
     "@mandala-ui/progress-bar": "^1.0.1",
     "@mandala-ui/split-button": "^1.0.1",
@@ -158,5 +159,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.2.5"
+  "version": "1.2.6"
 }
