@@ -23,7 +23,7 @@
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "lodash.clamp": "^4.0.3"
   }
