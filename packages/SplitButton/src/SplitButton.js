@@ -1,53 +1,51 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import clamp from 'lodash/clamp';
 
-class SplitButton extends PureComponent {
-  render() {
-    const {
-      baseColor,
-      disabled,
-      isOn,
-      offColor,
-      onClick,
-      onColor,
-      pill,
-      radius,
-      showText,
-    } = this.props;
-    return (
-      <div className="split-button">
-        <div
-          className={`b--gray ba
+const SplitButton = ({
+  baseColor,
+  disabled,
+  isOn,
+  offColor,
+  onClick,
+  onColor,
+  pill,
+  radius,
+  showText }) => {
+  const isDisabled = `${disabled ? 'o-60' : 'pointer'}`;
+  return (
+    <div className="split-button">
+      <div
+        className={`b--gray ba
             ${pill ? 'br-pill' : `br${clamp(radius, 0, 3)}`} flex h2 overflow-hidden w4`}
-        >
-          <button
-            className={`bn w-50
-              ${disabled ? 'o-40' : 'pointer'}
+      >
+        <button
+          className={`bn w-50
+              ${isDisabled}
               ${isOn ? `bg-${baseColor} shadow-2 z-1` : `bg-${offColor}`}`}
-            disabled={disabled ? 'disabled' : null}
-            onClick={onClick}
-          >
-            <span className={`f7 tracked-light ttu ${isOn ? 'gray' : 'white'} `}>
-              { showText ? 'off' : null }
-            </span>
-          </button>
-          <button
-            className={`bn w-50
-              ${disabled ? 'o-60' : 'pointer'}
+          disabled={disabled ? 'disabled' : null}
+          onClick={onClick}
+        >
+          <span className={`f7 tracked-light ttu ${isOn ? 'gray' : 'white'} `}>
+            { showText ? 'off' : null }
+          </span>
+        </button>
+        <button
+          className={`bn w-50
+              ${isDisabled}
               ${isOn ? `bg-${onColor} gray` : `bg-${baseColor} shadow-2`}`}
-            disabled={disabled ? 'disabled' : null}
-            onClick={onClick}
-          >
-            <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
-              { showText ? 'on' : null}
-            </span>
-          </button>
-        </div>
+          disabled={disabled ? 'disabled' : null}
+          onClick={onClick}
+        >
+          <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
+            { showText ? 'on' : null}
+          </span>
+        </button>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
 
 SplitButton.propTypes = {
   baseColor: PropTypes.string,

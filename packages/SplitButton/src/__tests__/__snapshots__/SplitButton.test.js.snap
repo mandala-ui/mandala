@@ -359,7 +359,7 @@ ShallowWrapper {
 >
         <button
                 className="bn w-50
-                      o-40
+                      o-60
                       bg-dark-red"
                 disabled="disabled"
                 onClick={[Function]}
@@ -395,7 +395,7 @@ ShallowWrapper {
         "children": Array [
           <button
             className="bn w-50
-              o-40
+              o-60
               bg-dark-red"
             disabled="disabled"
             onClick={[Function]}
@@ -436,7 +436,7 @@ ShallowWrapper {
               off
 </span>,
             "className": "bn w-50
-              o-40
+              o-60
               bg-dark-red",
             "disabled": "disabled",
             "onClick": [Function],
@@ -504,7 +504,7 @@ ShallowWrapper {
 >
           <button
                     className="bn w-50
-                        o-40
+                        o-60
                         bg-dark-red"
                     disabled="disabled"
                     onClick={[Function]}
@@ -540,7 +540,7 @@ ShallowWrapper {
           "children": Array [
             <button
               className="bn w-50
-              o-40
+              o-60
               bg-dark-red"
               disabled="disabled"
               onClick={[Function]}
@@ -581,7 +581,7 @@ ShallowWrapper {
                 off
 </span>,
               "className": "bn w-50
-              o-40
+              o-60
               bg-dark-red",
               "disabled": "disabled",
               "onClick": [Function],

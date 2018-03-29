@@ -48,13 +48,7 @@ storiesOf('Column', module)
     () => (
       <Column
         backgroundColor={text('Backround Color', 'near-white')}
-        borderRadius={number('Border Radius', 2,
-          {
-            range: true,
-            min: 0,
-            max: 4,
-            step: 1,
-          })}
+        borderColor={text('Border Color', 'near-white')}
         padding={number('Padding', 0,
           {
             range: true,
@@ -62,11 +56,19 @@ storiesOf('Column', module)
             max: 5,
             step: 1,
           })}
+        radius={number('Border Radius', 2,
+          {
+            range: true,
+            min: 0,
+            max: 4,
+            step: 1,
+          })}
       >
         <List
           indented
           lined
           contained
+          lineColor="dark-gray"
         >
           <span>lorem ipsum</span>
           <span>lorem ipsum</span>

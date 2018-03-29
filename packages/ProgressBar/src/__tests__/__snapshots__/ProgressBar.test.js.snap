@@ -30,7 +30,7 @@ ShallowWrapper {
                 className="bg-light-gray h1  overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                 Object {
                                         "width": "0%",
@@ -51,7 +51,7 @@ ShallowWrapper {
           className="bg-light-gray h1  overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-gray  shadow-2"
+                    className="bg-gray h1  shadow-2"
                     style={
                               Object {
                                         "width": "0%",
@@ -68,7 +68,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-gray  shadow-2"
+            className="bg-gray h1  shadow-2"
             style={
                         Object {
                                     "width": "0%",
@@ -83,7 +83,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-gray  shadow-2",
+            "className": "bg-gray h1  shadow-2",
             "style": Object {
               "width": "0%",
             },
@@ -111,7 +111,7 @@ ShallowWrapper {
                     className="bg-light-gray h1  overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-gray  shadow-2"
+                              className="bg-gray h1  shadow-2"
                               style={
                                         Object {
                                                   "width": "0%",
@@ -132,7 +132,7 @@ ShallowWrapper {
             className="bg-light-gray h1  overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                     Object {
                                                 "width": "0%",
@@ -149,7 +149,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-gray  shadow-2"
+              className="bg-gray h1  shadow-2"
               style={
                             Object {
                                           "width": "0%",
@@ -164,7 +164,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-gray  shadow-2",
+              "className": "bg-gray h1  shadow-2",
               "style": Object {
                 "width": "0%",
               },
@@ -220,7 +220,7 @@ ShallowWrapper {
                 className="bg-light-gray h1  overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                 Object {
                                         "width": "100%",
@@ -241,7 +241,7 @@ ShallowWrapper {
           className="bg-light-gray h1  overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-gray  shadow-2"
+                    className="bg-gray h1  shadow-2"
                     style={
                               Object {
                                         "width": "100%",
@@ -258,7 +258,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-gray  shadow-2"
+            className="bg-gray h1  shadow-2"
             style={
                         Object {
                                     "width": "100%",
@@ -273,7 +273,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-gray  shadow-2",
+            "className": "bg-gray h1  shadow-2",
             "style": Object {
               "width": "100%",
             },
@@ -301,7 +301,7 @@ ShallowWrapper {
                     className="bg-light-gray h1  overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-gray  shadow-2"
+                              className="bg-gray h1  shadow-2"
                               style={
                                         Object {
                                                   "width": "100%",
@@ -322,7 +322,7 @@ ShallowWrapper {
             className="bg-light-gray h1  overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                     Object {
                                                 "width": "100%",
@@ -339,7 +339,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-gray  shadow-2"
+              className="bg-gray h1  shadow-2"
               style={
                             Object {
                                           "width": "100%",
@@ -354,7 +354,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-gray  shadow-2",
+              "className": "bg-gray h1  shadow-2",
               "style": Object {
                 "width": "100%",
               },
@@ -410,7 +410,7 @@ ShallowWrapper {
                 className="bg-light-gray h1  overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-blue  shadow-2"
+                        className="bg-blue h1  shadow-2"
                         style={
                                 Object {
                                         "width": "50%",
@@ -431,7 +431,7 @@ ShallowWrapper {
           className="bg-light-gray h1  overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-blue  shadow-2"
+                    className="bg-blue h1  shadow-2"
                     style={
                               Object {
                                         "width": "50%",
@@ -448,7 +448,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-blue  shadow-2"
+            className="bg-blue h1  shadow-2"
             style={
                         Object {
                                     "width": "50%",
@@ -463,7 +463,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-blue  shadow-2",
+            "className": "bg-blue h1  shadow-2",
             "style": Object {
               "width": "50%",
             },
@@ -491,7 +491,7 @@ ShallowWrapper {
                     className="bg-light-gray h1  overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-blue  shadow-2"
+                              className="bg-blue h1  shadow-2"
                               style={
                                         Object {
                                                   "width": "50%",
@@ -512,7 +512,7 @@ ShallowWrapper {
             className="bg-light-gray h1  overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-blue  shadow-2"
+                        className="bg-blue h1  shadow-2"
                         style={
                                     Object {
                                                 "width": "50%",
@@ -529,7 +529,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-blue  shadow-2"
+              className="bg-blue h1  shadow-2"
               style={
                             Object {
                                           "width": "50%",
@@ -544,7 +544,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-blue  shadow-2",
+              "className": "bg-blue h1  shadow-2",
               "style": Object {
                 "width": "50%",
               },
@@ -600,7 +600,7 @@ ShallowWrapper {
                 className="bg-light-gray h1  overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-blue  shadow-2"
+                        className="bg-blue h1  shadow-2"
                         style={
                                 Object {
                                         "width": "50%",
@@ -621,7 +621,7 @@ ShallowWrapper {
           className="bg-light-gray h1  overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-blue  shadow-2"
+                    className="bg-blue h1  shadow-2"
                     style={
                               Object {
                                         "width": "50%",
@@ -638,7 +638,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-blue  shadow-2"
+            className="bg-blue h1  shadow-2"
             style={
                         Object {
                                     "width": "50%",
@@ -653,7 +653,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-blue  shadow-2",
+            "className": "bg-blue h1  shadow-2",
             "style": Object {
               "width": "50%",
             },
@@ -681,7 +681,7 @@ ShallowWrapper {
                     className="bg-light-gray h1  overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-blue  shadow-2"
+                              className="bg-blue h1  shadow-2"
                               style={
                                         Object {
                                                   "width": "50%",
@@ -702,7 +702,7 @@ ShallowWrapper {
             className="bg-light-gray h1  overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-blue  shadow-2"
+                        className="bg-blue h1  shadow-2"
                         style={
                                     Object {
                                                 "width": "50%",
@@ -719,7 +719,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-blue  shadow-2"
+              className="bg-blue h1  shadow-2"
               style={
                             Object {
                                           "width": "50%",
@@ -734,7 +734,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-blue  shadow-2",
+              "className": "bg-blue h1  shadow-2",
               "style": Object {
                 "width": "50%",
               },
@@ -790,7 +790,7 @@ ShallowWrapper {
                 className="bg-light-gray h1  overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                 Object {
                                         "width": "50%",
@@ -811,7 +811,7 @@ ShallowWrapper {
           className="bg-light-gray h1  overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-gray  shadow-2"
+                    className="bg-gray h1  shadow-2"
                     style={
                               Object {
                                         "width": "50%",
@@ -828,7 +828,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-gray  shadow-2"
+            className="bg-gray h1  shadow-2"
             style={
                         Object {
                                     "width": "50%",
@@ -843,7 +843,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-gray  shadow-2",
+            "className": "bg-gray h1  shadow-2",
             "style": Object {
               "width": "50%",
             },
@@ -871,7 +871,7 @@ ShallowWrapper {
                     className="bg-light-gray h1  overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-gray  shadow-2"
+                              className="bg-gray h1  shadow-2"
                               style={
                                         Object {
                                                   "width": "50%",
@@ -892,7 +892,7 @@ ShallowWrapper {
             className="bg-light-gray h1  overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-gray  shadow-2"
+                        className="bg-gray h1  shadow-2"
                         style={
                                     Object {
                                                 "width": "50%",
@@ -909,7 +909,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-gray  shadow-2"
+              className="bg-gray h1  shadow-2"
               style={
                             Object {
                                           "width": "50%",
@@ -924,7 +924,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-gray  shadow-2",
+              "className": "bg-gray h1  shadow-2",
               "style": Object {
                 "width": "50%",
               },
@@ -980,7 +980,7 @@ ShallowWrapper {
                 className="bg-light-gray h2  overflow-hidden w-100"
         >
                 <div
-                        className="h2 bg-gray  shadow-2"
+                        className="bg-gray h2  shadow-2"
                         style={
                                 Object {
                                         "width": "50%",
@@ -1001,7 +1001,7 @@ ShallowWrapper {
           className="bg-light-gray h2  overflow-hidden w-100"
 >
           <div
-                    className="h2 bg-gray  shadow-2"
+                    className="bg-gray h2  shadow-2"
                     style={
                               Object {
                                         "width": "50%",
@@ -1018,7 +1018,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h2 bg-gray  shadow-2"
+            className="bg-gray h2  shadow-2"
             style={
                         Object {
                                     "width": "50%",
@@ -1033,7 +1033,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h2 bg-gray  shadow-2",
+            "className": "bg-gray h2  shadow-2",
             "style": Object {
               "width": "50%",
             },
@@ -1061,7 +1061,7 @@ ShallowWrapper {
                     className="bg-light-gray h2  overflow-hidden w-100"
           >
                     <div
-                              className="h2 bg-gray  shadow-2"
+                              className="bg-gray h2  shadow-2"
                               style={
                                         Object {
                                                   "width": "50%",
@@ -1082,7 +1082,7 @@ ShallowWrapper {
             className="bg-light-gray h2  overflow-hidden w-100"
 >
             <div
-                        className="h2 bg-gray  shadow-2"
+                        className="bg-gray h2  shadow-2"
                         style={
                                     Object {
                                                 "width": "50%",
@@ -1099,7 +1099,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h2 bg-gray  shadow-2"
+              className="bg-gray h2  shadow-2"
               style={
                             Object {
                                           "width": "50%",
@@ -1114,7 +1114,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h2 bg-gray  shadow-2",
+              "className": "bg-gray h2  shadow-2",
               "style": Object {
                 "width": "50%",
               },
@@ -1170,7 +1170,7 @@ ShallowWrapper {
                 className="bg-light-gray h1 br-pill overflow-hidden w-100"
         >
                 <div
-                        className="h1 bg-gray br-pill shadow-2"
+                        className="bg-gray h1 br-pill shadow-2"
                         style={
                                 Object {
                                         "width": "50%",
@@ -1191,7 +1191,7 @@ ShallowWrapper {
           className="bg-light-gray h1 br-pill overflow-hidden w-100"
 >
           <div
-                    className="h1 bg-gray br-pill shadow-2"
+                    className="bg-gray h1 br-pill shadow-2"
                     style={
                               Object {
                                         "width": "50%",
@@ -1208,7 +1208,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="h1 bg-gray br-pill shadow-2"
+            className="bg-gray h1 br-pill shadow-2"
             style={
                         Object {
                                     "width": "50%",
@@ -1223,7 +1223,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "h1 bg-gray br-pill shadow-2",
+            "className": "bg-gray h1 br-pill shadow-2",
             "style": Object {
               "width": "50%",
             },
@@ -1251,7 +1251,7 @@ ShallowWrapper {
                     className="bg-light-gray h1 br-pill overflow-hidden w-100"
           >
                     <div
-                              className="h1 bg-gray br-pill shadow-2"
+                              className="bg-gray h1 br-pill shadow-2"
                               style={
                                         Object {
                                                   "width": "50%",
@@ -1272,7 +1272,7 @@ ShallowWrapper {
             className="bg-light-gray h1 br-pill overflow-hidden w-100"
 >
             <div
-                        className="h1 bg-gray br-pill shadow-2"
+                        className="bg-gray h1 br-pill shadow-2"
                         style={
                                     Object {
                                                 "width": "50%",
@@ -1289,7 +1289,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="h1 bg-gray br-pill shadow-2"
+              className="bg-gray h1 br-pill shadow-2"
               style={
                             Object {
                                           "width": "50%",
@@ -1304,7 +1304,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "h1 bg-gray br-pill shadow-2",
+              "className": "bg-gray h1 br-pill shadow-2",
               "style": Object {
                 "width": "50%",
               },

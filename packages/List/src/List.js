@@ -1,56 +1,52 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import ListItem from './ListItem';
 
-class List extends PureComponent {
-  render() {
-    const {
-      children,
-      contained,
-      indented,
-      lineColor,
-      lined,
-      lineWidth,
-      ordered,
-    } = this.props;
-    const childArray = React.Children.toArray(children);
-    return (
-      <div className="list">
-        { ordered ?
-          <ol className="list ma0 pa0 tl">
-            { childArray.map((child, index, array) => (
-              <ListItem
-                borderColor={lineColor}
-                borderWidth={lineWidth}
-                hasBorder={contained && (index === array.length - 1) ? false : lined}
-                indented={indented}
-                key={`list-item-${index + 1}`}
-              >
-                {`${index + 1}. `}{child}
-              </ListItem>
-            ))
-            }
-          </ol>
-          :
-          <ul className="list ma0 pa0 tl">
-            { childArray.map((child, index, array) => (
-              <ListItem
-                borderColor={lineColor}
-                borderWidth={lineWidth}
-                hasBorder={contained && (index === array.length - 1) ? false : lined}
-                indented={indented}
-                key={`list-item-${index + 1}`}
-              >
-                {child}
-              </ListItem>
-            ))
-            }
-          </ul>
-        }
-      </div>
-    );
-  }
-}
+const List = ({
+  children,
+  contained,
+  indented,
+  lineColor,
+  lined,
+  lineWidth,
+  ordered }) => {
+  const childArray = React.Children.toArray(children);
+  return (
+    <div className="list">
+      { ordered ?
+        <ol className="list ma0 pa0 tl">
+          { childArray.map((child, index, array) => (
+            <ListItem
+              borderColor={lineColor}
+              borderWidth={lineWidth}
+              hasBorder={contained && (index === array.length - 1) ? false : lined}
+              indented={indented}
+              key={`list-item-${index + 1}`}
+            >
+              {`${index + 1}. `}{child}
+            </ListItem>
+          ))
+          }
+        </ol>
+        :
+        <ul className="list ma0 pa0 tl">
+          { childArray.map((child, index, array) => (
+            <ListItem
+              borderColor={lineColor}
+              borderWidth={lineWidth}
+              hasBorder={contained && (index === array.length - 1) ? false : lined}
+              indented={indented}
+              key={`list-item-${index + 1}`}
+            >
+              {child}
+            </ListItem>
+          ))
+          }
+        </ul>
+      }
+    </div>
+  );
+};
 
 List.propTypes = {
   children: PropTypes.node,

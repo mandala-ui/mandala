@@ -1,21 +1,19 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Tag extends PureComponent {
-  render() {
-    const {
-      children,
-      color,
-      large,
-    } = this.props;
-    const options = `bg-${color} ${large ? 'f5 ph3 pv2' : 'f7 ph2 pv1'}`;
-    return (
-      <div className={`tag br-pill dib white ${options}`}>
+const Tag = ({
+  children,
+  color,
+  large }) => {
+  const isLarge = `${large ? 'f5 ph3 pv2' : 'f7 ph2 pv1'}`;
+  return (
+    <div className="tag">
+      <span className={`bg-${color} br-pill dib ${isLarge} white`}>
         {children || null}
-      </div>
-    );
-  }
-}
+      </span>
+    </div>
+  );
+};
 
 Tag.propTypes = {
   color: PropTypes.string,

@@ -1,18 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Column = props => (
-  <div className="column w-100">
-    <div className={`${props.borderColor ? `ba b--${props.borderColor}` : ''}
-      bg-${props.backgroundColor}
-      br${props.radius}
-      pa${props.padding}
-      w-100`}
-    >
-      {props.children || null}
+const Column = ({
+  borderColor,
+  backgroundColor,
+  children,
+  padding,
+  radius }) => {
+  const borders = `${borderColor ? `ba b--${borderColor}` : ''}`;
+  return (
+    <div className="column w-100">
+      <div className={`${borders} bg-${backgroundColor} br${radius} pa${padding} w-100`}>
+        {children || null}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 Column.propTypes = {
   borderColor: PropTypes.string,
