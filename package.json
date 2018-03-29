@@ -157,5 +157,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.2.2"
+  "version": "1.2.3"
 }
