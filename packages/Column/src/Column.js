@@ -6,7 +6,8 @@ const Column = ({
   backgroundColor,
   children,
   padding,
-  radius }) => {
+  radius,
+}) => {
   const borders = `${borderColor ? `ba b--${borderColor}` : ''}`;
   return (
     <div className="column w-100">

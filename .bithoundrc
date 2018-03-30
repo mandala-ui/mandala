@@ -1,0 +1,62 @@
+{
+  "ignore": [
+    "**/deps/**",
+    "**/node_modules/**",
+    "**/thirdparty/**",
+    "**/third_party/**",
+    "**/vendor/**",
+    "**/**-min-**",
+    "**/**-min.**",
+    "**/**.min.**",
+    "**/**jquery.?(ui|effects)-*.*.?(*).?(cs|j)s",
+    "**/**jquery-*.*.?(*).?(cs|j)s",
+    "**/prototype?(*).js",
+    "**/mootools*.*.*.js",
+    "**/dojo.js",
+    "**/MochiKit.js",
+    "**/yahoo-*.js",
+    "**/yui*.js",
+    "**/ckeditor*.js",
+    "**/tiny_mce*.js",
+    "**/tiny_mce/?(langs|plugins|themes|utils)/**",
+    "**/MathJax/**",
+    "**/shBrush*.js",
+    "**/shCore.js",
+    "**/shLegacy.js",
+    "**/modernizr.custom.?(*).js",
+    "**/knockout-*.*.*.debug.js",
+    "**/extjs/*.js",
+    "**/extjs/*.xml",
+    "**/extjs/*.txt",
+    "**/extjs/*.html",
+    "**/extjs/*.properties",
+    "**/extjs/.sencha",
+    "**/extjs/docs/**",
+    "**/extjs/builds/**",
+    "**/extjs/cmd/**",
+    "**/extjs/examples/**",
+    "**/extjs/locale/**",
+    "**/extjs/packages/**",
+    "**/extjs/plugins/**",
+    "**/extjs/resources/**",
+    "**/extjs/src/**",
+    "**/extjs/welcome/**",
+    "bower_components/**",
+    "stories/**"
+  ],
+  "test": [
+    "**/test/**",
+    "**/tests/**",
+    "**/spec/**",
+    "**/specs/**",
+    "**/__tests__/**",
+    "**/__visual-regressions__/**"
+  ],
+  "dependencies": {
+    "unused-ignores": [
+      "grunt-*",
+      "bower",
+      "eslint"
+    ]
+  }
+}
