@@ -68,6 +68,7 @@
       "react-percy"
     ],
     "rules": {
+      "function-paren-newline": ["error", "consistent"],
       "import/extensions": "off",
       "import/no-extraneous-dependencies": "off",
       "jsx-a11y/anchor-is-valid": [
@@ -78,7 +79,7 @@
           ]
         }
       ],
-      "jsx-a11y/href-no-hash": "off",
+      "jsx-a11y/href-no-hash": "on",
       "max-len": [
         1,
         120,
@@ -86,12 +87,10 @@
         {
           "ignoreComments": true
         }
-      ],
-      "react/jsx-filename-extension": "off"
+      ]
     }
   },
   "files": [
-    "css",
     "es",
     "lib"
   ],
@@ -105,10 +104,6 @@
       "!**/lib/**",
       "!**/__visual-regressions__/**"
     ],
-    "moduleNameMapper": {
-      "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
-      "^react-native$": "react-native-web"
-    },
     "testEnvironment": "node",
     "testMatch": [
       "**/?(*.)(spec|test).js?(x)"
@@ -149,13 +144,14 @@
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "lint": "eslint packages",
     "prepare": "nwb build-react-component",
     "percy": "react-percy",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
-    "test:coverage": "yarn run test -- -- --coverage",
-    "test:watch": "yarn run test -- -- --watch"
+    "test:coverage": "yarn run test --coverage",
+    "test:watch": "yarn run test --watch"
   },
   "version": "1.2.7"
 }

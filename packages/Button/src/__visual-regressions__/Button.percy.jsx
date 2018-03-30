@@ -36,7 +36,7 @@ suite('Button', { widths: breakpoints }, () => {
     </Button>
   ));
   percySnapshot('Custom Color', () => (
-    <Button color={'blue'}>
+    <Button color="blue">
       {testString}
     </Button>
   ));
