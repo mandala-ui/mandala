@@ -10,13 +10,19 @@ ShallowWrapper {
     isOn={false}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={false}
     radius={0}
     showText={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -32,34 +38,46 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      pointer
-                      bg-dark-red"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-dark-red"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white "
-                >
-                        off
-                </span>
+          <span
+            className="f7 tracked-light ttu white "
+          >
+            off
+          </span>
         </button>
         <button
-                className="bn w-50
-                      pointer
-                      bg-moon-gray shadow-2"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray"
-                >
-                        on
-                </span>
+          <span
+            className="f7 tracked-light ttu gray"
+          >
+            on
+          </span>
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -74,27 +92,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white "
+              className="f7 tracked-light ttu white "
             >
-                        off
+              off
             </span>
-</button>,
+          </button>,
           <button
             className="bn w-50
               pointer
               bg-moon-gray shadow-2"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray"
+              className="f7 tracked-light ttu gray"
             >
-                        on
+              on
             </span>
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -108,14 +138,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
->
+            >
               off
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-dark-red",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -139,14 +173,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
->
+            >
               on
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -177,34 +215,46 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        pointer
-                        bg-dark-red"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white "
-                    >
-                              off
-                    </span>
+            <span
+              className="f7 tracked-light ttu white "
+            >
+              off
+            </span>
           </button>
           <button
-                    className="bn w-50
-                        pointer
-                        bg-moon-gray shadow-2"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray"
-                    >
-                              on
-                    </span>
+            <span
+              className="f7 tracked-light ttu gray"
+            >
+              on
+            </span>
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -219,27 +269,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white "
+                className="f7 tracked-light ttu white "
               >
-                            off
+                off
               </span>
-</button>,
+            </button>,
             <button
               className="bn w-50
               pointer
               bg-moon-gray shadow-2"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray"
+                className="f7 tracked-light ttu gray"
               >
-                            on
+                on
               </span>
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -253,14 +315,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
->
+              >
                 off
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-dark-red",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -284,14 +350,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
->
+              >
                 on
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -334,13 +404,19 @@ ShallowWrapper {
     isOn={false}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={false}
     radius={0}
     showText={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -356,34 +432,46 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      o-60
-                      bg-dark-red"
-                disabled="disabled"
-                onClick={[Function]}
+          className="bn w-50
+              o-60
+              bg-dark-red"
+          disabled="disabled"
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white "
-                >
-                        off
-                </span>
+          <span
+            className="f7 tracked-light ttu white "
+          >
+            off
+          </span>
         </button>
         <button
-                className="bn w-50
-                      o-60
-                      bg-moon-gray shadow-2"
-                disabled="disabled"
-                onClick={[Function]}
+          className="bn w-50
+              o-60
+              bg-moon-gray shadow-2"
+          disabled="disabled"
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray"
-                >
-                        on
-                </span>
+          <span
+            className="f7 tracked-light ttu gray"
+          >
+            on
+          </span>
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -398,27 +486,39 @@ ShallowWrapper {
               o-60
               bg-dark-red"
             disabled="disabled"
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white "
+              className="f7 tracked-light ttu white "
             >
-                        off
+              off
             </span>
-</button>,
+          </button>,
           <button
             className="bn w-50
               o-60
               bg-moon-gray shadow-2"
             disabled="disabled"
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray"
+              className="f7 tracked-light ttu gray"
             >
-                        on
+              on
             </span>
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -432,14 +532,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
->
+            >
               off
-</span>,
+            </span>,
             "className": "bn w-50
               o-60
               bg-dark-red",
             "disabled": "disabled",
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -463,14 +567,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
->
+            >
               on
-</span>,
+            </span>,
             "className": "bn w-50
               o-60
               bg-moon-gray shadow-2",
             "disabled": "disabled",
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -501,34 +609,46 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        o-60
-                        bg-dark-red"
-                    disabled="disabled"
-                    onClick={[Function]}
+            className="bn w-50
+              o-60
+              bg-dark-red"
+            disabled="disabled"
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white "
-                    >
-                              off
-                    </span>
+            <span
+              className="f7 tracked-light ttu white "
+            >
+              off
+            </span>
           </button>
           <button
-                    className="bn w-50
-                        o-60
-                        bg-moon-gray shadow-2"
-                    disabled="disabled"
-                    onClick={[Function]}
+            className="bn w-50
+              o-60
+              bg-moon-gray shadow-2"
+            disabled="disabled"
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray"
-                    >
-                              on
-                    </span>
+            <span
+              className="f7 tracked-light ttu gray"
+            >
+              on
+            </span>
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -543,27 +663,39 @@ ShallowWrapper {
               o-60
               bg-dark-red"
               disabled="disabled"
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white "
+                className="f7 tracked-light ttu white "
               >
-                            off
+                off
               </span>
-</button>,
+            </button>,
             <button
               className="bn w-50
               o-60
               bg-moon-gray shadow-2"
               disabled="disabled"
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray"
+                className="f7 tracked-light ttu gray"
               >
-                            on
+                on
               </span>
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -577,14 +709,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
->
+              >
                 off
-</span>,
+              </span>,
               "className": "bn w-50
               o-60
               bg-dark-red",
               "disabled": "disabled",
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -608,14 +744,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
->
+              >
                 on
-</span>,
+              </span>,
               "className": "bn w-50
               o-60
               bg-moon-gray shadow-2",
               "disabled": "disabled",
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -658,13 +798,19 @@ ShallowWrapper {
     isOn={false}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={false}
     radius={0}
     showText={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -680,30 +826,42 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      pointer
-                      bg-dark-red"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-dark-red"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white "
-                />
+          <span
+            className="f7 tracked-light ttu white "
+          />
         </button>
         <button
-                className="bn w-50
-                      pointer
-                      bg-moon-gray shadow-2"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray"
-                />
+          <span
+            className="f7 tracked-light ttu gray"
+          />
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -718,23 +876,35 @@ ShallowWrapper {
               pointer
               bg-dark-red"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white "
+              className="f7 tracked-light ttu white "
             />
-</button>,
+          </button>,
           <button
             className="bn w-50
               pointer
               bg-moon-gray shadow-2"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray"
+              className="f7 tracked-light ttu gray"
             />
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -748,12 +918,16 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
-/>,
+            />,
             "className": "bn w-50
               pointer
               bg-dark-red",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -777,12 +951,16 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
-/>,
+            />,
             "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -813,30 +991,42 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        pointer
-                        bg-dark-red"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white "
-                    />
+            <span
+              className="f7 tracked-light ttu white "
+            />
           </button>
           <button
-                    className="bn w-50
-                        pointer
-                        bg-moon-gray shadow-2"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray"
-                    />
+            <span
+              className="f7 tracked-light ttu gray"
+            />
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -851,23 +1041,35 @@ ShallowWrapper {
               pointer
               bg-dark-red"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white "
+                className="f7 tracked-light ttu white "
               />
-</button>,
+            </button>,
             <button
               className="bn w-50
               pointer
               bg-moon-gray shadow-2"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray"
+                className="f7 tracked-light ttu gray"
               />
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -881,12 +1083,16 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
-/>,
+              />,
               "className": "bn w-50
               pointer
               bg-dark-red",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -910,12 +1116,16 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
-/>,
+              />,
               "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -958,13 +1168,19 @@ ShallowWrapper {
     isOn={true}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={false}
     radius={0}
     showText={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -980,34 +1196,46 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      pointer
-                      bg-moon-gray shadow-2 z-1"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray "
-                >
-                        off
-                </span>
+          <span
+            className="f7 tracked-light ttu gray "
+          >
+            off
+          </span>
         </button>
         <button
-                className="bn w-50
-                      pointer
-                      bg-green gray"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-green gray"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white"
-                >
-                        on
-                </span>
+          <span
+            className="f7 tracked-light ttu white"
+          >
+            on
+          </span>
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -1022,27 +1250,39 @@ ShallowWrapper {
               pointer
               bg-moon-gray shadow-2 z-1"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray "
+              className="f7 tracked-light ttu gray "
             >
-                        off
+              off
             </span>
-</button>,
+          </button>,
           <button
             className="bn w-50
               pointer
               bg-green gray"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white"
+              className="f7 tracked-light ttu white"
             >
-                        on
+              on
             </span>
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -1056,14 +1296,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray "
->
+            >
               off
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-moon-gray shadow-2 z-1",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1087,14 +1331,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white"
->
+            >
               on
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-green gray",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1125,34 +1373,46 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br0 flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        pointer
-                        bg-moon-gray shadow-2 z-1"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2 z-1"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray "
-                    >
-                              off
-                    </span>
+            <span
+              className="f7 tracked-light ttu gray "
+            >
+              off
+            </span>
           </button>
           <button
-                    className="bn w-50
-                        pointer
-                        bg-green gray"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-green gray"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white"
-                    >
-                              on
-                    </span>
+            <span
+              className="f7 tracked-light ttu white"
+            >
+              on
+            </span>
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -1167,27 +1427,39 @@ ShallowWrapper {
               pointer
               bg-moon-gray shadow-2 z-1"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray "
+                className="f7 tracked-light ttu gray "
               >
-                            off
+                off
               </span>
-</button>,
+            </button>,
             <button
               className="bn w-50
               pointer
               bg-green gray"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white"
+                className="f7 tracked-light ttu white"
               >
-                            on
+                on
               </span>
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br0 flex h2 overflow-hidden w4",
@@ -1201,14 +1473,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray "
->
+              >
                 off
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-moon-gray shadow-2 z-1",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -1232,14 +1508,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white"
->
+              >
                 on
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-green gray",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -1282,13 +1562,19 @@ ShallowWrapper {
     isOn={false}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={true}
     radius={0}
     showText={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1304,34 +1590,46 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br-pill flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      pointer
-                      bg-dark-red"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-dark-red"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white "
-                >
-                        off
-                </span>
+          <span
+            className="f7 tracked-light ttu white "
+          >
+            off
+          </span>
         </button>
         <button
-                className="bn w-50
-                      pointer
-                      bg-moon-gray shadow-2"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray"
-                >
-                        on
-                </span>
+          <span
+            className="f7 tracked-light ttu gray"
+          >
+            on
+          </span>
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -1346,27 +1644,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white "
+              className="f7 tracked-light ttu white "
             >
-                        off
+              off
             </span>
-</button>,
+          </button>,
           <button
             className="bn w-50
               pointer
               bg-moon-gray shadow-2"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray"
+              className="f7 tracked-light ttu gray"
             >
-                        on
+              on
             </span>
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br-pill flex h2 overflow-hidden w4",
@@ -1380,14 +1690,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
->
+            >
               off
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-dark-red",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1411,14 +1725,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
->
+            >
               on
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1449,34 +1767,46 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br-pill flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        pointer
-                        bg-dark-red"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white "
-                    >
-                              off
-                    </span>
+            <span
+              className="f7 tracked-light ttu white "
+            >
+              off
+            </span>
           </button>
           <button
-                    className="bn w-50
-                        pointer
-                        bg-moon-gray shadow-2"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray"
-                    >
-                              on
-                    </span>
+            <span
+              className="f7 tracked-light ttu gray"
+            >
+              on
+            </span>
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -1491,27 +1821,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white "
+                className="f7 tracked-light ttu white "
               >
-                            off
+                off
               </span>
-</button>,
+            </button>,
             <button
               className="bn w-50
               pointer
               bg-moon-gray shadow-2"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray"
+                className="f7 tracked-light ttu gray"
               >
-                            on
+                on
               </span>
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br-pill flex h2 overflow-hidden w4",
@@ -1525,14 +1867,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
->
+              >
                 off
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-dark-red",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -1556,14 +1902,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
->
+              >
                 on
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -1606,13 +1956,19 @@ ShallowWrapper {
     isOn={false}
     offColor="dark-red"
     offText="off"
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     onColor="green"
     onText="on"
     pill={false}
     radius={1}
     showText={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1628,34 +1984,46 @@ ShallowWrapper {
       "children": <div
         className="b--gray ba
             br1 flex h2 overflow-hidden w4"
->
+      >
         <button
-                className="bn w-50
-                      pointer
-                      bg-dark-red"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-dark-red"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu white "
-                >
-                        off
-                </span>
+          <span
+            className="f7 tracked-light ttu white "
+          >
+            off
+          </span>
         </button>
         <button
-                className="bn w-50
-                      pointer
-                      bg-moon-gray shadow-2"
-                disabled={null}
-                onClick={[Function]}
+          className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+          disabled={null}
+          onClick={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            }
+          }
         >
-                <span
-                        className="f7 tracked-light ttu gray"
-                >
-                        on
-                </span>
+          <span
+            className="f7 tracked-light ttu gray"
+          >
+            on
+          </span>
         </button>
-</div>,
+      </div>,
       "className": "split-button",
     },
     "ref": null,
@@ -1670,27 +2038,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu white "
+              className="f7 tracked-light ttu white "
             >
-                        off
+              off
             </span>
-</button>,
+          </button>,
           <button
             className="bn w-50
               pointer
               bg-moon-gray shadow-2"
             disabled={null}
-            onClick={[Function]}
->
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
+          >
             <span
-                        className="f7 tracked-light ttu gray"
+              className="f7 tracked-light ttu gray"
             >
-                        on
+              on
             </span>
-</button>,
+          </button>,
         ],
         "className": "b--gray ba
             br1 flex h2 overflow-hidden w4",
@@ -1704,14 +2084,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
->
+            >
               off
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-dark-red",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1735,14 +2119,18 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
->
+            >
               on
-</span>,
+            </span>,
             "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
             "disabled": null,
-            "onClick": [Function],
+            "onClick": [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+            },
           },
           "ref": null,
           "rendered": Object {
@@ -1773,34 +2161,46 @@ ShallowWrapper {
         "children": <div
           className="b--gray ba
             br1 flex h2 overflow-hidden w4"
->
+        >
           <button
-                    className="bn w-50
-                        pointer
-                        bg-dark-red"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-dark-red"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu white "
-                    >
-                              off
-                    </span>
+            <span
+              className="f7 tracked-light ttu white "
+            >
+              off
+            </span>
           </button>
           <button
-                    className="bn w-50
-                        pointer
-                        bg-moon-gray shadow-2"
-                    disabled={null}
-                    onClick={[Function]}
+            className="bn w-50
+              pointer
+              bg-moon-gray shadow-2"
+            disabled={null}
+            onClick={
+              [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              }
+            }
           >
-                    <span
-                              className="f7 tracked-light ttu gray"
-                    >
-                              on
-                    </span>
+            <span
+              className="f7 tracked-light ttu gray"
+            >
+              on
+            </span>
           </button>
-</div>,
+        </div>,
         "className": "split-button",
       },
       "ref": null,
@@ -1815,27 +2215,39 @@ ShallowWrapper {
               pointer
               bg-dark-red"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu white "
+                className="f7 tracked-light ttu white "
               >
-                            off
+                off
               </span>
-</button>,
+            </button>,
             <button
               className="bn w-50
               pointer
               bg-moon-gray shadow-2"
               disabled={null}
-              onClick={[Function]}
->
+              onClick={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                }
+              }
+            >
               <span
-                            className="f7 tracked-light ttu gray"
+                className="f7 tracked-light ttu gray"
               >
-                            on
+                on
               </span>
-</button>,
+            </button>,
           ],
           "className": "b--gray ba
             br1 flex h2 overflow-hidden w4",
@@ -1849,14 +2261,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
->
+              >
                 off
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-dark-red",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {
@@ -1880,14 +2296,18 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
->
+              >
                 on
-</span>,
+              </span>,
               "className": "bn w-50
               pointer
               bg-moon-gray shadow-2",
               "disabled": null,
-              "onClick": [Function],
+              "onClick": [MockFunction] {
+                "calls": Array [
+                  Array [],
+                ],
+              },
             },
             "ref": null,
             "rendered": Object {

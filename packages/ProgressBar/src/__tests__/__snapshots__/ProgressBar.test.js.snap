@@ -10,7 +10,7 @@ ShallowWrapper {
     large={false}
     percentage={0}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -25,20 +25,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1  overflow-hidden w-100"
+          className="bg-light-gray h1  overflow-hidden w-100"
         >
-                <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                Object {
-                                        "width": "0%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "0%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -49,16 +49,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-gray h1  shadow-2"
-                    style={
-                              Object {
-                                        "width": "0%",
-                                      }
-                    }
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "0%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -70,11 +70,11 @@ ShallowWrapper {
           "children": <div
             className="bg-gray h1  shadow-2"
             style={
-                        Object {
-                                    "width": "0%",
-                                  }
+              Object {
+                "width": "0%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1  overflow-hidden w-100",
         },
         "ref": null,
@@ -106,20 +106,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1  overflow-hidden w-100"
+            className="bg-light-gray h1  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-gray h1  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "0%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -130,16 +130,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "0%",
-                                              }
-                        }
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -151,11 +151,11 @@ ShallowWrapper {
             "children": <div
               className="bg-gray h1  shadow-2"
               style={
-                            Object {
-                                          "width": "0%",
-                                        }
+                Object {
+                  "width": "0%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1  overflow-hidden w-100",
           },
           "ref": null,
@@ -200,7 +200,7 @@ ShallowWrapper {
     large={false}
     percentage={100}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -215,20 +215,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1  overflow-hidden w-100"
+          className="bg-light-gray h1  overflow-hidden w-100"
         >
-                <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                Object {
-                                        "width": "100%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -239,16 +239,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-gray h1  shadow-2"
-                    style={
-                              Object {
-                                        "width": "100%",
-                                      }
-                    }
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -260,11 +260,11 @@ ShallowWrapper {
           "children": <div
             className="bg-gray h1  shadow-2"
             style={
-                        Object {
-                                    "width": "100%",
-                                  }
+              Object {
+                "width": "100%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1  overflow-hidden w-100",
         },
         "ref": null,
@@ -296,20 +296,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1  overflow-hidden w-100"
+            className="bg-light-gray h1  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-gray h1  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "100%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -320,16 +320,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "100%",
-                                              }
-                        }
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -341,11 +341,11 @@ ShallowWrapper {
             "children": <div
               className="bg-gray h1  shadow-2"
               style={
-                            Object {
-                                          "width": "100%",
-                                        }
+                Object {
+                  "width": "100%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1  overflow-hidden w-100",
           },
           "ref": null,
@@ -390,7 +390,7 @@ ShallowWrapper {
     large={false}
     percentage={50}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -405,20 +405,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1  overflow-hidden w-100"
+          className="bg-light-gray h1  overflow-hidden w-100"
         >
-                <div
-                        className="bg-blue h1  shadow-2"
-                        style={
-                                Object {
-                                        "width": "50%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-blue h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -429,16 +429,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-blue h1  shadow-2"
-                    style={
-                              Object {
-                                        "width": "50%",
-                                      }
-                    }
+            className="bg-blue h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -450,11 +450,11 @@ ShallowWrapper {
           "children": <div
             className="bg-blue h1  shadow-2"
             style={
-                        Object {
-                                    "width": "50%",
-                                  }
+              Object {
+                "width": "50%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1  overflow-hidden w-100",
         },
         "ref": null,
@@ -486,20 +486,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1  overflow-hidden w-100"
+            className="bg-light-gray h1  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-blue h1  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "50%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-blue h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -510,16 +510,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-blue h1  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "50%",
-                                              }
-                        }
+              className="bg-blue h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -531,11 +531,11 @@ ShallowWrapper {
             "children": <div
               className="bg-blue h1  shadow-2"
               style={
-                            Object {
-                                          "width": "50%",
-                                        }
+                Object {
+                  "width": "50%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1  overflow-hidden w-100",
           },
           "ref": null,
@@ -580,7 +580,7 @@ ShallowWrapper {
     large={false}
     percentage={50}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -595,20 +595,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1  overflow-hidden w-100"
+          className="bg-light-gray h1  overflow-hidden w-100"
         >
-                <div
-                        className="bg-blue h1  shadow-2"
-                        style={
-                                Object {
-                                        "width": "50%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-blue h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -619,16 +619,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-blue h1  shadow-2"
-                    style={
-                              Object {
-                                        "width": "50%",
-                                      }
-                    }
+            className="bg-blue h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -640,11 +640,11 @@ ShallowWrapper {
           "children": <div
             className="bg-blue h1  shadow-2"
             style={
-                        Object {
-                                    "width": "50%",
-                                  }
+              Object {
+                "width": "50%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1  overflow-hidden w-100",
         },
         "ref": null,
@@ -676,20 +676,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1  overflow-hidden w-100"
+            className="bg-light-gray h1  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-blue h1  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "50%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-blue h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -700,16 +700,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-blue h1  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "50%",
-                                              }
-                        }
+              className="bg-blue h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -721,11 +721,11 @@ ShallowWrapper {
             "children": <div
               className="bg-blue h1  shadow-2"
               style={
-                            Object {
-                                          "width": "50%",
-                                        }
+                Object {
+                  "width": "50%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1  overflow-hidden w-100",
           },
           "ref": null,
@@ -770,7 +770,7 @@ ShallowWrapper {
     large={false}
     percentage={50}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -785,20 +785,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1  overflow-hidden w-100"
+          className="bg-light-gray h1  overflow-hidden w-100"
         >
-                <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                Object {
-                                        "width": "50%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -809,16 +809,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-gray h1  shadow-2"
-                    style={
-                              Object {
-                                        "width": "50%",
-                                      }
-                    }
+            className="bg-gray h1  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -830,11 +830,11 @@ ShallowWrapper {
           "children": <div
             className="bg-gray h1  shadow-2"
             style={
-                        Object {
-                                    "width": "50%",
-                                  }
+              Object {
+                "width": "50%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1  overflow-hidden w-100",
         },
         "ref": null,
@@ -866,20 +866,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1  overflow-hidden w-100"
+            className="bg-light-gray h1  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-gray h1  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "50%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -890,16 +890,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-gray h1  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "50%",
-                                              }
-                        }
+              className="bg-gray h1  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -911,11 +911,11 @@ ShallowWrapper {
             "children": <div
               className="bg-gray h1  shadow-2"
               style={
-                            Object {
-                                          "width": "50%",
-                                        }
+                Object {
+                  "width": "50%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1  overflow-hidden w-100",
           },
           "ref": null,
@@ -960,7 +960,7 @@ ShallowWrapper {
     large={true}
     percentage={50}
     rounded={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -975,20 +975,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h2  overflow-hidden w-100"
+          className="bg-light-gray h2  overflow-hidden w-100"
         >
-                <div
-                        className="bg-gray h2  shadow-2"
-                        style={
-                                Object {
-                                        "width": "50%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-gray h2  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -999,16 +999,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h2  overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-gray h2  shadow-2"
-                    style={
-                              Object {
-                                        "width": "50%",
-                                      }
-                    }
+            className="bg-gray h2  shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -1020,11 +1020,11 @@ ShallowWrapper {
           "children": <div
             className="bg-gray h2  shadow-2"
             style={
-                        Object {
-                                    "width": "50%",
-                                  }
+              Object {
+                "width": "50%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h2  overflow-hidden w-100",
         },
         "ref": null,
@@ -1056,20 +1056,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h2  overflow-hidden w-100"
+            className="bg-light-gray h2  overflow-hidden w-100"
           >
-                    <div
-                              className="bg-gray h2  shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "50%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-gray h2  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -1080,16 +1080,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h2  overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-gray h2  shadow-2"
-                        style={
-                                    Object {
-                                                "width": "50%",
-                                              }
-                        }
+              className="bg-gray h2  shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -1101,11 +1101,11 @@ ShallowWrapper {
             "children": <div
               className="bg-gray h2  shadow-2"
               style={
-                            Object {
-                                          "width": "50%",
-                                        }
+                Object {
+                  "width": "50%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h2  overflow-hidden w-100",
           },
           "ref": null,
@@ -1150,7 +1150,7 @@ ShallowWrapper {
     large={false}
     percentage={50}
     rounded={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1165,20 +1165,20 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="w-100"
->
+      >
         <div
-                className="bg-light-gray h1 br-pill overflow-hidden w-100"
+          className="bg-light-gray h1 br-pill overflow-hidden w-100"
         >
-                <div
-                        className="bg-gray h1 br-pill shadow-2"
-                        style={
-                                Object {
-                                        "width": "50%",
-                                      }
-                        }
-                />
+          <div
+            className="bg-gray h1 br-pill shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
+          />
         </div>
-</div>,
+      </div>,
       "className": "progress-bar w-100",
     },
     "ref": null,
@@ -1189,16 +1189,16 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="bg-light-gray h1 br-pill overflow-hidden w-100"
->
+        >
           <div
-                    className="bg-gray h1 br-pill shadow-2"
-                    style={
-                              Object {
-                                        "width": "50%",
-                                      }
-                    }
+            className="bg-gray h1 br-pill shadow-2"
+            style={
+              Object {
+                "width": "50%",
+              }
+            }
           />
-</div>,
+        </div>,
         "className": "w-100",
       },
       "ref": null,
@@ -1210,11 +1210,11 @@ ShallowWrapper {
           "children": <div
             className="bg-gray h1 br-pill shadow-2"
             style={
-                        Object {
-                                    "width": "50%",
-                                  }
+              Object {
+                "width": "50%",
+              }
             }
-/>,
+          />,
           "className": "bg-light-gray h1 br-pill overflow-hidden w-100",
         },
         "ref": null,
@@ -1246,20 +1246,20 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="w-100"
->
+        >
           <div
-                    className="bg-light-gray h1 br-pill overflow-hidden w-100"
+            className="bg-light-gray h1 br-pill overflow-hidden w-100"
           >
-                    <div
-                              className="bg-gray h1 br-pill shadow-2"
-                              style={
-                                        Object {
-                                                  "width": "50%",
-                                                }
-                              }
-                    />
+            <div
+              className="bg-gray h1 br-pill shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
+            />
           </div>
-</div>,
+        </div>,
         "className": "progress-bar w-100",
       },
       "ref": null,
@@ -1270,16 +1270,16 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="bg-light-gray h1 br-pill overflow-hidden w-100"
->
+          >
             <div
-                        className="bg-gray h1 br-pill shadow-2"
-                        style={
-                                    Object {
-                                                "width": "50%",
-                                              }
-                        }
+              className="bg-gray h1 br-pill shadow-2"
+              style={
+                Object {
+                  "width": "50%",
+                }
+              }
             />
-</div>,
+          </div>,
           "className": "w-100",
         },
         "ref": null,
@@ -1291,11 +1291,11 @@ ShallowWrapper {
             "children": <div
               className="bg-gray h1 br-pill shadow-2"
               style={
-                            Object {
-                                          "width": "50%",
-                                        }
+                Object {
+                  "width": "50%",
+                }
               }
-/>,
+            />,
             "className": "bg-light-gray h1 br-pill overflow-hidden w-100",
           },
           "ref": null,

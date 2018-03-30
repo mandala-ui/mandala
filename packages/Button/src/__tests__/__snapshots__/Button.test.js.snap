@@ -7,12 +7,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="blue"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={0}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -28,7 +34,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-blue br0 pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -46,7 +56,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-blue br0 pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -73,12 +87,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={0}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -94,7 +114,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -112,7 +136,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -139,12 +167,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={true}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={0}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -160,7 +194,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40}",
       "disabled": true,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -178,7 +216,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40}",
         "disabled": true,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -205,12 +247,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={true}
     radius={0}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -226,7 +274,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -244,7 +296,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -271,12 +327,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={1}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -292,7 +354,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -310,7 +376,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -337,12 +407,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={2}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -358,7 +434,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -376,7 +456,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },
@@ -403,12 +487,18 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Button
     color="gray"
     disabled={false}
-    onClick={[Function]}
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      }
+    }
     pill={false}
     radius={3}
->
+  >
     Click Me
-</Button>,
+  </Button>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -424,7 +514,11 @@ ShallowWrapper {
       "children": "Click Me",
       "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer}",
       "disabled": false,
-      "onClick": [Function],
+      "onClick": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+      },
       "style": Object {
         "fontFamily": "inherit",
       },
@@ -442,7 +536,11 @@ ShallowWrapper {
         "children": "Click Me",
         "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer}",
         "disabled": false,
-        "onClick": [Function],
+        "onClick": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
         "style": Object {
           "fontFamily": "inherit",
         },

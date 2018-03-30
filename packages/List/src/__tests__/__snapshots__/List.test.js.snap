@@ -11,23 +11,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={false}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -42,58 +42,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -108,51 +108,51 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -167,7 +167,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": true,
           },
@@ -194,7 +194,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": true,
           },
@@ -221,7 +221,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": true,
           },
@@ -248,7 +248,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": true,
           },
@@ -275,7 +275,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": true,
           },
@@ -306,58 +306,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -372,51 +372,51 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -431,7 +431,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": true,
             },
@@ -458,7 +458,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": true,
             },
@@ -485,7 +485,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": true,
             },
@@ -512,7 +512,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": true,
             },
@@ -539,7 +539,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": true,
             },
@@ -584,23 +584,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={false}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -615,58 +615,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -681,51 +681,51 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -740,7 +740,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -767,7 +767,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -794,7 +794,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -821,7 +821,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -848,7 +848,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -879,58 +879,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -945,51 +945,51 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -1004,7 +1004,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -1031,7 +1031,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -1058,7 +1058,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -1085,7 +1085,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -1112,7 +1112,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -1157,23 +1157,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={true}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1188,58 +1188,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="red"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -1254,51 +1254,51 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -1313,7 +1313,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1340,7 +1340,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1367,7 +1367,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1394,7 +1394,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1421,7 +1421,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1452,58 +1452,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="red"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -1518,51 +1518,51 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -1577,7 +1577,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -1604,7 +1604,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -1631,7 +1631,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -1658,7 +1658,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -1685,7 +1685,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -1730,23 +1730,23 @@ ShallowWrapper {
     lineWidth={2}
     lined={true}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1761,58 +1761,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="red"
-                borderWidth={2}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={2}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={2}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={2}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={2}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={2}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={2}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={2}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="red"
-                borderWidth={2}
-                hasBorder={true}
-                indented={false}
+          borderColor="red"
+          borderWidth={2}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -1827,51 +1827,51 @@ ShallowWrapper {
             borderWidth={2}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={2}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={2}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={2}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="red"
             borderWidth={2}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -1886,7 +1886,7 @@ ShallowWrapper {
             "borderWidth": 2,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1913,7 +1913,7 @@ ShallowWrapper {
             "borderWidth": 2,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1940,7 +1940,7 @@ ShallowWrapper {
             "borderWidth": 2,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1967,7 +1967,7 @@ ShallowWrapper {
             "borderWidth": 2,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -1994,7 +1994,7 @@ ShallowWrapper {
             "borderWidth": 2,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -2025,58 +2025,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="red"
-                    borderWidth={2}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={2}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={2}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={2}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={2}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={2}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={2}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={2}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="red"
-                    borderWidth={2}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="red"
+            borderWidth={2}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -2091,51 +2091,51 @@ ShallowWrapper {
               borderWidth={2}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={2}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={2}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={2}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="red"
               borderWidth={2}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -2150,7 +2150,7 @@ ShallowWrapper {
               "borderWidth": 2,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -2177,7 +2177,7 @@ ShallowWrapper {
               "borderWidth": 2,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -2204,7 +2204,7 @@ ShallowWrapper {
               "borderWidth": 2,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -2231,7 +2231,7 @@ ShallowWrapper {
               "borderWidth": 2,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -2258,7 +2258,7 @@ ShallowWrapper {
               "borderWidth": 2,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -2303,7 +2303,7 @@ ShallowWrapper {
     lineWidth={0}
     lined={false}
     ordered={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -2318,9 +2318,7 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
-        
-</ul>,
+      />,
       "className": "list",
     },
     "ref": null,
@@ -2346,9 +2344,7 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
-          
-</ul>,
+        />,
         "className": "list",
       },
       "ref": null,
@@ -2388,23 +2384,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={false}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -2419,58 +2415,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -2485,51 +2481,51 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -2544,7 +2540,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -2571,7 +2567,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -2598,7 +2594,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -2625,7 +2621,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -2652,7 +2648,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": false,
             "indented": false,
           },
@@ -2683,58 +2679,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -2749,51 +2745,51 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -2808,7 +2804,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -2835,7 +2831,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -2862,7 +2858,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -2889,7 +2885,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -2916,7 +2912,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": false,
               "indented": false,
             },
@@ -2961,23 +2957,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={true}
     ordered={false}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -2992,58 +2988,58 @@ ShallowWrapper {
     "props": Object {
       "children": <ul
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={false}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={false}
         >
-                <p>
-                        A child
-                </p>
+          <p>
+            A child
+          </p>
         </ListItem>
-</ul>,
+      </ul>,
       "className": "list",
     },
     "ref": null,
@@ -3058,51 +3054,51 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={false}
->
+          >
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -3117,7 +3113,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -3144,7 +3140,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -3171,7 +3167,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -3198,7 +3194,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -3225,7 +3221,7 @@ ShallowWrapper {
             "borderWidth": 0,
             "children": <p>
               A child
-</p>,
+            </p>,
             "hasBorder": true,
             "indented": false,
           },
@@ -3256,58 +3252,58 @@ ShallowWrapper {
       "props": Object {
         "children": <ul
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={false}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={false}
           >
-                    <p>
-                              A child
-                    </p>
+            <p>
+              A child
+            </p>
           </ListItem>
-</ul>,
+        </ul>,
         "className": "list",
       },
       "ref": null,
@@ -3322,51 +3318,51 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={false}
->
+            >
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -3381,7 +3377,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -3408,7 +3404,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -3435,7 +3431,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -3462,7 +3458,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -3489,7 +3485,7 @@ ShallowWrapper {
               "borderWidth": 0,
               "children": <p>
                 A child
-</p>,
+              </p>,
               "hasBorder": true,
               "indented": false,
             },
@@ -3534,23 +3530,23 @@ ShallowWrapper {
     lineWidth={0}
     lined={true}
     ordered={true}
->
+  >
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
     <p>
-        A child
+      A child
     </p>
-</List>,
+  </List>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -3565,63 +3561,63 @@ ShallowWrapper {
     "props": Object {
       "children": <ol
         className="list ma0 pa0 tl"
->
+      >
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={true}
         >
-                1. 
-                <p>
-                        A child
-                </p>
+          1. 
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={true}
         >
-                2. 
-                <p>
-                        A child
-                </p>
+          2. 
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={true}
         >
-                3. 
-                <p>
-                        A child
-                </p>
+          3. 
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={true}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={true}
+          indented={true}
         >
-                4. 
-                <p>
-                        A child
-                </p>
+          4. 
+          <p>
+            A child
+          </p>
         </ListItem>
         <ListItem
-                borderColor="gray"
-                borderWidth={0}
-                hasBorder={false}
-                indented={true}
+          borderColor="gray"
+          borderWidth={0}
+          hasBorder={false}
+          indented={true}
         >
-                5. 
-                <p>
-                        A child
-                </p>
+          5. 
+          <p>
+            A child
+          </p>
         </ListItem>
-</ol>,
+      </ol>,
       "className": "list",
     },
     "ref": null,
@@ -3636,56 +3632,56 @@ ShallowWrapper {
             borderWidth={0}
             hasBorder={true}
             indented={true}
->
+          >
             1. 
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={true}
->
+          >
             2. 
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={true}
->
+          >
             3. 
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={true}
             indented={true}
->
+          >
             4. 
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
           <ListItem
             borderColor="gray"
             borderWidth={0}
             hasBorder={false}
             indented={true}
->
+          >
             5. 
             <p>
-                        A child
+              A child
             </p>
-</ListItem>,
+          </ListItem>,
         ],
         "className": "list ma0 pa0 tl",
       },
@@ -3702,7 +3698,7 @@ ShallowWrapper {
               "1. ",
               <p>
                 A child
-</p>,
+              </p>,
             ],
             "hasBorder": true,
             "indented": true,
@@ -3735,7 +3731,7 @@ ShallowWrapper {
               "2. ",
               <p>
                 A child
-</p>,
+              </p>,
             ],
             "hasBorder": true,
             "indented": true,
@@ -3768,7 +3764,7 @@ ShallowWrapper {
               "3. ",
               <p>
                 A child
-</p>,
+              </p>,
             ],
             "hasBorder": true,
             "indented": true,
@@ -3801,7 +3797,7 @@ ShallowWrapper {
               "4. ",
               <p>
                 A child
-</p>,
+              </p>,
             ],
             "hasBorder": true,
             "indented": true,
@@ -3834,7 +3830,7 @@ ShallowWrapper {
               "5. ",
               <p>
                 A child
-</p>,
+              </p>,
             ],
             "hasBorder": false,
             "indented": true,
@@ -3869,63 +3865,63 @@ ShallowWrapper {
       "props": Object {
         "children": <ol
           className="list ma0 pa0 tl"
->
+        >
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={true}
           >
-                    1. 
-                    <p>
-                              A child
-                    </p>
+            1. 
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={true}
           >
-                    2. 
-                    <p>
-                              A child
-                    </p>
+            2. 
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={true}
           >
-                    3. 
-                    <p>
-                              A child
-                    </p>
+            3. 
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={true}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={true}
+            indented={true}
           >
-                    4. 
-                    <p>
-                              A child
-                    </p>
+            4. 
+            <p>
+              A child
+            </p>
           </ListItem>
           <ListItem
-                    borderColor="gray"
-                    borderWidth={0}
-                    hasBorder={false}
-                    indented={true}
+            borderColor="gray"
+            borderWidth={0}
+            hasBorder={false}
+            indented={true}
           >
-                    5. 
-                    <p>
-                              A child
-                    </p>
+            5. 
+            <p>
+              A child
+            </p>
           </ListItem>
-</ol>,
+        </ol>,
         "className": "list",
       },
       "ref": null,
@@ -3940,56 +3936,56 @@ ShallowWrapper {
               borderWidth={0}
               hasBorder={true}
               indented={true}
->
+            >
               1. 
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={true}
->
+            >
               2. 
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={true}
->
+            >
               3. 
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={true}
               indented={true}
->
+            >
               4. 
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
             <ListItem
               borderColor="gray"
               borderWidth={0}
               hasBorder={false}
               indented={true}
->
+            >
               5. 
               <p>
-                            A child
+                A child
               </p>
-</ListItem>,
+            </ListItem>,
           ],
           "className": "list ma0 pa0 tl",
         },
@@ -4006,7 +4002,7 @@ ShallowWrapper {
                 "1. ",
                 <p>
                   A child
-</p>,
+                </p>,
               ],
               "hasBorder": true,
               "indented": true,
@@ -4039,7 +4035,7 @@ ShallowWrapper {
                 "2. ",
                 <p>
                   A child
-</p>,
+                </p>,
               ],
               "hasBorder": true,
               "indented": true,
@@ -4072,7 +4068,7 @@ ShallowWrapper {
                 "3. ",
                 <p>
                   A child
-</p>,
+                </p>,
               ],
               "hasBorder": true,
               "indented": true,
@@ -4105,7 +4101,7 @@ ShallowWrapper {
                 "4. ",
                 <p>
                   A child
-</p>,
+                </p>,
               ],
               "hasBorder": true,
               "indented": true,
@@ -4138,7 +4134,7 @@ ShallowWrapper {
                 "5. ",
                 <p>
                   A child
-</p>,
+                </p>,
               ],
               "hasBorder": false,
               "indented": true,

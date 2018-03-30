@@ -9,28 +9,28 @@ ShallowWrapper {
     borderColor={null}
     padding={2}
     radius={0}
->
+  >
     <div>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
     </div>
-</Column>,
+  </Column>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -45,28 +45,28 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className=" bg-gray br0 pa2 w-100"
->
+      >
         <div>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
         </div>
-</div>,
+      </div>,
       "className": "column w-100",
     },
     "ref": null,
@@ -77,24 +77,24 @@ ShallowWrapper {
       "props": Object {
         "children": <div>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
-</div>,
+        </div>,
         "className": " bg-gray br0 pa2 w-100",
       },
       "ref": null,
@@ -106,22 +106,22 @@ ShallowWrapper {
           "children": Array [
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
           ],
         },
         "ref": null,
@@ -207,28 +207,28 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className=" bg-gray br0 pa2 w-100"
->
+        >
           <div>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
           </div>
-</div>,
+        </div>,
         "className": "column w-100",
       },
       "ref": null,
@@ -239,24 +239,24 @@ ShallowWrapper {
         "props": Object {
           "children": <div>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
-</div>,
+          </div>,
           "className": " bg-gray br0 pa2 w-100",
         },
         "ref": null,
@@ -268,22 +268,22 @@ ShallowWrapper {
             "children": Array [
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
             ],
           },
           "ref": null,
@@ -381,28 +381,28 @@ ShallowWrapper {
     borderColor="red"
     padding={2}
     radius={0}
->
+  >
     <div>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
     </div>
-</Column>,
+  </Column>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -417,28 +417,28 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="ba b--red bg-white br0 pa2 w-100"
->
+      >
         <div>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
         </div>
-</div>,
+      </div>,
       "className": "column w-100",
     },
     "ref": null,
@@ -449,24 +449,24 @@ ShallowWrapper {
       "props": Object {
         "children": <div>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
-</div>,
+        </div>,
         "className": "ba b--red bg-white br0 pa2 w-100",
       },
       "ref": null,
@@ -478,22 +478,22 @@ ShallowWrapper {
           "children": Array [
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
           ],
         },
         "ref": null,
@@ -579,28 +579,28 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba b--red bg-white br0 pa2 w-100"
->
+        >
           <div>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
           </div>
-</div>,
+        </div>,
         "className": "column w-100",
       },
       "ref": null,
@@ -611,24 +611,24 @@ ShallowWrapper {
         "props": Object {
           "children": <div>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
-</div>,
+          </div>,
           "className": "ba b--red bg-white br0 pa2 w-100",
         },
         "ref": null,
@@ -640,22 +640,22 @@ ShallowWrapper {
             "children": Array [
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
             ],
           },
           "ref": null,
@@ -753,28 +753,28 @@ ShallowWrapper {
     borderColor={null}
     padding={2}
     radius={3}
->
+  >
     <div>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
     </div>
-</Column>,
+  </Column>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -789,28 +789,28 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className=" bg-white br3 pa2 w-100"
->
+      >
         <div>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
         </div>
-</div>,
+      </div>,
       "className": "column w-100",
     },
     "ref": null,
@@ -821,24 +821,24 @@ ShallowWrapper {
       "props": Object {
         "children": <div>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
-</div>,
+        </div>,
         "className": " bg-white br3 pa2 w-100",
       },
       "ref": null,
@@ -850,22 +850,22 @@ ShallowWrapper {
           "children": Array [
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
           ],
         },
         "ref": null,
@@ -951,28 +951,28 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className=" bg-white br3 pa2 w-100"
->
+        >
           <div>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
           </div>
-</div>,
+        </div>,
         "className": "column w-100",
       },
       "ref": null,
@@ -983,24 +983,24 @@ ShallowWrapper {
         "props": Object {
           "children": <div>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
-</div>,
+          </div>,
           "className": " bg-white br3 pa2 w-100",
         },
         "ref": null,
@@ -1012,22 +1012,22 @@ ShallowWrapper {
             "children": Array [
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
             ],
           },
           "ref": null,
@@ -1125,28 +1125,28 @@ ShallowWrapper {
     borderColor="red"
     padding={2}
     radius={0}
->
+  >
     <div>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
-        <span>
-            lorem ipsum
-        </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
     </div>
-</Column>,
+  </Column>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1161,28 +1161,28 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="ba b--red bg-white br0 pa2 w-100"
->
+      >
         <div>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
-                <span>
-                        lorem ipsum
-                </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
+          <span>
+            lorem ipsum
+          </span>
         </div>
-</div>,
+      </div>,
       "className": "column w-100",
     },
     "ref": null,
@@ -1193,24 +1193,24 @@ ShallowWrapper {
       "props": Object {
         "children": <div>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
           <span>
-                    lorem ipsum
+            lorem ipsum
           </span>
-</div>,
+        </div>,
         "className": "ba b--red bg-white br0 pa2 w-100",
       },
       "ref": null,
@@ -1222,22 +1222,22 @@ ShallowWrapper {
           "children": Array [
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
             <span>
               lorem ipsum
-</span>,
+            </span>,
           ],
         },
         "ref": null,
@@ -1323,28 +1323,28 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba b--red bg-white br0 pa2 w-100"
->
+        >
           <div>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
-                    <span>
-                              lorem ipsum
-                    </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
+            <span>
+              lorem ipsum
+            </span>
           </div>
-</div>,
+        </div>,
         "className": "column w-100",
       },
       "ref": null,
@@ -1355,24 +1355,24 @@ ShallowWrapper {
         "props": Object {
           "children": <div>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
             <span>
-                        lorem ipsum
+              lorem ipsum
             </span>
-</div>,
+          </div>,
           "className": "ba b--red bg-white br0 pa2 w-100",
         },
         "ref": null,
@@ -1384,22 +1384,22 @@ ShallowWrapper {
             "children": Array [
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
               <span>
                 lorem ipsum
-</span>,
+              </span>,
             ],
           },
           "ref": null,
@@ -1497,7 +1497,7 @@ ShallowWrapper {
     borderColor={null}
     padding={2}
     radius={0}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1512,7 +1512,7 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className=" bg-white br0 pa2 w-100"
-/>,
+      />,
       "className": "column w-100",
     },
     "ref": null,
@@ -1538,7 +1538,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className=" bg-white br0 pa2 w-100"
-/>,
+        />,
         "className": "column w-100",
       },
       "ref": null,
