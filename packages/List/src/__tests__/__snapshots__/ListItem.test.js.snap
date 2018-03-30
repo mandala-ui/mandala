@@ -9,11 +9,11 @@ ShallowWrapper {
     borderWidth={2}
     hasBorder={true}
     indented={false}
->
+  >
     <span>
-        I am a child
+      I am a child
     </span>
-</ListItem>,
+  </ListItem>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -28,7 +28,7 @@ ShallowWrapper {
     "props": Object {
       "children": <span>
         I am a child
-</span>,
+      </span>,
       "className": "list-item pv3  bw2
                    bb b--black",
     },
@@ -54,7 +54,7 @@ ShallowWrapper {
       "props": Object {
         "children": <span>
           I am a child
-</span>,
+        </span>,
         "className": "list-item pv3  bw2
                    bb b--black",
       },
@@ -92,11 +92,11 @@ ShallowWrapper {
     borderWidth={0}
     hasBorder={true}
     indented={false}
->
+  >
     <span>
-        I am a child
+      I am a child
     </span>
-</ListItem>,
+  </ListItem>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -111,7 +111,7 @@ ShallowWrapper {
     "props": Object {
       "children": <span>
         I am a child
-</span>,
+      </span>,
       "className": "list-item pv3  
                    bb b--black",
     },
@@ -137,7 +137,7 @@ ShallowWrapper {
       "props": Object {
         "children": <span>
           I am a child
-</span>,
+        </span>,
         "className": "list-item pv3  
                    bb b--black",
       },
@@ -175,7 +175,7 @@ ShallowWrapper {
     borderWidth={0}
     hasBorder={false}
     indented={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -230,11 +230,11 @@ ShallowWrapper {
     borderWidth={0}
     hasBorder={false}
     indented={true}
->
+  >
     <span>
-        I am a child
+      I am a child
     </span>
-</ListItem>,
+  </ListItem>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -249,7 +249,7 @@ ShallowWrapper {
     "props": Object {
       "children": <span>
         I am a child
-</span>,
+      </span>,
       "className": "list-item pv3 ph3 
                    bb b--transparent",
     },
@@ -275,7 +275,7 @@ ShallowWrapper {
       "props": Object {
         "children": <span>
           I am a child
-</span>,
+        </span>,
         "className": "list-item pv3 ph3 
                    bb b--transparent",
       },

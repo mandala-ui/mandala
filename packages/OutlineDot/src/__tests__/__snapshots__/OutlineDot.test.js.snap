@@ -11,7 +11,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -26,11 +26,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--white bw1 h1 w1"
+          className="ba bg-black br-100 b--white bw1 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -41,7 +41,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -68,11 +68,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white bw1 h1 w1"
+            className="ba bg-black br-100 b--white bw1 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -83,7 +83,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -124,7 +124,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -139,11 +139,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-blue br-100 b--white bw1 h1 w1"
+          className="ba bg-blue br-100 b--white bw1 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -154,7 +154,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-blue br-100 b--white bw1 h1 w1"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -181,11 +181,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-blue br-100 b--white bw1 h1 w1"
+            className="ba bg-blue br-100 b--white bw1 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -196,7 +196,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-blue br-100 b--white bw1 h1 w1"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -237,7 +237,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="red"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -252,11 +252,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--red bw1 h1 w1"
+          className="ba bg-black br-100 b--red bw1 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -267,7 +267,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--red bw1 h1 w1"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -294,11 +294,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--red bw1 h1 w1"
+            className="ba bg-black br-100 b--red bw1 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -309,7 +309,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--red bw1 h1 w1"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -350,7 +350,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -365,11 +365,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--blue ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--white bw1 h1 w1"
+          className="ba bg-black br-100 b--white bw1 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -380,7 +380,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+        />,
         "className": "b--blue ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -407,11 +407,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--blue ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white bw1 h1 w1"
+            className="ba bg-black br-100 b--white bw1 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -422,7 +422,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+          />,
           "className": "b--blue ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -463,7 +463,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="white"
     large={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -478,11 +478,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h2 w2"
->
+      >
         <div
-                className="ba bg-black br-100 b--white bw1 h2 w2"
+          className="ba bg-black br-100 b--white bw1 h2 w2"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h2 w2",
     },
     "ref": null,
@@ -493,7 +493,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white bw1 h2 w2"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h2 w2",
       },
       "ref": null,
@@ -520,11 +520,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h2 w2"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white bw1 h2 w2"
+            className="ba bg-black br-100 b--white bw1 h2 w2"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h2 w2",
       },
       "ref": null,
@@ -535,7 +535,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white bw1 h2 w2"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h2 w2",
         },
         "ref": null,
@@ -576,7 +576,7 @@ ShallowWrapper {
     innerBorderWidth={1}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -591,11 +591,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba bw2 br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--white bw1 h1 w1"
+          className="ba bg-black br-100 b--white bw1 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -606,7 +606,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+        />,
         "className": "b--black ba bw2 br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -633,11 +633,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba bw2 br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white bw1 h1 w1"
+            className="ba bg-black br-100 b--white bw1 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -648,7 +648,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white bw1 h1 w1"
-/>,
+          />,
           "className": "b--black ba bw2 br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -689,7 +689,7 @@ ShallowWrapper {
     innerBorderWidth={2}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -704,11 +704,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--white bw2 h1 w1"
+          className="ba bg-black br-100 b--white bw2 h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -719,7 +719,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white bw2 h1 w1"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -746,11 +746,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white bw2 h1 w1"
+            className="ba bg-black br-100 b--white bw2 h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -761,7 +761,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white bw2 h1 w1"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -802,7 +802,7 @@ ShallowWrapper {
     innerBorderWidth={0}
     innerColor="white"
     large={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -817,11 +817,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+      >
         <div
-                className="ba bg-black br-100 b--white  h1 w1"
+          className="ba bg-black br-100 b--white  h1 w1"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h1 w1",
     },
     "ref": null,
@@ -832,7 +832,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-black br-100 b--white  h1 w1"
-/>,
+        />,
         "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -859,11 +859,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--black ba  br-100 flex items-center justify-center h1 w1"
->
+        >
           <div
-                    className="ba bg-black br-100 b--white  h1 w1"
+            className="ba bg-black br-100 b--white  h1 w1"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h1 w1",
       },
       "ref": null,
@@ -874,7 +874,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-black br-100 b--white  h1 w1"
-/>,
+          />,
           "className": "b--black ba  br-100 flex items-center justify-center h1 w1",
         },
         "ref": null,
@@ -915,7 +915,7 @@ ShallowWrapper {
     innerBorderWidth={0}
     innerColor="white"
     large={true}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -930,11 +930,11 @@ ShallowWrapper {
     "props": Object {
       "children": <span
         className="b--green ba  br-100 flex items-center justify-center h2 w2"
->
+      >
         <div
-                className="ba bg-green br-100 b--white  h2 w2"
+          className="ba bg-green br-100 b--white  h2 w2"
         />
-</span>,
+      </span>,
       "className": "br-100 flex items-center justify-center h2 w2",
     },
     "ref": null,
@@ -945,7 +945,7 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="ba bg-green br-100 b--white  h2 w2"
-/>,
+        />,
         "className": "b--green ba  br-100 flex items-center justify-center h2 w2",
       },
       "ref": null,
@@ -972,11 +972,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="b--green ba  br-100 flex items-center justify-center h2 w2"
->
+        >
           <div
-                    className="ba bg-green br-100 b--white  h2 w2"
+            className="ba bg-green br-100 b--white  h2 w2"
           />
-</span>,
+        </span>,
         "className": "br-100 flex items-center justify-center h2 w2",
       },
       "ref": null,
@@ -987,7 +987,7 @@ ShallowWrapper {
         "props": Object {
           "children": <div
             className="ba bg-green br-100 b--white  h2 w2"
-/>,
+          />,
           "className": "b--green ba  br-100 flex items-center justify-center h2 w2",
         },
         "ref": null,

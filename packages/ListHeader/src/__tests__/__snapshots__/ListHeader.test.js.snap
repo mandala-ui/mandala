@@ -9,11 +9,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={1}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -28,15 +28,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb bw1 pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -47,11 +47,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb bw1 pb2",
       },
       "ref": null,
@@ -62,7 +62,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -91,15 +91,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb bw1 pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -110,11 +110,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb bw1 pb2",
         },
         "ref": null,
@@ -125,7 +125,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -166,11 +166,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={2}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -185,15 +185,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb bw2 pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -204,11 +204,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb bw2 pb2",
       },
       "ref": null,
@@ -219,7 +219,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -248,15 +248,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb bw2 pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -267,11 +267,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb bw2 pb2",
         },
         "ref": null,
@@ -282,7 +282,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -323,11 +323,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={3}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -342,15 +342,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb bw3 pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -361,11 +361,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb bw3 pb2",
       },
       "ref": null,
@@ -376,7 +376,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -405,15 +405,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb bw3 pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -424,11 +424,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb bw3 pb2",
         },
         "ref": null,
@@ -439,7 +439,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -480,11 +480,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={4}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -499,15 +499,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb bw4 pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -518,11 +518,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb bw4 pb2",
       },
       "ref": null,
@@ -533,7 +533,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -562,15 +562,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb bw4 pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -581,11 +581,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb bw4 pb2",
         },
         "ref": null,
@@ -596,7 +596,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -637,11 +637,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={5}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -656,15 +656,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb bw5 pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -675,11 +675,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb bw5 pb2",
       },
       "ref": null,
@@ -690,7 +690,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -719,15 +719,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb bw5 pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -738,11 +738,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb bw5 pb2",
         },
         "ref": null,
@@ -753,7 +753,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -794,11 +794,11 @@ ShallowWrapper {
     lineColor="red"
     lineWidth={0}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -813,15 +813,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--red bb  pb2"
->
+      >
         <span
-                className="ph3"
+          className="ph3"
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -832,11 +832,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className="ph3"
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--red bb  pb2",
       },
       "ref": null,
@@ -847,7 +847,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "ph3",
         },
         "ref": null,
@@ -876,15 +876,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--red bb  pb2"
->
+        >
           <span
-                    className="ph3"
+            className="ph3"
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -895,11 +895,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className="ph3"
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--red bb  pb2",
         },
         "ref": null,
@@ -910,7 +910,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "ph3",
           },
           "ref": null,
@@ -951,11 +951,11 @@ ShallowWrapper {
     lineColor="red"
     lineWidth={0}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -970,15 +970,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--red bb  pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -989,11 +989,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--red bb  pb2",
       },
       "ref": null,
@@ -1004,7 +1004,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -1033,15 +1033,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--red bb  pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -1052,11 +1052,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--red bb  pb2",
         },
         "ref": null,
@@ -1067,7 +1067,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -1108,11 +1108,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={0}
     lined={true}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1127,15 +1127,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black bb  pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -1146,11 +1146,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black bb  pb2",
       },
       "ref": null,
@@ -1161,7 +1161,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -1190,15 +1190,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black bb  pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -1209,11 +1209,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black bb  pb2",
         },
         "ref": null,
@@ -1224,7 +1224,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
@@ -1265,7 +1265,7 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={0}
     lined={false}
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1280,11 +1280,11 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black  pb2"
->
+      >
         <span
-                className=""
+          className=""
         />
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -1295,7 +1295,7 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
-/>,
+        />,
         "className": "b--black  pb2",
       },
       "ref": null,
@@ -1323,11 +1323,11 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black  pb2"
->
+        >
           <span
-                    className=""
+            className=""
           />
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -1338,7 +1338,7 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
-/>,
+          />,
           "className": "b--black  pb2",
         },
         "ref": null,
@@ -1378,11 +1378,11 @@ ShallowWrapper {
     lineColor="black"
     lineWidth={0}
     lined={false}
->
+  >
     <h3>
-        The Top of a List
+      The Top of a List
     </h3>
-</ListHeader>,
+  </ListHeader>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1397,15 +1397,15 @@ ShallowWrapper {
     "props": Object {
       "children": <div
         className="b--black  pb2"
->
+      >
         <span
-                className=""
+          className=""
         >
-                <h3>
-                        The Top of a List
-                </h3>
+          <h3>
+            The Top of a List
+          </h3>
         </span>
-</div>,
+      </div>,
       "className": "list-header",
     },
     "ref": null,
@@ -1416,11 +1416,11 @@ ShallowWrapper {
       "props": Object {
         "children": <span
           className=""
->
+        >
           <h3>
-                    The Top of a List
+            The Top of a List
           </h3>
-</span>,
+        </span>,
         "className": "b--black  pb2",
       },
       "ref": null,
@@ -1431,7 +1431,7 @@ ShallowWrapper {
         "props": Object {
           "children": <h3>
             The Top of a List
-</h3>,
+          </h3>,
           "className": "",
         },
         "ref": null,
@@ -1460,15 +1460,15 @@ ShallowWrapper {
       "props": Object {
         "children": <div
           className="b--black  pb2"
->
+        >
           <span
-                    className=""
+            className=""
           >
-                    <h3>
-                              The Top of a List
-                    </h3>
+            <h3>
+              The Top of a List
+            </h3>
           </span>
-</div>,
+        </div>,
         "className": "list-header",
       },
       "ref": null,
@@ -1479,11 +1479,11 @@ ShallowWrapper {
         "props": Object {
           "children": <span
             className=""
->
+          >
             <h3>
-                        The Top of a List
+              The Top of a List
             </h3>
-</span>,
+          </span>,
           "className": "b--black  pb2",
         },
         "ref": null,
@@ -1494,7 +1494,7 @@ ShallowWrapper {
           "props": Object {
             "children": <h3>
               The Top of a List
-</h3>,
+            </h3>,
             "className": "",
           },
           "ref": null,
