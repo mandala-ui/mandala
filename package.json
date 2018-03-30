@@ -33,7 +33,7 @@
     "babel-preset-react": "^6.24.1",
     "coveralls": "^3.0.0",
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-loader": "^2.0.0",
@@ -45,9 +45,9 @@
     "jest": "^22.4.3",
     "lerna": "^2.9.1",
     "nwb": "^0.21.5",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-test-renderer": "^15.5.4",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-test-renderer": "^16.3.0",
     "tachyons": "^4.9.1"
   },
   "eslintConfig": {
@@ -68,6 +68,7 @@
       "react-percy"
     ],
     "rules": {
+      "function-paren-newline": ["error", "consistent"],
       "import/extensions": "off",
       "import/no-extraneous-dependencies": "off",
       "jsx-a11y/anchor-is-valid": [
