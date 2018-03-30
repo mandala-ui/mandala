@@ -1,16 +1,17 @@
+/* eslint-disable */
 import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import css from 'tachyons'; //eslint-disable-line
-import Button from '../packages/Button/src/Button.js';
-import Column from '../packages/Column/src/Column.js';
-import List from '../packages/List/src/List.js';
-import ListHeader from '../packages/ListHeader/src/ListHeader.js';
-import OutlineDot from '../packages/OutlineDot/src/OutlineDot.js';
-import ProgressBar from '../packages/ProgressBar/src/ProgressBar.js';
-import SplitButton from '../packages/SplitButton/src/SplitButton.js';
-import Tag from '../packages/Tag/src/Tag.js';
+import Button from '../packages/Button/src/Button';
+import Column from '../packages/Column/src/Column';
+import List from '../packages/List/src/List';
+import ListHeader from '../packages/ListHeader/src/ListHeader';
+import OutlineDot from '../packages/OutlineDot/src/OutlineDot';
+import ProgressBar from '../packages/ProgressBar/src/ProgressBar';
+import SplitButton from '../packages/SplitButton/src/SplitButton';
+import Tag from '../packages/Tag/src/Tag';
 
 const CenterPadding = storyFn => (
   <div className="pa5 tc center w-100 flex justify-center sans-serif">

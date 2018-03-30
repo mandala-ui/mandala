@@ -8,7 +8,8 @@ const Button = ({
   disabled,
   onClick,
   pill,
-  radius }) => {
+  radius,
+}) => {
   const isDisabled = `${disabled ? 'o-40' : 'pointer'}`;
   const isPill = `${pill ? 'br-pill' : `br${clamp(radius, 0, 4)}`}`;
   const options = `bg-${color} ${isPill} ${isDisabled}}`;
