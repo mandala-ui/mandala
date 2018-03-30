@@ -6,7 +6,8 @@ const ListHeader = ({
   indented,
   lineColor,
   lined,
-  lineWidth }) => {
+  lineWidth,
+}) => {
   const hasLine = `${lined ? `bb ${lineWidth ? `bw${lineWidth}` : ''}` : ''}`;
   const indents = `${indented ? 'ph3' : ''}`;
   return (

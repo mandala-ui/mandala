@@ -11,8 +11,10 @@ const SplitButton = ({
   onColor,
   pill,
   radius,
-  showText }) => {
+  showText,
+}) => {
   const isDisabled = `${disabled ? 'o-60' : 'pointer'}`;
+  const basicStyles = `bg-${baseColor} shadow-2`;
   return (
     <div className="split-button">
       <div
@@ -22,7 +24,7 @@ const SplitButton = ({
         <button
           className={`bn w-50
               ${isDisabled}
-              ${isOn ? `bg-${baseColor} shadow-2 z-1` : `bg-${offColor}`}`}
+              ${isOn ? `${basicStyles} z-1` : `bg-${offColor}`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
@@ -33,7 +35,7 @@ const SplitButton = ({
         <button
           className={`bn w-50
               ${isDisabled}
-              ${isOn ? `bg-${onColor} gray` : `bg-${baseColor} shadow-2`}`}
+              ${isOn ? `bg-${onColor} gray` : `${basicStyles}`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
@@ -64,9 +66,7 @@ SplitButton.defaultProps = {
   disabled: false,
   isOn: false,
   offColor: 'dark-red',
-  offText: 'off',
   onColor: 'green',
-  onText: 'on',
   pill: false,
   radius: 0,
   showText: true,

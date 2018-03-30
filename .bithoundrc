@@ -41,7 +41,8 @@
     "**/extjs/resources/**",
     "**/extjs/src/**",
     "**/extjs/welcome/**",
-    "bower_components/**"
+    "bower_components/**",
+    "stories/**"
   ],
   "test": [
     "**/test/**",
