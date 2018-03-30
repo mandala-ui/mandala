@@ -7,12 +7,8 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
+      - image: circleci/node:8.10.0
       # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
 
     working_directory: ~/repo
 
@@ -25,27 +21,28 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-
       - run:
           name: "Install dependencies"
-          command: |
-            yarn install
-
+          command: yarn install
+      - run:
+          name: "Greenkeeper install"
+          command: yarn global add greenkeeper-lockfile@1
+      - run:
+          name: "Greenkeeper update"
+          command: greenkeeper-lockfile-update
+      - run:
+          name: "Greenkeeper upload"
+          command: greenkeeper-lockfile-upload
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      # run tests!
       - run:
           name: "Test Coverage"
-          command: |
-            yarn run test:coverage
+          command: yarn run test:coverage
       - run:
           name: "Report Coverage"
-          command: |
-            yarn run coveralls
+          command: yarn run coveralls
       - run:
           name: "Visual Regressions"
-          command: |
-            yarn run coveralls
+          command: yarn run percy
