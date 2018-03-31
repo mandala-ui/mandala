@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 const Tag = ({
   children,
   color,
-  large }) => {
+  large,
+}) => {
   const isLarge = `${large ? 'f5 ph3 pv2' : 'f7 ph2 pv1'}`;
   return (
     <div className="tag">

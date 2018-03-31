@@ -22,193 +22,171 @@ addDecorator(CenterPadding);
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () =>
-      (<Button
-        color={text('Color', 'gray')}
-        disabled={boolean('Disabled', false)}
-        onClick={action('Button onClick Event')}
-        pill={boolean('Pill', false)}
-        radius={number('Radius', 0,
+  .add('interactive', () => (
+    <Button
+      color={text('Color', 'gray')}
+      disabled={boolean('Disabled', false)}
+      onClick={action('Button onClick Event')}
+      pill={boolean('Pill', false)}
+      radius={number('Radius', 0,
           {
             range: true,
             min: 0,
             max: 3,
             step: 1,
           })}
-      >
+    >
         Click Me
-      </Button>),
-  );
+    </Button>
+  ));
 
 storiesOf('Column', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () => (
-      <Column
-        backgroundColor={text('Backround Color', 'near-white')}
-        borderColor={text('Border Color', 'near-white')}
-        padding={number('Padding', 0,
+  .add('interactive', () => (
+    <Column
+      backgroundColor={text('Backround Color', 'near-white')}
+      borderColor={text('Border Color', 'near-white')}
+      padding={number('Padding', 0,
           {
             range: true,
             min: 0,
             max: 5,
             step: 1,
           })}
-        radius={number('Border Radius', 2,
+      radius={number('Border Radius', 2,
           {
             range: true,
             min: 0,
             max: 4,
             step: 1,
           })}
+    >
+      <List
+        indented
+        lined
+        contained
+        lineColor="dark-gray"
       >
-        <List
-          indented
-          lined
-          contained
-          lineColor="dark-gray"
-        >
-          <span>lorem ipsum</span>
-          <span>lorem ipsum</span>
-          <span>lorem ipsum</span>
-          <span>lorem ipsum</span>
-          <span>lorem ipsum</span>
-          <span>lorem ipsum</span>
-        </List>
-      </Column>
-    ),
-  );
+        <span>lorem ipsum</span>
+        <span>lorem ipsum</span>
+        <span>lorem ipsum</span>
+        <span>lorem ipsum</span>
+        <span>lorem ipsum</span>
+        <span>lorem ipsum</span>
+      </List>
+    </Column>
+  ));
 
 storiesOf('List', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () => (
-      <List
-        contained={boolean('Contained', false)}
-        indented={boolean('Indented', false)}
-        lineColor={text('Line Color', 'gray')}
-        lined={boolean('Lined', false)}
-        lineWidth={number('Line Width', 0,
+  .add('interactive', () => (
+    <List
+      contained={boolean('Contained', false)}
+      indented={boolean('Indented', false)}
+      lineColor={text('Line Color', 'gray')}
+      lined={boolean('Lined', false)}
+      lineWidth={number('Line Width', 0,
           {
             range: true,
             min: 0,
             max: 5,
             step: 1,
           })}
-        ordered={boolean('Ordered', false)}
-      >
-        <span>This just needs to be an element of some type</span>
-        <span>It can be nearly anything</span>
-        <span>It will inherit styles though</span>
-        <span>So you are responsible for taking care of that</span>
-      </List>
-    ),
-  );
+      ordered={boolean('Ordered', false)}
+    >
+      <span>This just needs to be an element of some type</span>
+      <span>It can be nearly anything</span>
+      <span>It will inherit styles though</span>
+      <span>So you are responsible for taking care of that</span>
+    </List>
+  ));
 
 storiesOf('ListHeader', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () => (
-      <ListHeader
-        indented={boolean('Indented', false)}
-        lineColor={text('Line Color', 'black')}
-        lined={boolean('Lined', false)}
-        lineWidth={number('Line Width', 0,
+  .add('interactive', () => (
+    <ListHeader
+      indented={boolean('Indented', false)}
+      lineColor={text('Line Color', 'black')}
+      lined={boolean('Lined', false)}
+      lineWidth={number('Line Width', 0,
           {
             range: true,
             min: 0,
             max: 5,
             step: 1,
           })}
-      >
+    >
         At the top of a list
-      </ListHeader>
-    ),
-  );
+    </ListHeader>
+  ));
 
 storiesOf('ProgressBar', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () =>
-      (<ProgressBar
-        background={text('Background', 'light-gray')}
-        color={text('Color', 'gray')}
-        large={boolean('Large', false)}
-        percentage={number('Percentage', 50,
+  .add('interactive', () =>
+    (<ProgressBar
+      background={text('Background', 'light-gray')}
+      color={text('Color', 'gray')}
+      large={boolean('Large', false)}
+      percentage={number('Percentage', 50,
           {
             range: true,
             min: 0,
             max: 100,
             step: 1,
           })}
-        rounded={boolean('Rounded', false)}
-      />),
-  );
+      rounded={boolean('Rounded', false)}
+    />));
 
 storiesOf('OutlineDot', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () =>
-      (<OutlineDot
-        borderColor={text('Border Color', 'black')}
-        borderWidth={number('Border Width', 0, {
+  .add('interactive', () =>
+    (<OutlineDot
+      borderColor={text('Border Color', 'black')}
+      borderWidth={number('Border Width', 0, {
           range: true,
           min: 0,
           max: 5,
           step: 1,
         })}
-        innerBorderWidth={number('Inner Border Width', 1, {
+      innerBorderWidth={number('Inner Border Width', 1, {
           range: true,
           min: 0,
           max: 5,
           step: 1,
         })}
-        innerColor={text('Inner Color', 'white')}
-        color={text('Color', 'black')}
-        large={boolean('Large', false)}
-      />),
-  );
+      innerColor={text('Inner Color', 'white')}
+      color={text('Color', 'black')}
+      large={boolean('Large', false)}
+    />));
 
 storiesOf('SplitButton', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () =>
-      (<SplitButton
-        disabled={boolean('Disabled', false)}
-        baseColor={text('Base Color', 'moon-gray')}
-        offText={text('Off Text', 'off')}
-        onColor={text('On Color', 'green')}
-        onClick={action('SplitButton onClick Event')}
-        isOn={boolean('Is On', false)}
-        pill={boolean('Pill', false)}
-        radius={number('Radius', 0,
+  .add('interactive', () =>
+    (<SplitButton
+      disabled={boolean('Disabled', false)}
+      baseColor={text('Base Color', 'moon-gray')}
+      offText={text('Off Text', 'off')}
+      onColor={text('On Color', 'green')}
+      onClick={action('SplitButton onClick Event')}
+      isOn={boolean('Is On', false)}
+      pill={boolean('Pill', false)}
+      radius={number('Radius', 0,
           {
             range: true,
             min: 0,
             max: 3,
             step: 1,
           })}
-        showText={boolean('Show Text', true)}
-      />),
-  );
+      showText={boolean('Show Text', true)}
+    />));
 
 storiesOf('Tag', module)
   .addDecorator(withKnobs)
-  .add(
-    'interactive',
-    () =>
-      (<Tag
-        color={text('Color', 'blue')}
-        large={boolean('Large', false)}
-      >
+  .add('interactive', () => (
+    <Tag
+      color={text('Color', 'blue')}
+      large={boolean('Large', false)}
+    >
         Text
-      </Tag>),
-  );
+    </Tag>
+  ));

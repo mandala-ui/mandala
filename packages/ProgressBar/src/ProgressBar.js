@@ -7,7 +7,8 @@ const ProgressBar = ({
   color,
   large,
   percentage,
-  rounded }) => {
+  rounded,
+}) => {
   const isLarge = `${large ? 'h2' : 'h1'}`;
   const isRounded = `${rounded ? 'br-pill' : ''}`;
   const fill = `bg-${color} ${isLarge} ${isRounded}`;

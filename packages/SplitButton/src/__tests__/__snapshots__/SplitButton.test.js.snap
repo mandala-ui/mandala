@@ -9,7 +9,6 @@ ShallowWrapper {
     disabled={false}
     isOn={false}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -18,7 +17,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={false}
     radius={0}
     showText={true}
@@ -403,7 +401,6 @@ ShallowWrapper {
     disabled={true}
     isOn={false}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -412,7 +409,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={false}
     radius={0}
     showText={true}
@@ -797,7 +793,6 @@ ShallowWrapper {
     disabled={false}
     isOn={false}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -806,7 +801,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={false}
     radius={0}
     showText={false}
@@ -1167,7 +1161,6 @@ ShallowWrapper {
     disabled={false}
     isOn={true}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -1176,7 +1169,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={false}
     radius={0}
     showText={true}
@@ -1561,7 +1553,6 @@ ShallowWrapper {
     disabled={false}
     isOn={false}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -1570,7 +1561,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={true}
     radius={0}
     showText={true}
@@ -1955,7 +1945,6 @@ ShallowWrapper {
     disabled={false}
     isOn={false}
     offColor="dark-red"
-    offText="off"
     onClick={
       [MockFunction] {
         "calls": Array [
@@ -1964,7 +1953,6 @@ ShallowWrapper {
       }
     }
     onColor="green"
-    onText="on"
     pill={false}
     radius={1}
     showText={true}

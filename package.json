@@ -2,7 +2,7 @@
   "author": "Lucas K Allmon",
   "babel": {
     "presets": [
-      "es2015",
+      "env",
       "stage-2",
       "react"
     ]
@@ -29,7 +29,7 @@
     "@storybook/react": "^3.3.15",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^22.4.3",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "coveralls": "^3.0.0",
     "enzyme": "^3.3.0",
@@ -68,7 +68,10 @@
       "react-percy"
     ],
     "rules": {
-      "function-paren-newline": ["error", "consistent"],
+      "function-paren-newline": [
+        "error",
+        "consistent"
+      ],
       "import/extensions": "off",
       "import/no-extraneous-dependencies": "off",
       "jsx-a11y/anchor-is-valid": [
@@ -88,7 +91,13 @@
           "ignoreComments": true
         }
       ],
-      "react/jsx-filename-extension": "off"
+      "react/jsx-filename-extension": "off",
+      "react/sort-prop-types": ["enabled", {
+        "callbacksLast": true,
+        "ignoreCase": true,
+        "requiredFirst": false,
+        "sortShapeProp": true
+      }]
     }
   },
   "files": [
@@ -110,6 +119,7 @@
       "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
       "^react-native$": "react-native-web"
     },
+    "setupTestFrameworkScriptFile": "<rootDir>/jestConfig.js",
     "testEnvironment": "node",
     "testMatch": [
       "**/?(*.)(spec|test).js?(x)"
@@ -142,7 +152,7 @@
   "module": "es/index.js",
   "name": "mandala",
   "peerDependencies": {
-    "react": "15.x"
+    "react": ">=15.x"
   },
   "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {
