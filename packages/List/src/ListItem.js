@@ -6,7 +6,8 @@ const ListItem = ({
   borderWidth,
   children,
   hasBorder,
-  indented }) => {
+  indented,
+}) => {
   const indents = `${indented ? 'ph3' : ''}`;
   const borders = `${borderWidth === 0 ? '' : `bw${borderWidth}`}
                    ${hasBorder ? `bb b--${borderColor}` : 'bb b--transparent'}`;

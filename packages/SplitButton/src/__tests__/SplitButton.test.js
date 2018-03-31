@@ -1,9 +1,6 @@
 import React from 'react';
-import { shallow, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow } from 'enzyme';
 import SplitButton from '../SplitButton';
-
-configure({ adapter: new Adapter() });
 
 describe('<SplitButton />', () => {
   const mockFn = jest.fn();
@@ -23,7 +20,8 @@ describe('<SplitButton />', () => {
       <SplitButton
         onClick={mockFn}
         isOn
-      />))
+      />,
+    ))
       .toMatchSnapshot();
   });
 
@@ -32,7 +30,8 @@ describe('<SplitButton />', () => {
       <SplitButton
         onClick={mockFn}
         pill
-      />))
+      />,
+    ))
       .toMatchSnapshot();
   });
 
@@ -41,7 +40,8 @@ describe('<SplitButton />', () => {
       <SplitButton
         onClick={mockFn}
         radius={1}
-      />))
+      />,
+    ))
       .toMatchSnapshot();
   });
 
@@ -50,7 +50,8 @@ describe('<SplitButton />', () => {
       <SplitButton
         onClick={mockFn}
         showText={false}
-      />))
+      />,
+    ))
       .toMatchSnapshot();
   });
 
@@ -59,7 +60,8 @@ describe('<SplitButton />', () => {
       <SplitButton
         disabled
         onClick={mockFn}
-      />))
+      />,
+    ))
       .toMatchSnapshot();
   });
 });

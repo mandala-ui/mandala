@@ -7,7 +7,8 @@ const OutlineDot = ({
   color,
   innerBorderWidth,
   innerColor,
-  large }) => {
+  large,
+}) => {
   const isLarge = `${large ? 'h2 w2' : 'h1 w1'}`;
   const outerBorder = `${borderWidth === 0 ? '' : `bw${borderWidth}`}`;
   const innerBorder = `${innerBorderWidth === 0 ? '' : `bw${innerBorderWidth}`}`;

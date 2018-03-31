@@ -1,6 +1,5 @@
 import React from 'react';
-import { shallow, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow } from 'enzyme';
 import Column from '../Column';
 
 const testContent = (
@@ -13,8 +12,6 @@ const testContent = (
     <span>lorem ipsum</span>
   </div>
 );
-
-configure({ adapter: new Adapter() });
 
 describe('<Column />', () => {
   const component = shallow(

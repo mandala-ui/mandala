@@ -9,7 +9,8 @@ const List = ({
   lineColor,
   lined,
   lineWidth,
-  ordered }) => {
+  ordered,
+}) => {
   const childArray = React.Children.toArray(children);
   return (
     <div className="list">
