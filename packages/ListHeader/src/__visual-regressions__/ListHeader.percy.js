@@ -11,14 +11,7 @@ suite('<ListHeader />', { widths: breakpoints }, () => {
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('lined', () => (
-    <ListHeader
-      lined
-    >
-      {testContent}
-    </ListHeader>
-  ));
-  percySnapshot('indented', () => (
+  percySnapshot('Indented', () => (
     <ListHeader
       lined
       indented
@@ -26,46 +19,56 @@ suite('<ListHeader />', { widths: breakpoints }, () => {
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('line width 1', () => (
+  percySnapshot('Underlined', () => (
     <ListHeader
       lined
-      indented
+    >
+      {testContent}
+    </ListHeader>
+  ));
+  percySnapshot('Underlined: custom color', () => (
+    <ListHeader
+      lineColor="blue"
+      lined
+    >
+      {testContent}
+    </ListHeader>
+  ));
+  percySnapshot('Underlined: line width 1', () => (
+    <ListHeader
+      lined
       lineWidth={1}
     >
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('line width 2', () => (
+  percySnapshot('Underlined: line width 2', () => (
     <ListHeader
       lined
-      indented
       lineWidth={2}
     >
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('line width 3', () => (
+  percySnapshot('Underlined: line width 3', () => (
     <ListHeader
       lined
-      indented
       lineWidth={3}
     >
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('line width 4', () => (
+  percySnapshot('Underlined: line width 4', () => (
     <ListHeader
       lined
-      indented
       lineWidth={4}
     >
       {testContent}
     </ListHeader>
   ));
-  percySnapshot('line width 5', () => (
+  percySnapshot('Underlined: line width 5', () => (
     <ListHeader
       lined
-      indented
       lineWidth={5}
     >
       {testContent}

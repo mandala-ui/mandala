@@ -6,24 +6,24 @@ import css from 'tachyons'; //eslint-disable-line
 suite('<List />', { widths: breakpoints }, () => {
   percySnapshot('Default', () => (
     <List>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
   percySnapshot('Lined Default', () => (
     <List
       lined
     >
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
   percySnapshot('Line Color', () => (
@@ -31,12 +31,12 @@ suite('<List />', { widths: breakpoints }, () => {
       lineColor="red"
       lined
     >
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
   percySnapshot('Line Width', () => (
@@ -45,12 +45,12 @@ suite('<List />', { widths: breakpoints }, () => {
       lined
       lineWidth={3}
     >
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
   percySnapshot('Contained', () => (
@@ -60,12 +60,12 @@ suite('<List />', { widths: breakpoints }, () => {
       lined
       lineWidth={1}
     >
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
   percySnapshot('Indented', () => (
@@ -75,12 +75,12 @@ suite('<List />', { widths: breakpoints }, () => {
       lined
       lineWidth={1}
     >
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
-      <p>I am a child of the list</p>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
+      <span>I am a child of the list</span>
     </List>
   ));
 });

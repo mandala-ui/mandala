@@ -13,7 +13,7 @@ import SplitButton from '../packages/SplitButton/src/SplitButton.js';
 import Tag from '../packages/Tag/src/Tag.js';
 
 const CenterPadding = storyFn => (
-  <div className="pa5 tc center w-100 flex justify-center sans-serif">
+  <div className="pa5 center w-100 flex justify-center sans-serif">
     { storyFn() }
   </div>
 );
@@ -61,19 +61,11 @@ storiesOf('Column', module)
             step: 1,
           })}
     >
-      <List
-        indented
-        lined
-        contained
-        lineColor="dark-gray"
-      >
-        <span>lorem ipsum</span>
-        <span>lorem ipsum</span>
-        <span>lorem ipsum</span>
-        <span>lorem ipsum</span>
-        <span>lorem ipsum</span>
-        <span>lorem ipsum</span>
-      </List>
+      <div className="vh-25">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </Column>
   ));
 
