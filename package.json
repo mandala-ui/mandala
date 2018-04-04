@@ -89,7 +89,11 @@
         120,
         2,
         {
-          "ignoreComments": true
+          "ignoreComments": true,
+          "ignoreStrings": true,
+          "ignoreTemplateLiterals": true,
+          "ignoreTrailingComments": true,
+          "ignoreUrls": true
         }
       ],
       "react/jsx-filename-extension": "off",
@@ -165,8 +169,8 @@
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "generate": "plop",
-    "prepare": "nwb build-react-component",
     "percy": "react-percy",
+    "prepare": "nwb build-react-component",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
