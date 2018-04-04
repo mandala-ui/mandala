@@ -7,11 +7,11 @@ Mandala is a Declarative UI Component Library built with React and a small, Func
 
 ## Getting Started
 
-Check out the [Interactive Docs](https://mandala-ui.github.io/mandala/interactive/index.html) before you decide if this package is right for you.
+Check out our [Interactive Docs](https://mandala-ui.github.io/mandala/interactive/index.html) and see if these components serve your purpose.
 
-The only real dependencies to use Mandala are React, and Tachyons.io
+The only dependencies of Mandala are [React](https://reactjs.org) and [Tachyons](http://tachyons.io)
 
-You can add the CDN version of tachyons to the head of your project to easily get started.
+The fastest way to get started is use Create React App to spin up a project and add CDN version of Tachyons to the head of your project to easily get started.
 
 `<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>`
 
@@ -19,7 +19,7 @@ If you have a CSS build pipeline in your React project, you can also
 
 `yarn install tachyons`
 
-
+##### Components
 If you like you can install the Mandala UI Components as a whole with:
 
 `yarn install mandala`
@@ -28,8 +28,37 @@ And then import the relevant ones with
 
 `import { ProgressBar } from 'mandala'`
 
-Each of the mandala components are published to NPM separately. If you'd just like to use a single component like the ProgressBar you can install the scoped packages.
+Each of the mandala components are [published to NPM separately](https://www.npmjs.com/settings/mandala-ui/packages). If you'd just like to use a single component like the ProgressBar you can install the scoped packages.
 
 e.g. `yarn install @mandala-ui/progress-bar`
 
-Both ways still require the CSS utilities to be installed
+Both ways still require the Tachyons CSS to be installed
+
+## Contributing
+
+Mandala is set up to easily get you contributing new components.
+
+It uses [React Storybook](https://storybook.js.org) as a development environment.
+
+So to get started, run:
+
+```
+yarn run generate
+```
+And follow the prompts. This will scaffold a new component and generate the test files, which will pass (is defined and renders default).
+
+Inside `stories/index.js`, import the development version of the package and set up a story.
+
+```
+yarn start
+```
+Go to `http://localhost:6006/`
+
+and find your component which will render empty, now you can start composing CSS classes.
+
+To submit a PR your PR will need 3 things:
+- A README that completely documents the props and their intended usage
+- Interactive documentation in the form of a React Storybook Story
+- 100% Test Coverage
+
+![mandala-bottom](https://user-images.githubusercontent.com/1824267/38281372-32114e5c-375f-11e8-9fbe-e5191b96429c.png)

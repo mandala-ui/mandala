@@ -45,6 +45,7 @@
     "jest": "^22.4.3",
     "lerna": "^2.9.1",
     "nwb": "^0.21.5",
+    "plop": "^2.0.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-test-renderer": "^16.3.0",
@@ -88,16 +89,23 @@
         120,
         2,
         {
-          "ignoreComments": true
+          "ignoreComments": true,
+          "ignoreStrings": true,
+          "ignoreTemplateLiterals": true,
+          "ignoreTrailingComments": true,
+          "ignoreUrls": true
         }
       ],
       "react/jsx-filename-extension": "off",
-      "react/sort-prop-types": ["enabled", {
-        "callbacksLast": true,
-        "ignoreCase": true,
-        "requiredFirst": false,
-        "sortShapeProp": true
-      }]
+      "react/sort-prop-types": [
+        "enabled",
+        {
+          "callbacksLast": true,
+          "ignoreCase": true,
+          "requiredFirst": false,
+          "sortShapeProp": true
+        }
+      ]
     }
   },
   "files": [
@@ -160,8 +168,9 @@
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
-    "prepare": "nwb build-react-component",
+    "generate": "plop",
     "percy": "react-percy",
+    "prepare": "nwb build-react-component",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "yarn run jest",
