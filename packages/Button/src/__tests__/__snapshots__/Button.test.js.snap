@@ -85,7 +85,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={false}
     onClick={
       [MockFunction] {
@@ -112,7 +112,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br0 pointer}",
       "disabled": false,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -134,7 +134,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br0 pointer}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br0 pointer}",
         "disabled": false,
         "onClick": [MockFunction] {
           "calls": Array [
@@ -165,7 +165,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={true}
     onClick={
       [MockFunction] {
@@ -192,7 +192,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br0 o-40}",
       "disabled": true,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -214,7 +214,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br0 o-40}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br0 o-40}",
         "disabled": true,
         "onClick": [MockFunction] {
           "calls": Array [
@@ -245,7 +245,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={false}
     onClick={
       [MockFunction] {
@@ -272,7 +272,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br-pill pointer}",
       "disabled": false,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -294,7 +294,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br-pill pointer}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br-pill pointer}",
         "disabled": false,
         "onClick": [MockFunction] {
           "calls": Array [
@@ -325,7 +325,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={false}
     onClick={
       [MockFunction] {
@@ -352,7 +352,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br1 pointer}",
       "disabled": false,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -374,7 +374,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br1 pointer}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br1 pointer}",
         "disabled": false,
         "onClick": [MockFunction] {
           "calls": Array [
@@ -405,7 +405,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={false}
     onClick={
       [MockFunction] {
@@ -432,7 +432,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br2 pointer}",
       "disabled": false,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -454,7 +454,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br2 pointer}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br2 pointer}",
         "disabled": false,
         "onClick": [MockFunction] {
           "calls": Array [
@@ -485,7 +485,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Button
-    color="gray"
+    color="black"
     disabled={false}
     onClick={
       [MockFunction] {
@@ -512,7 +512,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Click Me",
-      "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer}",
+      "className": "button bn outline-0 ph3 pv2 white bg-black br3 pointer}",
       "disabled": false,
       "onClick": [MockFunction] {
         "calls": Array [
@@ -534,7 +534,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Click Me",
-        "className": "button bn outline-0 ph3 pv2 white bg-gray br3 pointer}",
+        "className": "button bn outline-0 ph3 pv2 white bg-black br3 pointer}",
         "disabled": false,
         "onClick": [MockFunction] {
           "calls": Array [
