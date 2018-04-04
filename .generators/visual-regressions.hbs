@@ -1,0 +1,10 @@
+import React from 'react';
+import {{> injectPascalCaseName }} from '../{{> injectPascalCaseName }}';
+import { breakpoints } from '../../../../percy.config.js';
+import css from 'tachyons'; //eslint-disable-line
+
+suite('{{> injectPascalCaseName }}', { widths: breakpoints }, () => {
+  percySnapshot('Default', () => (
+    <{{> injectPascalCaseName }} />
+  ));
+});

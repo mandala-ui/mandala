@@ -45,6 +45,7 @@
     "jest": "^22.4.3",
     "lerna": "^2.9.1",
     "nwb": "^0.21.5",
+    "plop": "^2.0.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-test-renderer": "^16.3.0",
@@ -92,12 +93,15 @@
         }
       ],
       "react/jsx-filename-extension": "off",
-      "react/sort-prop-types": ["enabled", {
-        "callbacksLast": true,
-        "ignoreCase": true,
-        "requiredFirst": false,
-        "sortShapeProp": true
-      }]
+      "react/sort-prop-types": [
+        "enabled",
+        {
+          "callbacksLast": true,
+          "ignoreCase": true,
+          "requiredFirst": false,
+          "sortShapeProp": true
+        }
+      ]
     }
   },
   "files": [
@@ -160,6 +164,7 @@
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "generate": "plop",
     "prepare": "nwb build-react-component",
     "percy": "react-percy",
     "start": "yarn run storybook",

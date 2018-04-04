@@ -1,0 +1,14 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+import {{> injectPascalCaseName }} from '../{{> injectPascalCaseName }}';
+
+describe('<{{> injectPascalCaseName }} />', () => {
+  const component = shallow(<{{> injectPascalCaseName }} />);
+
+  it('exists', () => {
+    expect(component).toBeDefined();
+  });
+  it('renders defaults correctly', () => {
+    expect(component).toMatchSnapshot();
+  });
+});
