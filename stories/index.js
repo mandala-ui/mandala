@@ -1,10 +1,14 @@
+/* eslint-ignore */
 import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
+import { withReadme as readme } from 'storybook-readme';
 import css from 'tachyons'; //eslint-disable-line
 import Button from '../packages/Button/src/Button.js';
+import ButtonRM from '../packages/Button/README.md';
 import Column from '../packages/Column/src/Column.js';
+import ColumnRM from '../packages/Column/README.md';
 import List from '../packages/List/src/List.js';
 import ListHeader from '../packages/ListHeader/src/ListHeader.js';
 import OutlineDot from '../packages/OutlineDot/src/OutlineDot.js';
@@ -22,9 +26,9 @@ addDecorator(CenterPadding);
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .add('interactive', () => (
+  .add('interactive', readme(ButtonRM, () => (
     <Button
-      color={text('Color', 'gray')}
+      color={text('Color', 'black')}
       disabled={boolean('Disabled', false)}
       onClick={action('Button onClick Event')}
       pill={boolean('Pill', false)}
@@ -38,11 +42,11 @@ storiesOf('Button', module)
     >
         Click Me
     </Button>
-  ));
+  )));
 
 storiesOf('Column', module)
   .addDecorator(withKnobs)
-  .add('interactive', () => (
+  .add('interactive', readme(ColumnRM, () => (
     <Column
       backgroundColor={text('Backround Color', 'near-white')}
       borderColor={text('Border Color', 'near-white')}
@@ -67,7 +71,7 @@ storiesOf('Column', module)
         </p>
       </div>
     </Column>
-  ));
+  )));
 
 storiesOf('List', module)
   .addDecorator(withKnobs)
