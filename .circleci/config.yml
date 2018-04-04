@@ -45,7 +45,3 @@ jobs:
           name: "Report Coverage"
           command: |
             yarn run coveralls
-      - run:
-          name: "Visual Regressions"
-          command: |
-            yarn run percy
