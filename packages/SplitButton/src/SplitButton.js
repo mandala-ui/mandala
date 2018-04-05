@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import clamp from 'lodash/clamp';
 
 const SplitButton = ({
-  baseColor,
+  backgroundColor,
   disabled,
   isOn,
   offColor,
@@ -11,35 +11,35 @@ const SplitButton = ({
   onColor,
   pill,
   radius,
-  showText,
+  showLabels,
 }) => {
   const isDisabled = `${disabled ? 'o-60' : 'pointer'}`;
   return (
     <div className="split-button">
       <div
         className={`b--gray ba
-            ${pill ? 'br-pill' : `br${clamp(radius, 0, 3)}`} flex h2 overflow-hidden w4`}
+            ${pill ? 'br-pill' : `br${clamp(radius, 0, 4)}`} flex h2 overflow-hidden w4`}
       >
         <button
           className={`bn w-50
               ${isDisabled}
-              ${isOn ? `bg-${baseColor} shadow-2 z-1` : `bg-${offColor}`}`}
+              ${isOn ? `bg-${backgroundColor} shadow-2 z-1` : `bg-${offColor}`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
           <span className={`f7 tracked-light ttu ${isOn ? 'gray' : 'white'} `}>
-            { showText ? 'off' : null }
+            { showLabels ? 'off' : null }
           </span>
         </button>
         <button
           className={`bn w-50
               ${isDisabled}
-              ${isOn ? `bg-${onColor} gray` : `bg-${baseColor} shadow-2`}`}
+              ${isOn ? `bg-${onColor} gray` : `bg-${backgroundColor} shadow-2`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
           <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
-            { showText ? 'on' : null}
+            { showLabels ? 'on' : null}
           </span>
         </button>
       </div>
@@ -49,7 +49,7 @@ const SplitButton = ({
 
 
 SplitButton.propTypes = {
-  baseColor: PropTypes.string,
+  backgroundColor: PropTypes.string,
   disabled: PropTypes.bool,
   isOn: PropTypes.bool,
   offColor: PropTypes.string,
@@ -57,18 +57,18 @@ SplitButton.propTypes = {
   onColor: PropTypes.string,
   pill: PropTypes.bool,
   radius: PropTypes.number,
-  showText: PropTypes.bool,
+  showLabels: PropTypes.bool,
 };
 
 SplitButton.defaultProps = {
-  baseColor: 'moon-gray',
+  backgroundColor: 'white',
   disabled: false,
   isOn: false,
   offColor: 'dark-red',
   onColor: 'green',
   pill: false,
   radius: 0,
-  showText: true,
+  showLabels: true,
 };
 
 export default SplitButton;

@@ -5,13 +5,13 @@
 
 Mandala is a Declarative UI Component Library built with React and a small, Functional CSS library (Tachyons.io)
 
-## Getting Started
+## Installation
 
-Check out our [Interactive Docs](https://mandala-ui.github.io/mandala/interactive/index.html) and see if these components serve your purpose.
+Check out the [Interactive Docs](https://mandala-ui.github.io/mandala/interactive/index.html) before you decide if this package is right for you.
 
-The only dependencies of Mandala are [React](https://reactjs.org) and [Tachyons](http://tachyons.io)
+The only real dependencies to use Mandala are React, and Tachyons.io
 
-The fastest way to get started is use Create React App to spin up a project and add CDN version of Tachyons to the head of your project to easily get started.
+You can add the CDN version of tachyons to the head of your project to easily get started.
 
 `<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>`
 

@@ -49,6 +49,7 @@
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-test-renderer": "^16.3.1",
+    "storybook-readme": "^3.3.0",
     "tachyons": "^4.9.1"
   },
   "eslintConfig": {
@@ -86,7 +87,7 @@
       "jsx-a11y/href-no-hash": "off",
       "max-len": [
         1,
-        120,
+        80,
         2,
         {
           "ignoreComments": true,
@@ -153,14 +154,16 @@
     "OOCSS",
     "declarative",
     "ui",
-    "user"
+    "user",
+    "ux"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
   "name": "mandala",
   "peerDependencies": {
-    "react": ">=15.x"
+    "react": ">=15.x",
+    "tachyons": ">=4.9.x"
   },
   "repository": "https://github.com/mandala-ui/mandala",
   "scripts": {

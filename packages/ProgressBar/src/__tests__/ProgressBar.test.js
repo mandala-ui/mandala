@@ -19,12 +19,28 @@ describe('<ProgressBar />', () => {
     expect(shallow(<ProgressBar large />)).toMatchSnapshot();
   });
 
-  it('renders rounded version correctly', () => {
-    expect(shallow(<ProgressBar rounded />)).toMatchSnapshot();
+  it('renders pill version correctly', () => {
+    expect(shallow(<ProgressBar pill />)).toMatchSnapshot();
   });
 
-  it('renders 0% correctly', () => {
-    expect(shallow(<ProgressBar percentage={0} />)).toMatchSnapshot();
+  it('renders radius 0 version correctly', () => {
+    expect(shallow(<ProgressBar radius={0} />)).toMatchSnapshot();
+  });
+
+  it('renders radius 1 version correctly', () => {
+    expect(shallow(<ProgressBar radius={1} />)).toMatchSnapshot();
+  });
+
+  it('renders radius 2 version correctly', () => {
+    expect(shallow(<ProgressBar radius={2} />)).toMatchSnapshot();
+  });
+
+  it('renders radius 3 version correctly', () => {
+    expect(shallow(<ProgressBar radius={3} />)).toMatchSnapshot();
+  });
+
+  it('renders 4% correctly', () => {
+    expect(shallow(<ProgressBar percentage={4} />)).toMatchSnapshot();
   });
 
   it('renders 100% correctly', () => {

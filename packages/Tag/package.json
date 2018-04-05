@@ -1,5 +1,8 @@
 {
   "author": "Lucas K Allmon",
+  "dependencies": {
+    "lodash.clamp": "^4.0.3"
+  },
   "description": "Mandala UI Tag Component",
   "keywords": [
     "react",
@@ -11,7 +14,8 @@
     "OOCSS",
     "declarative",
     "ui",
-    "user"
+    "user",
+    "ux"
   ],
   "license": "MIT",
   "main": "lib/Tag.js",

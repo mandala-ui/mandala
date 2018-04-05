@@ -1,5 +1,8 @@
 {
   "author": "Lucas K Allmon",
+  "dependencies": {
+    "lodash.clamp": "^4.0.3"
+  },
   "description": "Mandala UI Progress Bar Component",
   "keywords": [
     "react",
@@ -11,7 +14,8 @@
     "OOCSS",
     "declarative",
     "ui",
-    "user"
+    "user",
+    "ux"
   ],
   "license": "MIT",
   "main": "lib/ProgressBar.js",
@@ -23,8 +27,5 @@
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "1.0.2",
-  "dependencies": {
-    "lodash.clamp": "^4.0.3"
-  }
+  "version": "1.0.2"
 }

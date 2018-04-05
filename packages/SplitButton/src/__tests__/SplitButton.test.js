@@ -35,6 +35,15 @@ describe('<SplitButton />', () => {
       .toMatchSnapshot();
   });
 
+  it('renders Radius 0 correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        radius={0}
+      />,
+    ))
+      .toMatchSnapshot();
+  });
   it('renders Radius 1 correctly', () => {
     expect(shallow(
       <SplitButton
@@ -44,12 +53,39 @@ describe('<SplitButton />', () => {
     ))
       .toMatchSnapshot();
   });
+  it('renders Radius 2 correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        radius={2}
+      />,
+    ))
+      .toMatchSnapshot();
+  });
+  it('renders Radius 3 correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        radius={3}
+      />,
+    ))
+      .toMatchSnapshot();
+  });
+  it('renders Radius 4 correctly', () => {
+    expect(shallow(
+      <SplitButton
+        onClick={mockFn}
+        radius={4}
+      />,
+    ))
+      .toMatchSnapshot();
+  });
 
   it('renders No Text correctly', () => {
     expect(shallow(
       <SplitButton
         onClick={mockFn}
-        showText={false}
+        showLabels={false}
       />,
     ))
       .toMatchSnapshot();

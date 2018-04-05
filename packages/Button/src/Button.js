@@ -36,7 +36,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   children: null,
-  color: 'gray',
+  color: 'black',
   disabled: false,
   pill: false,
   radius: 0,

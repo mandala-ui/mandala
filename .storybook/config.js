@@ -1,11 +1,8 @@
-/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
-
-/* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import { configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
 setOptions({
-  name: 'Mandala UI Kit',
+  name: 'Mandala UI',
   url: 'https://github.com/mandala-ui/mandala',
   goFullScreen: false,
   showLeftPanel: true,
@@ -15,4 +12,4 @@ setOptions({
   sortStoriesByKind: true,
 });
 
-configure(() => require('../stories'), module); //eslint-disable-line
+configure(() => require('../stories'), module); // eslint-disable-line
