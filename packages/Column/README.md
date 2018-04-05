@@ -32,7 +32,7 @@ import Column from '@mandala-ui/column';
 | padding        | number     | 0    | -          |
 | radius         | number     | 0    | -          |
 
-#### Roadmap
+#### TODO:
 - [ ] Border Width
 
 ![mandala-bottom](https://user-images.githubusercontent.com/1824267/38281372-32114e5c-375f-11e8-9fbe-e5191b96429c.png)
