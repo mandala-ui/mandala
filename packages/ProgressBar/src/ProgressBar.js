@@ -10,9 +10,9 @@ const ProgressBar = ({
   pill,
 }) => {
   const isLarge = `${large ? 'h2' : 'h1'}`;
-  const isRounded = `${pill ? 'br-pill' : ''}`;
-  const fill = `bg-${color} ${isLarge} ${isRounded}`;
-  const container = `bg-${backgroundColor} ${isLarge} ${isRounded}`;
+  const isPill = `${pill ? 'br-pill' : ''}`;
+  const fill = `bg-${color} ${isLarge} ${isPill}`;
+  const container = `bg-${backgroundColor} ${isLarge} ${isPill}`;
   return (
     <div className="progress-bar w-100">
       <div className="w-100">
