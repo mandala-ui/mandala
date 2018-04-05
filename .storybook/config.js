@@ -12,4 +12,4 @@ setOptions({
   sortStoriesByKind: true,
 });
 
-configure(() => require('../stories'), module);
+configure(() => require('../stories'), module); // eslint-disable-line

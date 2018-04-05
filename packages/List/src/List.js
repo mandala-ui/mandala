@@ -16,28 +16,28 @@ const List = ({
     <div className="list">
       { ordered ?
         <ol className="list ma0 pa0 tl">
-          { childArray.map((child, index, array) => (
+          { childArray.map((child, i, array) => (
             <ListItem
               borderColor={lineColor}
               borderWidth={lineWidth}
-              hasBorder={contained && (index === array.length - 1) ? false : lined}
+              hasBorder={contained && (i === array.length - 1) ? false : lined}
               indented={indented}
-              key={`list-item-${index + 1}`}
+              key={`list-item-${i + 1}`}
             >
-              {`${index + 1}. `}{child}
+              {`${i + 1}. `}{child}
             </ListItem>
           ))
           }
         </ol>
         :
         <ul className="list ma0 pa0 tl">
-          { childArray.map((child, index, array) => (
+          { childArray.map((child, i, array) => (
             <ListItem
               borderColor={lineColor}
               borderWidth={lineWidth}
-              hasBorder={contained && (index === array.length - 1) ? false : lined}
+              hasBorder={contained && (i === array.length - 1) ? false : lined}
               indented={indented}
-              key={`list-item-${index + 1}`}
+              key={`list-item-${i + 1}`}
             >
               {child}
             </ListItem>
