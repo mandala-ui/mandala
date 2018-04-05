@@ -24,8 +24,8 @@ const OutlineDot = ({
 OutlineDot.propTypes = {
   borderColor: PropTypes.string,
   borderWidth: PropTypes.number,
-  innerColor: PropTypes.string,
   color: PropTypes.string,
+  innerColor: PropTypes.string,
   innerBorderWidth: PropTypes.number,
   large: PropTypes.bool,
 };
@@ -33,9 +33,9 @@ OutlineDot.propTypes = {
 OutlineDot.defaultProps = {
   borderColor: 'black',
   borderWidth: 0,
+  color: 'black',
   innerBorderWidth: 1,
   innerColor: 'white',
-  color: 'black',
   large: false,
 };
 

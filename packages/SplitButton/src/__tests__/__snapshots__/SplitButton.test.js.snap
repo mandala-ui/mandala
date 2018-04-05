@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={false}
     isOn={false}
     offColor="dark-red"
@@ -19,7 +19,7 @@ ShallowWrapper {
     onColor="green"
     pill={false}
     radius={0}
-    showText={true}
+    showLabels={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -59,7 +59,7 @@ ShallowWrapper {
         <button
           className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
           disabled={null}
           onClick={
             [MockFunction] {
@@ -107,7 +107,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -176,7 +176,7 @@ ShallowWrapper {
             </span>,
             "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
             "disabled": null,
             "onClick": [MockFunction] {
               "calls": Array [
@@ -236,7 +236,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -284,7 +284,7 @@ ShallowWrapper {
             <button
               className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
               disabled={null}
               onClick={
                 [MockFunction] {
@@ -353,7 +353,7 @@ ShallowWrapper {
               </span>,
               "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
               "disabled": null,
               "onClick": [MockFunction] {
                 "calls": Array [
@@ -397,7 +397,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={true}
     isOn={false}
     offColor="dark-red"
@@ -411,7 +411,7 @@ ShallowWrapper {
     onColor="green"
     pill={false}
     radius={0}
-    showText={true}
+    showLabels={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -451,7 +451,7 @@ ShallowWrapper {
         <button
           className="bn w-50
               o-60
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
           disabled="disabled"
           onClick={
             [MockFunction] {
@@ -499,7 +499,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               o-60
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled="disabled"
             onClick={
               [MockFunction] {
@@ -568,7 +568,7 @@ ShallowWrapper {
             </span>,
             "className": "bn w-50
               o-60
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
             "disabled": "disabled",
             "onClick": [MockFunction] {
               "calls": Array [
@@ -628,7 +628,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               o-60
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled="disabled"
             onClick={
               [MockFunction] {
@@ -676,7 +676,7 @@ ShallowWrapper {
             <button
               className="bn w-50
               o-60
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
               disabled="disabled"
               onClick={
                 [MockFunction] {
@@ -745,7 +745,7 @@ ShallowWrapper {
               </span>,
               "className": "bn w-50
               o-60
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
               "disabled": "disabled",
               "onClick": [MockFunction] {
                 "calls": Array [
@@ -789,7 +789,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={false}
     isOn={false}
     offColor="dark-red"
@@ -803,6 +803,7 @@ ShallowWrapper {
     onColor="green"
     pill={false}
     radius={0}
+    showLabels={true}
     showText={false}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -836,12 +837,14 @@ ShallowWrapper {
         >
           <span
             className="f7 tracked-light ttu white "
-          />
+          >
+            off
+          </span>
         </button>
         <button
           className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
           disabled={null}
           onClick={
             [MockFunction] {
@@ -853,7 +856,9 @@ ShallowWrapper {
         >
           <span
             className="f7 tracked-light ttu gray"
-          />
+          >
+            on
+          </span>
         </button>
       </div>,
       "className": "split-button",
@@ -880,12 +885,14 @@ ShallowWrapper {
           >
             <span
               className="f7 tracked-light ttu white "
-            />
+            >
+              off
+            </span>
           </button>,
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -897,7 +904,9 @@ ShallowWrapper {
           >
             <span
               className="f7 tracked-light ttu gray"
-            />
+            >
+              on
+            </span>
           </button>,
         ],
         "className": "b--gray ba
@@ -912,7 +921,9 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu white "
-            />,
+            >
+              off
+            </span>,
             "className": "bn w-50
               pointer
               bg-dark-red",
@@ -929,11 +940,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": null,
+              "children": "off",
               "className": "f7 tracked-light ttu white ",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": "off",
             "type": "span",
           },
           "type": "button",
@@ -945,10 +956,12 @@ ShallowWrapper {
           "props": Object {
             "children": <span
               className="f7 tracked-light ttu gray"
-            />,
+            >
+              on
+            </span>,
             "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
             "disabled": null,
             "onClick": [MockFunction] {
               "calls": Array [
@@ -962,11 +975,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": null,
+              "children": "on",
               "className": "f7 tracked-light ttu gray",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": "on",
             "type": "span",
           },
           "type": "button",
@@ -1001,12 +1014,14 @@ ShallowWrapper {
           >
             <span
               className="f7 tracked-light ttu white "
-            />
+            >
+              off
+            </span>
           </button>
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -1018,7 +1033,9 @@ ShallowWrapper {
           >
             <span
               className="f7 tracked-light ttu gray"
-            />
+            >
+              on
+            </span>
           </button>
         </div>,
         "className": "split-button",
@@ -1045,12 +1062,14 @@ ShallowWrapper {
             >
               <span
                 className="f7 tracked-light ttu white "
-              />
+              >
+                off
+              </span>
             </button>,
             <button
               className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
               disabled={null}
               onClick={
                 [MockFunction] {
@@ -1062,7 +1081,9 @@ ShallowWrapper {
             >
               <span
                 className="f7 tracked-light ttu gray"
-              />
+              >
+                on
+              </span>
             </button>,
           ],
           "className": "b--gray ba
@@ -1077,7 +1098,9 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu white "
-              />,
+              >
+                off
+              </span>,
               "className": "bn w-50
               pointer
               bg-dark-red",
@@ -1094,11 +1117,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": null,
+                "children": "off",
                 "className": "f7 tracked-light ttu white ",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": "off",
               "type": "span",
             },
             "type": "button",
@@ -1110,10 +1133,12 @@ ShallowWrapper {
             "props": Object {
               "children": <span
                 className="f7 tracked-light ttu gray"
-              />,
+              >
+                on
+              </span>,
               "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
               "disabled": null,
               "onClick": [MockFunction] {
                 "calls": Array [
@@ -1127,11 +1152,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": null,
+                "children": "on",
                 "className": "f7 tracked-light ttu gray",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": "on",
               "type": "span",
             },
             "type": "button",
@@ -1157,7 +1182,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={false}
     isOn={true}
     offColor="dark-red"
@@ -1171,7 +1196,7 @@ ShallowWrapper {
     onColor="green"
     pill={false}
     radius={0}
-    showText={true}
+    showLabels={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1192,7 +1217,7 @@ ShallowWrapper {
         <button
           className="bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1"
+              bg-white shadow-2 z-1"
           disabled={null}
           onClick={
             [MockFunction] {
@@ -1240,7 +1265,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1"
+              bg-white shadow-2 z-1"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -1293,7 +1318,7 @@ ShallowWrapper {
             </span>,
             "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1",
+              bg-white shadow-2 z-1",
             "disabled": null,
             "onClick": [MockFunction] {
               "calls": Array [
@@ -1369,7 +1394,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1"
+              bg-white shadow-2 z-1"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -1417,7 +1442,7 @@ ShallowWrapper {
             <button
               className="bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1"
+              bg-white shadow-2 z-1"
               disabled={null}
               onClick={
                 [MockFunction] {
@@ -1470,7 +1495,7 @@ ShallowWrapper {
               </span>,
               "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2 z-1",
+              bg-white shadow-2 z-1",
               "disabled": null,
               "onClick": [MockFunction] {
                 "calls": Array [
@@ -1549,7 +1574,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={false}
     isOn={false}
     offColor="dark-red"
@@ -1563,7 +1588,7 @@ ShallowWrapper {
     onColor="green"
     pill={true}
     radius={0}
-    showText={true}
+    showLabels={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1603,7 +1628,7 @@ ShallowWrapper {
         <button
           className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
           disabled={null}
           onClick={
             [MockFunction] {
@@ -1651,7 +1676,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -1720,7 +1745,7 @@ ShallowWrapper {
             </span>,
             "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
             "disabled": null,
             "onClick": [MockFunction] {
               "calls": Array [
@@ -1780,7 +1805,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -1828,7 +1853,7 @@ ShallowWrapper {
             <button
               className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
               disabled={null}
               onClick={
                 [MockFunction] {
@@ -1897,7 +1922,7 @@ ShallowWrapper {
               </span>,
               "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
               "disabled": null,
               "onClick": [MockFunction] {
                 "calls": Array [
@@ -1941,7 +1966,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <SplitButton
-    baseColor="moon-gray"
+    backgroundColor="white"
     disabled={false}
     isOn={false}
     offColor="dark-red"
@@ -1955,7 +1980,7 @@ ShallowWrapper {
     onColor="green"
     pill={false}
     radius={1}
-    showText={true}
+    showLabels={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1995,7 +2020,7 @@ ShallowWrapper {
         <button
           className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
           disabled={null}
           onClick={
             [MockFunction] {
@@ -2043,7 +2068,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -2112,7 +2137,7 @@ ShallowWrapper {
             </span>,
             "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
             "disabled": null,
             "onClick": [MockFunction] {
               "calls": Array [
@@ -2172,7 +2197,7 @@ ShallowWrapper {
           <button
             className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
             disabled={null}
             onClick={
               [MockFunction] {
@@ -2220,7 +2245,7 @@ ShallowWrapper {
             <button
               className="bn w-50
               pointer
-              bg-moon-gray shadow-2"
+              bg-white shadow-2"
               disabled={null}
               onClick={
                 [MockFunction] {
@@ -2289,7 +2314,7 @@ ShallowWrapper {
               </span>,
               "className": "bn w-50
               pointer
-              bg-moon-gray shadow-2",
+              bg-white shadow-2",
               "disabled": null,
               "onClick": [MockFunction] {
                 "calls": Array [

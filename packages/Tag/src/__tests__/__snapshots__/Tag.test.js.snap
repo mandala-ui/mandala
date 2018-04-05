@@ -5,8 +5,10 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Tag
-    color="blue"
+    color="black"
     large={true}
+    pill={false}
+    radius={0}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -21,7 +23,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <span
-        className="bg-blue br-pill dib f5 ph3 pv2 white"
+        className="bg-black br0 f5 ph3 pv2 dib white"
       />,
       "className": "tag",
     },
@@ -32,7 +34,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "bg-blue br-pill dib f5 ph3 pv2 white",
+        "className": "bg-black br0 f5 ph3 pv2 dib white",
       },
       "ref": null,
       "rendered": null,
@@ -47,7 +49,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <span
-          className="bg-blue br-pill dib f5 ph3 pv2 white"
+          className="bg-black br0 f5 ph3 pv2 dib white"
         />,
         "className": "tag",
       },
@@ -58,7 +60,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": null,
-          "className": "bg-blue br-pill dib f5 ph3 pv2 white",
+          "className": "bg-black br0 f5 ph3 pv2 dib white",
         },
         "ref": null,
         "rendered": null,
@@ -82,8 +84,10 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Tag
-    color="blue"
+    color="black"
     large={false}
+    pill={false}
+    radius={0}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -98,7 +102,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <span
-        className="bg-blue br-pill dib f7 ph2 pv1 white"
+        className="bg-black br0 f7 ph2 pv1 dib white"
       />,
       "className": "tag",
     },
@@ -109,7 +113,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "bg-blue br-pill dib f7 ph2 pv1 white",
+        "className": "bg-black br0 f7 ph2 pv1 dib white",
       },
       "ref": null,
       "rendered": null,
@@ -124,7 +128,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <span
-          className="bg-blue br-pill dib f7 ph2 pv1 white"
+          className="bg-black br0 f7 ph2 pv1 dib white"
         />,
         "className": "tag",
       },
@@ -135,7 +139,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": null,
-          "className": "bg-blue br-pill dib f7 ph2 pv1 white",
+          "className": "bg-black br0 f7 ph2 pv1 dib white",
         },
         "ref": null,
         "rendered": null,
