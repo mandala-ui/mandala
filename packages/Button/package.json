@@ -11,7 +11,8 @@
     "OOCSS",
     "declarative",
     "ui",
-    "user", "ux"
+    "user",
+    "ux"
   ],
   "license": "MIT",
   "main": "lib/Button.js",
@@ -23,7 +24,7 @@
   "scripts": {
     "prepare": "nwb build-react-component"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "lodash.clamp": "^4.0.3"
   }
