@@ -1,7 +1,6 @@
 import React from 'react';
-import { configure } from '@storybook/react';
+import { configure, addDecorator } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
-import { addDecorator } from '@storybook/react';
 import tachyons from 'tachyons'; // eslint-disable-line
 
 const CenterPadding = storyFn => (
@@ -12,7 +11,7 @@ const CenterPadding = storyFn => (
   </div>
 );
 
-addDecorator(CenterPadding)
+addDecorator(CenterPadding);
 
 setOptions({
   name: 'Mandala UI',
@@ -25,8 +24,8 @@ setOptions({
   sortStoriesByKind: true,
 });
 
-const req = require.context('../stories', true, /\.story\.js$/)
+const req = require.context('../stories', true, /\.story\.js$/);
 
 configure(() => {
-  req.keys().forEach((filename) => req(filename))
+  req.keys().forEach(filename => req(filename));
 }, module);
