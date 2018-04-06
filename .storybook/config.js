@@ -2,7 +2,7 @@ import React from 'react';
 import { configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 import { addDecorator } from '@storybook/react';
-import tachyons from 'tachyons';
+import tachyons from 'tachyons'; // eslint-disable-line
 
 const CenterPadding = storyFn => (
   <div className="pa5 sans-serif">
