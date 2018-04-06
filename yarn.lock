@@ -78,43 +78,45 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@mandala-ui/button@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/button/-/button-1.0.3.tgz#75d22f1b129cf456b3d0493c933f2579d223cb04"
+"@mandala-ui/button@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/button/-/button-1.0.4.tgz#bc23e9ce4870a7ae4f6ad00aaa3fd129e64777e1"
   dependencies:
     lodash.clamp "^4.0.3"
 
-"@mandala-ui/column@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/column/-/column-1.0.3.tgz#db5a32fe7e6b96237be7404ff1e578a5bd74f665"
+"@mandala-ui/column@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/column/-/column-1.0.4.tgz#8371f2b2a796a79a8d8f2365d5a00d96d3c0618e"
 
-"@mandala-ui/list-header@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/list-header/-/list-header-1.0.1.tgz#e0df989fb91ce910d41c629b2542059fc6b4b590"
-
-"@mandala-ui/list@^1.0.5":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.6.tgz#af203f6bc3d3f357674c8df24e191626776e2316"
-
-"@mandala-ui/outline-dot@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/outline-dot/-/outline-dot-1.0.3.tgz#d324855119fcb6b65d6ff29e935a2c4ed7fa860f"
-
-"@mandala-ui/progress-bar@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/progress-bar/-/progress-bar-1.0.3.tgz#e848efed9183fe24bf31a602e33b8118892450a0"
-  dependencies:
-    lodash.clamp "^4.0.3"
-
-"@mandala-ui/split-button@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/split-button/-/split-button-1.0.3.tgz#57a8215022096c97a2974dca26a15d86f29dd4c5"
-  dependencies:
-    lodash.clamp "^4.0.3"
-
-"@mandala-ui/tag@^1.0.1":
+"@mandala-ui/list-header@^1.0.2":
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@mandala-ui/tag/-/tag-1.0.2.tgz#d3fa940fe31cc2d82d7a209057fff63256e30360"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/list-header/-/list-header-1.0.2.tgz#3c395fd309dd600d14adee1990f7a1a10ff0c5c4"
+
+"@mandala-ui/list@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/list/-/list-1.0.7.tgz#9bd97ede07b9909091180625c3e2bb1758d2430c"
+
+"@mandala-ui/outline-dot@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/outline-dot/-/outline-dot-1.1.1.tgz#c576b323eb0011931313e5824d116a630f0c673b"
+
+"@mandala-ui/progress-bar@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/progress-bar/-/progress-bar-1.1.1.tgz#707147d3b60cef7b6dfff30b34fdfdf597922401"
+  dependencies:
+    lodash.clamp "^4.0.3"
+
+"@mandala-ui/split-button@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/split-button/-/split-button-1.1.1.tgz#e315466d2af9aa8864a8fa29d2ed15582ff4e921"
+  dependencies:
+    lodash.clamp "^4.0.3"
+
+"@mandala-ui/tag@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@mandala-ui/tag/-/tag-1.1.1.tgz#52ff5c0c3059f3fb798a06dd9cbc27ed4a16dff3"
+  dependencies:
+    lodash.clamp "^4.0.3"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
