@@ -42,7 +42,6 @@
     "**/extjs/src/**",
     "**/extjs/welcome/**",
     "bower_components/**",
-    "**/stories/**"
   ],
   "test": [
     "**/test/**",
