@@ -1,0 +1,13 @@
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { {{#each knobs}}{{this}}, {{/each}}withKnobs } from '@storybook/addon-knobs';
+{{#if usesEvents}}import { action } from '@storybook/addon-actions';{{/if}}
+import { withReadme as readme } from 'storybook-readme';
+import {{> injectPascalCaseName }} from '../packages/{{> injectPascalCaseName }}/src/{{> injectPascalCaseName }}.js';
+import {{> injectPascalCaseName }}RM from '../packages/{{> injectPascalCaseName }}/README.md';
+
+storiesOf('{{> injectPascalCaseName }}', module)
+  .addDecorator(withKnobs)
+  .add('interactive', readme({{> injectPascalCaseName }}RM, () => (
+    <{{> injectPascalCaseName }} />
+  )));
