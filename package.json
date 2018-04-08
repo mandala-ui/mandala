@@ -44,6 +44,7 @@
     "eslint-plugin-react-percy": "^0.2.0",
     "jest": "^22.4.3",
     "lerna": "^2.9.1",
+    "lodash.union": "^4.6.0",
     "nwb": "^0.21.5",
     "plop": "^2.0.0",
     "react": "^16.3.1",
@@ -179,5 +180,5 @@
     "test:coverage": "yarn run test -- -- --coverage",
     "test:watch": "yarn run test -- -- --watch"
   },
-  "version": "1.3.1"
+  "version": "1.3.2"
 }
