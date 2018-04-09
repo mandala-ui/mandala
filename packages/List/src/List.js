@@ -10,6 +10,8 @@ const List = ({
   lined,
   lineWidth,
   ordered,
+  narrow,
+  wide,
 }) => {
   const childArray = React.Children.toArray(children);
   return (
@@ -18,11 +20,13 @@ const List = ({
         <ol className="list ma0 pa0 tl">
           { childArray.map((child, i, array) => (
             <ListItem
-              borderColor={lineColor}
-              borderWidth={lineWidth}
               hasBorder={contained && (i === array.length - 1) ? false : lined}
               indented={indented}
               key={`list-item-${i + 1}`}
+              lineColor={lineColor}
+              lineWidths={lineWidth}
+              narrow={narrow}
+              wide={wide}
             >
               {`${i + 1}. `}{child}
             </ListItem>
@@ -33,11 +37,13 @@ const List = ({
         <ul className="list ma0 pa0 tl">
           { childArray.map((child, i, array) => (
             <ListItem
-              borderColor={lineColor}
-              borderWidth={lineWidth}
               hasBorder={contained && (i === array.length - 1) ? false : lined}
               indented={indented}
               key={`list-item-${i + 1}`}
+              lineColor={lineColor}
+              lineWidths={lineWidth}
+              narrow={narrow}
+              wide={wide}
             >
               {child}
             </ListItem>
@@ -57,6 +63,8 @@ List.propTypes = {
   lineColor: PropTypes.string,
   lineWidth: PropTypes.number,
   ordered: PropTypes.bool,
+  narrow: PropTypes.bool,
+  wide: PropTypes.bool,
 };
 
 List.defaultProps = {
@@ -64,9 +72,11 @@ List.defaultProps = {
   contained: false,
   indented: false,
   lined: false,
-  lineColor: 'gray',
+  lineColor: 'black',
   lineWidth: 0,
   ordered: false,
+  narrow: false,
+  wide: false,
 };
 
 export default List;

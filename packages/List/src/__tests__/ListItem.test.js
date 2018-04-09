@@ -15,6 +15,22 @@ describe('<ListItem />', () => {
     expect(shallow(<ListItem />)).toMatchSnapshot();
   });
 
+  it('should render less padding with Narrow prop', () => {
+    expect(shallow(
+      <ListItem
+        narrow
+      />,
+    )).toMatchSnapshot();
+  });
+
+  it('should render more padding with Wide prop', () => {
+    expect(shallow(
+      <ListItem
+        wide
+      />,
+    )).toMatchSnapshot();
+  });
+
   it('should render a gray border if the prop is called', () => {
     expect(shallow(
       <ListItem
@@ -25,7 +41,7 @@ describe('<ListItem />', () => {
     )).toMatchSnapshot();
   });
 
-  it('should render padding if indented', () => {
+  it('should render horizontal padding if indented', () => {
     expect(shallow(
       <ListItem
         indented
@@ -39,7 +55,7 @@ describe('<ListItem />', () => {
     expect(shallow(
       <ListItem
         hasBorder
-        borderWidth={2}
+        lineWidth={2}
       >
         <span>I am a child</span>
       </ListItem>,

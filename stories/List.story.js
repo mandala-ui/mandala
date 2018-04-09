@@ -21,6 +21,8 @@ storiesOf('List', module)
             step: 1,
           })}
       ordered={boolean('Ordered', false)}
+      narrow={boolean('Narrow', false)}
+      wide={boolean('Wide', false)}
     >
       <span>This just needs to be an element of some type</span>
       <span>It can be nearly anything</span>
