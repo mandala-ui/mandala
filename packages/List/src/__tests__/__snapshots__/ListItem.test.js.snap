@@ -5,10 +5,12 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ListItem
-    borderColor="black"
-    borderWidth={2}
     hasBorder={true}
     indented={false}
+    lineColor="black"
+    lineWidth={2}
+    narrow={false}
+    wide={false}
   >
     <span>
       I am a child
@@ -29,8 +31,8 @@ ShallowWrapper {
       "children": <span>
         I am a child
       </span>,
-      "className": "list-item pv3  bw2
-                   bb b--black",
+      "className": "list-item  bw2
+                   bb b--black pv2",
     },
     "ref": null,
     "rendered": Object {
@@ -55,8 +57,8 @@ ShallowWrapper {
         "children": <span>
           I am a child
         </span>,
-        "className": "list-item pv3  bw2
-                   bb b--black",
+        "className": "list-item  bw2
+                   bb b--black pv2",
       },
       "ref": null,
       "rendered": Object {
@@ -88,10 +90,12 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ListItem
-    borderColor="black"
-    borderWidth={0}
     hasBorder={true}
     indented={false}
+    lineColor="black"
+    lineWidth={0}
+    narrow={false}
+    wide={false}
   >
     <span>
       I am a child
@@ -112,8 +116,8 @@ ShallowWrapper {
       "children": <span>
         I am a child
       </span>,
-      "className": "list-item pv3  
-                   bb b--black",
+      "className": "list-item  
+                   bb b--black pv2",
     },
     "ref": null,
     "rendered": Object {
@@ -138,8 +142,8 @@ ShallowWrapper {
         "children": <span>
           I am a child
         </span>,
-        "className": "list-item pv3  
-                   bb b--black",
+        "className": "list-item  
+                   bb b--black pv2",
       },
       "ref": null,
       "rendered": Object {
@@ -171,10 +175,12 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ListItem
-    borderColor="black"
-    borderWidth={0}
     hasBorder={false}
     indented={false}
+    lineColor="black"
+    lineWidth={0}
+    narrow={false}
+    wide={false}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -189,8 +195,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": null,
-      "className": "list-item pv3  
-                   bb b--transparent",
+      "className": "list-item  
+                   bb b--transparent pv2",
     },
     "ref": null,
     "rendered": null,
@@ -203,8 +209,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "list-item pv3  
-                   bb b--transparent",
+        "className": "list-item  
+                   bb b--transparent pv2",
       },
       "ref": null,
       "rendered": null,
@@ -221,15 +227,17 @@ ShallowWrapper {
 }
 `;
 
-exports[`<ListItem /> should render padding if indented 1`] = `
+exports[`<ListItem /> should render horizontal padding if indented 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ListItem
-    borderColor="black"
-    borderWidth={0}
     hasBorder={false}
     indented={true}
+    lineColor="black"
+    lineWidth={0}
+    narrow={false}
+    wide={false}
   >
     <span>
       I am a child
@@ -250,8 +258,8 @@ ShallowWrapper {
       "children": <span>
         I am a child
       </span>,
-      "className": "list-item pv3 ph3 
-                   bb b--transparent",
+      "className": "list-item ph3 
+                   bb b--transparent pv2",
     },
     "ref": null,
     "rendered": Object {
@@ -276,8 +284,8 @@ ShallowWrapper {
         "children": <span>
           I am a child
         </span>,
-        "className": "list-item pv3 ph3 
-                   bb b--transparent",
+        "className": "list-item ph3 
+                   bb b--transparent pv2",
       },
       "ref": null,
       "rendered": Object {
@@ -291,6 +299,120 @@ ShallowWrapper {
         "rendered": "I am a child",
         "type": "span",
       },
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<ListItem /> should render less padding with Narrow prop 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListItem
+    hasBorder={false}
+    indented={false}
+    lineColor="black"
+    lineWidth={0}
+    narrow={true}
+    wide={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": null,
+      "className": "list-item  
+                   bb b--transparent pv1",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "list-item  
+                   bb b--transparent pv1",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<ListItem /> should render more padding with Wide prop 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListItem
+    hasBorder={false}
+    indented={false}
+    lineColor="black"
+    lineWidth={0}
+    narrow={false}
+    wide={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": null,
+      "className": "list-item  
+                   bb b--transparent pv3",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "list-item  
+                   bb b--transparent pv3",
+      },
+      "ref": null,
+      "rendered": null,
       "type": "li",
     },
   ],

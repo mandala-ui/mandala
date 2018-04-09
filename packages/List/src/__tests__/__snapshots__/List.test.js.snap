@@ -7,10 +7,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={false}
     indented={true}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={false}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -44,50 +46,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -104,50 +121,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -163,13 +195,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -190,13 +225,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -217,13 +255,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -244,13 +285,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -271,13 +315,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -308,50 +355,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -368,50 +430,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -427,13 +504,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -454,13 +534,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -481,13 +564,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -508,13 +594,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -535,13 +624,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -580,10 +672,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={true}
     indented={false}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={false}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -617,50 +711,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -677,50 +786,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -736,13 +860,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -763,13 +890,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -790,13 +920,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -817,13 +950,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -844,13 +980,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -881,50 +1020,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -941,50 +1095,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -1000,13 +1169,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1027,13 +1199,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1054,13 +1229,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1081,13 +1259,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1108,13 +1289,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1156,7 +1340,9 @@ ShallowWrapper {
     lineColor="red"
     lineWidth={0}
     lined={true}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -1190,50 +1376,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="red"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -1250,50 +1451,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -1309,13 +1525,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1336,13 +1555,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1363,13 +1585,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1390,13 +1615,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1417,13 +1645,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1454,50 +1685,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -1514,50 +1760,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="red"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -1573,13 +1834,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1600,13 +1864,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1627,13 +1894,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1654,13 +1924,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1681,13 +1954,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -1729,7 +2005,9 @@ ShallowWrapper {
     lineColor="red"
     lineWidth={2}
     lined={true}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -1763,50 +2041,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="red"
-          borderWidth={2}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={2}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={2}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={2}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={2}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={2}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={2}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={2}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="red"
-          borderWidth={2}
           hasBorder={true}
           indented={false}
+          lineColor="red"
+          lineWidth={0}
+          lineWidths={2}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -1823,50 +2116,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -1882,13 +2190,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 2,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 2,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1909,13 +2220,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 2,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 2,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1936,13 +2250,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 2,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 2,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1963,13 +2280,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 2,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 2,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -1990,13 +2310,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "red",
-            "borderWidth": 2,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "red",
+            "lineWidth": 0,
+            "lineWidths": 2,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2027,50 +2350,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="red"
-            borderWidth={2}
             hasBorder={true}
             indented={false}
+            lineColor="red"
+            lineWidth={0}
+            lineWidths={2}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -2087,50 +2425,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="red"
-              borderWidth={2}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={2}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={2}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={2}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={2}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={2}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={2}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={2}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="red"
-              borderWidth={2}
               hasBorder={true}
               indented={false}
+              lineColor="red"
+              lineWidth={0}
+              lineWidths={2}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -2146,13 +2499,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 2,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 2,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2173,13 +2529,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 2,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 2,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2200,13 +2559,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 2,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 2,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2227,13 +2589,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 2,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 2,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2254,13 +2619,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "red",
-              "borderWidth": 2,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "red",
+              "lineWidth": 0,
+              "lineWidths": 2,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2299,10 +2667,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={false}
     indented={false}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={false}
+    narrow={false}
     ordered={false}
+    wide={false}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -2380,10 +2750,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={false}
     indented={false}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={false}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -2417,50 +2789,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -2477,50 +2864,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -2536,13 +2938,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2563,13 +2968,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2590,13 +2998,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2617,13 +3028,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2644,13 +3058,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": false,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -2681,50 +3098,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -2741,50 +3173,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -2800,13 +3247,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2827,13 +3277,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2854,13 +3307,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2881,13 +3337,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2908,13 +3367,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": false,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -2953,10 +3415,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={false}
     indented={false}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={true}
+    narrow={false}
     ordered={false}
+    wide={false}
   >
     <p>
       A child
@@ -2990,50 +3454,65 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           <p>
             A child
@@ -3050,50 +3529,65 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -3109,13 +3603,16 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -3136,13 +3633,16 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -3163,13 +3663,16 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -3190,13 +3693,16 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -3217,13 +3723,16 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": <p>
               A child
             </p>,
             "hasBorder": true,
             "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Object {
@@ -3254,50 +3763,65 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             <p>
               A child
@@ -3314,50 +3838,65 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               <p>
                 A child
@@ -3373,13 +3912,16 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -3400,13 +3942,16 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -3427,13 +3972,16 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -3454,13 +4002,16 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -3481,13 +4032,16 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": <p>
                 A child
               </p>,
               "hasBorder": true,
               "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Object {
@@ -3526,10 +4080,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <List
     contained={true}
     indented={true}
-    lineColor="gray"
+    lineColor="black"
     lineWidth={0}
     lined={true}
+    narrow={false}
     ordered={true}
+    wide={false}
   >
     <p>
       A child
@@ -3563,10 +4119,13 @@ ShallowWrapper {
         className="list ma0 pa0 tl"
       >
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           1. 
           <p>
@@ -3574,10 +4133,13 @@ ShallowWrapper {
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           2. 
           <p>
@@ -3585,10 +4147,13 @@ ShallowWrapper {
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           3. 
           <p>
@@ -3596,10 +4161,13 @@ ShallowWrapper {
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={true}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           4. 
           <p>
@@ -3607,10 +4175,13 @@ ShallowWrapper {
           </p>
         </ListItem>
         <ListItem
-          borderColor="gray"
-          borderWidth={0}
           hasBorder={false}
           indented={true}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={false}
         >
           5. 
           <p>
@@ -3628,10 +4199,13 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             1. 
             <p>
@@ -3639,10 +4213,13 @@ ShallowWrapper {
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             2. 
             <p>
@@ -3650,10 +4227,13 @@ ShallowWrapper {
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             3. 
             <p>
@@ -3661,10 +4241,13 @@ ShallowWrapper {
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             4. 
             <p>
@@ -3672,10 +4255,13 @@ ShallowWrapper {
             </p>
           </ListItem>,
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             5. 
             <p>
@@ -3692,8 +4278,6 @@ ShallowWrapper {
           "key": "list-item-1",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": Array [
               "1. ",
               <p>
@@ -3702,6 +4286,11 @@ ShallowWrapper {
             ],
             "hasBorder": true,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Array [
@@ -3725,8 +4314,6 @@ ShallowWrapper {
           "key": "list-item-2",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": Array [
               "2. ",
               <p>
@@ -3735,6 +4322,11 @@ ShallowWrapper {
             ],
             "hasBorder": true,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Array [
@@ -3758,8 +4350,6 @@ ShallowWrapper {
           "key": "list-item-3",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": Array [
               "3. ",
               <p>
@@ -3768,6 +4358,11 @@ ShallowWrapper {
             ],
             "hasBorder": true,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Array [
@@ -3791,8 +4386,6 @@ ShallowWrapper {
           "key": "list-item-4",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": Array [
               "4. ",
               <p>
@@ -3801,6 +4394,11 @@ ShallowWrapper {
             ],
             "hasBorder": true,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Array [
@@ -3824,8 +4422,6 @@ ShallowWrapper {
           "key": "list-item-5",
           "nodeType": "function",
           "props": Object {
-            "borderColor": "gray",
-            "borderWidth": 0,
             "children": Array [
               "5. ",
               <p>
@@ -3834,6 +4430,11 @@ ShallowWrapper {
             ],
             "hasBorder": false,
             "indented": true,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": false,
           },
           "ref": null,
           "rendered": Array [
@@ -3867,10 +4468,13 @@ ShallowWrapper {
           className="list ma0 pa0 tl"
         >
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             1. 
             <p>
@@ -3878,10 +4482,13 @@ ShallowWrapper {
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             2. 
             <p>
@@ -3889,10 +4496,13 @@ ShallowWrapper {
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             3. 
             <p>
@@ -3900,10 +4510,13 @@ ShallowWrapper {
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={true}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             4. 
             <p>
@@ -3911,10 +4524,13 @@ ShallowWrapper {
             </p>
           </ListItem>
           <ListItem
-            borderColor="gray"
-            borderWidth={0}
             hasBorder={false}
             indented={true}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={false}
           >
             5. 
             <p>
@@ -3932,10 +4548,13 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               1. 
               <p>
@@ -3943,10 +4562,13 @@ ShallowWrapper {
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               2. 
               <p>
@@ -3954,10 +4576,13 @@ ShallowWrapper {
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               3. 
               <p>
@@ -3965,10 +4590,13 @@ ShallowWrapper {
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={true}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               4. 
               <p>
@@ -3976,10 +4604,13 @@ ShallowWrapper {
               </p>
             </ListItem>,
             <ListItem
-              borderColor="gray"
-              borderWidth={0}
               hasBorder={false}
               indented={true}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={false}
             >
               5. 
               <p>
@@ -3996,8 +4627,6 @@ ShallowWrapper {
             "key": "list-item-1",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": Array [
                 "1. ",
                 <p>
@@ -4006,6 +4635,11 @@ ShallowWrapper {
               ],
               "hasBorder": true,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Array [
@@ -4029,8 +4663,6 @@ ShallowWrapper {
             "key": "list-item-2",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": Array [
                 "2. ",
                 <p>
@@ -4039,6 +4671,11 @@ ShallowWrapper {
               ],
               "hasBorder": true,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Array [
@@ -4062,8 +4699,6 @@ ShallowWrapper {
             "key": "list-item-3",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": Array [
                 "3. ",
                 <p>
@@ -4072,6 +4707,11 @@ ShallowWrapper {
               ],
               "hasBorder": true,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Array [
@@ -4095,8 +4735,6 @@ ShallowWrapper {
             "key": "list-item-4",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": Array [
                 "4. ",
                 <p>
@@ -4105,6 +4743,11 @@ ShallowWrapper {
               ],
               "hasBorder": true,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Array [
@@ -4128,8 +4771,6 @@ ShallowWrapper {
             "key": "list-item-5",
             "nodeType": "function",
             "props": Object {
-              "borderColor": "gray",
-              "borderWidth": 0,
               "children": Array [
                 "5. ",
                 <p>
@@ -4138,6 +4779,11 @@ ShallowWrapper {
               ],
               "hasBorder": false,
               "indented": true,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": false,
             },
             "ref": null,
             "rendered": Array [
@@ -4158,6 +4804,1336 @@ ShallowWrapper {
           },
         ],
         "type": "ol",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<List /> should render less padding with the Narrow prop 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    contained={false}
+    indented={false}
+    lineColor="black"
+    lineWidth={0}
+    lined={false}
+    narrow={true}
+    ordered={false}
+    wide={false}
+  >
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+  </List>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="list ma0 pa0 tl"
+      >
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={true}
+          wide={false}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={true}
+          wide={false}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={true}
+          wide={false}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={true}
+          wide={false}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={true}
+          wide={false}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+      </ul>,
+      "className": "list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+        ],
+        "className": "list ma0 pa0 tl",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "list-item-1",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": true,
+            "wide": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-2",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": true,
+            "wide": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-3",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": true,
+            "wide": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-4",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": true,
+            "wide": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".3",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-5",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": true,
+            "wide": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".4",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="list ma0 pa0 tl"
+        >
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={true}
+            wide={false}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+        </ul>,
+        "className": "list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={true}
+              wide={false}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={true}
+              wide={false}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={true}
+              wide={false}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={true}
+              wide={false}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={true}
+              wide={false}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+          ],
+          "className": "list ma0 pa0 tl",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "list-item-1",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": true,
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-2",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": true,
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-3",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": true,
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-4",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": true,
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".3",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-5",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": true,
+              "wide": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".4",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<List /> should render more padding with the Wide prop 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    contained={false}
+    indented={false}
+    lineColor="black"
+    lineWidth={0}
+    lined={false}
+    narrow={false}
+    ordered={false}
+    wide={true}
+  >
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+    <p>
+      A child
+    </p>
+  </List>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="list ma0 pa0 tl"
+      >
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={true}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={true}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={true}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={true}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+        <ListItem
+          hasBorder={false}
+          indented={false}
+          lineColor="black"
+          lineWidth={0}
+          lineWidths={0}
+          narrow={false}
+          wide={true}
+        >
+          <p>
+            A child
+          </p>
+        </ListItem>
+      </ul>,
+      "className": "list",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>,
+        ],
+        "className": "list ma0 pa0 tl",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "list-item-1",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-2",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-3",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-4",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".3",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "list-item-5",
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              A child
+            </p>,
+            "hasBorder": false,
+            "indented": false,
+            "lineColor": "black",
+            "lineWidth": 0,
+            "lineWidths": 0,
+            "narrow": false,
+            "wide": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": ".4",
+            "nodeType": "host",
+            "props": Object {
+              "children": "A child",
+            },
+            "ref": null,
+            "rendered": "A child",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="list ma0 pa0 tl"
+        >
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+          <ListItem
+            hasBorder={false}
+            indented={false}
+            lineColor="black"
+            lineWidth={0}
+            lineWidths={0}
+            narrow={false}
+            wide={true}
+          >
+            <p>
+              A child
+            </p>
+          </ListItem>
+        </ul>,
+        "className": "list",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={true}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={true}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={true}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={true}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+            <ListItem
+              hasBorder={false}
+              indented={false}
+              lineColor="black"
+              lineWidth={0}
+              lineWidths={0}
+              narrow={false}
+              wide={true}
+            >
+              <p>
+                A child
+              </p>
+            </ListItem>,
+          ],
+          "className": "list ma0 pa0 tl",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "list-item-1",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-2",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-3",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-4",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".3",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "list-item-5",
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                A child
+              </p>,
+              "hasBorder": false,
+              "indented": false,
+              "lineColor": "black",
+              "lineWidth": 0,
+              "lineWidths": 0,
+              "narrow": false,
+              "wide": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": ".4",
+              "nodeType": "host",
+              "props": Object {
+                "children": "A child",
+              },
+              "ref": null,
+              "rendered": "A child",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
       },
       "type": "div",
     },

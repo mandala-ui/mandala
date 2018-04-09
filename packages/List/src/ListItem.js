@@ -2,36 +2,43 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ListItem = ({
-  borderColor,
-  borderWidth,
   children,
   hasBorder,
   indented,
+  lineColor,
+  lineWidth,
+  narrow,
+  wide,
 }) => {
   const indents = `${indented ? 'ph3' : ''}`;
-  const borders = `${borderWidth === 0 ? '' : `bw${borderWidth}`}
-                   ${hasBorder ? `bb b--${borderColor}` : 'bb b--transparent'}`;
+  const borders = `${lineWidth === 0 ? '' : `bw${lineWidth}`}
+                   ${hasBorder ? `bb b--${lineColor}` : 'bb b--transparent'}`;
+  const spacing = `${narrow ? 'pv1' : `${wide ? 'pv3' : 'pv2'}`}`;
   return (
-    <li className={`list-item pv3 ${indents} ${borders}`}>
+    <li className={`list-item ${indents} ${borders} ${spacing}`}>
       {children || null}
     </li>
   );
 };
 
 ListItem.propTypes = {
-  borderColor: PropTypes.string,
-  borderWidth: PropTypes.number,
+  lineColor: PropTypes.string,
   children: PropTypes.node,
   hasBorder: PropTypes.bool,
   indented: PropTypes.bool,
+  lineWidth: PropTypes.number,
+  narrow: PropTypes.bool,
+  wide: PropTypes.bool,
 };
 
 ListItem.defaultProps = {
-  borderColor: 'black',
-  borderWidth: 0,
+  lineColor: 'black',
   children: null,
   hasBorder: false,
   indented: false,
+  lineWidth: 0,
+  narrow: false,
+  wide: false,
 };
 
 export default ListItem;

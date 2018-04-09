@@ -51,6 +51,34 @@ describe('<List />', () => {
     )).toMatchSnapshot();
   });
 
+  it('should render less padding with the Narrow prop', () => {
+    expect(shallow(
+      <List
+        narrow
+      >
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+      </List>,
+    )).toMatchSnapshot();
+  });
+
+  it('should render more padding with the Wide prop', () => {
+    expect(shallow(
+      <List
+        wide
+      >
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+        <p>A child</p>
+      </List>,
+    )).toMatchSnapshot();
+  });
+
   it('should remove the last bottom border if "contained" prop is present', () => {
     expect(shallow(
       <List

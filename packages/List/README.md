@@ -5,7 +5,7 @@ Mandala is a React component library that utilizes a declarative CSS library for
 Check the [MonoRepo README](https://github.com/mandala-ui/mandala) for installation.
 
 ### Description
-A List is used for content in order or in sequence. The props on this list allow you to create robust compound components. It renders all the children inside a <ListItem /> component.
+A List is used for content in order or in sequence. The props on this list allow you to create robust compound components. It renders all the children inside a `<ListItem />` component.
 
 ### Usage
 if using the whole library:
@@ -23,7 +23,9 @@ import List from '@mandala-ui/list';
 * `lineColor` - the color of the bottom border of each ListItem
 * `lined` - set this prop to add lines
 * `lineWidth` - width of lines, clamped 1-5.
+* `narrow` - little padding between ListItems.
 * `ordered` - add a number to the front of each ListItem
+* `wide` - lots of padding between ListItems
 
 | propName | propType | defaultValue | isRequired |
 | -------- | -------- | ------------ | ---------- |
@@ -33,10 +35,11 @@ import List from '@mandala-ui/list';
 | lineColor| string   | 'white'      | -          |
 | lined    | boolean  | false        | -          |
 | lineWidth| number   | 0            | -          |
+| narrow   | boolean  | false        | -          |
 | ordered  | boolean  | false        | -          |
+| wide     | boolean  | false        | -          |
 
 #### TODO:
-- [ ] tight, normal, high for vertical padding.
 - [ ] background colors
 - [ ] striped
 - [ ] infer `lined` from lineColor prop existence
