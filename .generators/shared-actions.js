@@ -1,4 +1,4 @@
-module.exports = files = [
+module.exports = [
   {
     type: 'add',
     path: 'packages/{{properCase name}}/src/__tests__/{{properCase name}}.test.js',
@@ -29,4 +29,4 @@ module.exports = files = [
     path: 'packages/{{properCase name}}/README.md',
     templateFile: '.generators/README.hbs',
   },
-]
+];
