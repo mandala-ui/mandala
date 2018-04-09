@@ -1,0 +1,22 @@
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+
+class {{> injectPascalCaseName }} extends PureComponent {
+  render() {
+    return (
+      <div className="{{> injectDashCaseName }}">
+        {this.props}
+      </div>
+    );
+  }
+}
+
+{{> injectPascalCaseName }}.propTypes = {
+
+};
+
+{{> injectPascalCaseName }}.defaultProps = {
+
+};
+
+export default {{> injectPascalCaseName }};
