@@ -19,7 +19,6 @@
   },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
-    "@percy/react": "^0.4.0",
     "@storybook/addon-actions": "^3.4.0",
     "@storybook/addon-info": "^3.4.0",
     "@storybook/addon-knobs": "^3.4.0",
@@ -41,7 +40,6 @@
     "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-react-percy": "^0.2.0",
     "jest": "^22.4.3",
     "lerna": "^2.9.1",
     "lodash.union": "^4.6.0",
@@ -56,8 +54,7 @@
   "eslintConfig": {
     "env": {
       "browser": true,
-      "jest": true,
-      "react-percy/globals": true
+      "jest": true
     },
     "extends": [
       "airbnb"
@@ -67,8 +64,7 @@
     },
     "parser": "babel-eslint",
     "plugins": [
-      "jest",
-      "react-percy"
+      "jest"
     ],
     "rules": {
       "function-paren-newline": [
@@ -121,8 +117,7 @@
       "!**/node_modules/**",
       "!**/vendor/**",
       "!**/es/**",
-      "!**/lib/**",
-      "!**/__visual-regressions__/**"
+      "!**/lib/**"
     ],
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
@@ -172,7 +167,6 @@
     "clean": "nwb clean-module",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "generate": "plop",
-    "percy": "react-percy",
     "prepare": "nwb build-react-component",
     "start": "yarn run storybook",
     "storybook": "start-storybook -p 6006",
