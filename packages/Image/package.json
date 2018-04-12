@@ -1,0 +1,28 @@
+{
+  "author": "Lucas K Allmon",
+  "description": "Mandala UI Image Component",
+  "keywords": [
+    "react",
+    "css",
+    "library",
+    "components",
+    "interface",
+    "functional",
+    "OOCSS",
+    "declarative",
+    "ui",
+    "user",
+    "ux"
+  ],
+  "license": "MIT",
+  "main": "lib/Image.js",
+  "module": "es/Image.js",
+  "name": "@mandala-ui/image",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "nwb build-react-component"
+  },
+  "version": "0.0.0"
+}
