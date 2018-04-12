@@ -11,11 +11,6 @@ module.exports = [
   },
   {
     type: 'add',
-    path: 'packages/{{properCase name}}/src/__visual-regressions__/{{properCase name}}.percy.js',
-    templateFile: '.generators/visual-regressions.hbs',
-  },
-  {
-    type: 'add',
     path: 'packages/{{properCase name}}/LICENSE.md',
     templateFile: '.generators/LICENSE.hbs',
   },
