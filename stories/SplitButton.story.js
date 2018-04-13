@@ -14,7 +14,6 @@ storiesOf('SplitButton', module)
       disabled={boolean('Disabled', false)}
       isOn={boolean('Is On', false)}
       offColor={text('Off Color', 'dark-red')}
-      offText={text('Off Text', 'off')}
       onClick={action('SplitButton onClick Event')}
       onColor={text('On Color', 'green')}
       pill={boolean('Pill', false)}

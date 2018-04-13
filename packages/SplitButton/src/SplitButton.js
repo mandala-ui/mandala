@@ -14,39 +14,43 @@ const SplitButton = ({
   showLabels,
 }) => {
   const isDisabled = `${disabled ? 'o-60' : 'pointer'}`;
+  const buttonStyle = 'bn shadow-2 w-50';
+  const textStyle = 'f7 tracked-light ttu';
   return (
     <div className="split-button">
       <div
-        className={`b--gray ba
-            ${pill ? 'br-pill' : `br${clamp(radius, 0, 4)}`} flex h2 overflow-hidden w4`}
+        className={`b--gray ba flex h2 overflow-hidden w4
+          ${pill ? 'br-pill' : `br${clamp(radius, 0, 4)}`}`
+        }
       >
         <button
-          className={`bn w-50
-              ${isDisabled}
-              ${isOn ? `bg-${backgroundColor} shadow-2 z-1` : `bg-${offColor}`}`}
+          className={`${buttonStyle} ${isDisabled} ${isOn ? `bg-${backgroundColor} z-1` : `bg-${offColor}`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
-          <span className={`f7 tracked-light ttu ${isOn ? 'gray' : 'white'} `}>
-            { showLabels ? 'off' : null }
-          </span>
+          { showLabels ?
+            <span className={`${isOn ? 'gray' : 'white'} ${textStyle}`}>
+               off
+            </span>
+            : null
+          }
         </button>
         <button
-          className={`bn w-50
-              ${isDisabled}
-              ${isOn ? `bg-${onColor} gray` : `bg-${backgroundColor} shadow-2`}`}
+          className={`${buttonStyle} ${isDisabled} ${isOn ? `bg-${onColor} gray` : `bg-${backgroundColor}`}`}
           disabled={disabled ? 'disabled' : null}
           onClick={onClick}
         >
-          <span className={`f7 tracked-light ttu ${isOn ? 'white' : 'gray'}`}>
-            { showLabels ? 'on' : null}
-          </span>
+          { showLabels ?
+            <span className={`${isOn ? 'white' : 'gray'} ${textStyle}`}>
+              on
+            </span>
+            : null
+          }
         </button>
       </div>
     </div>
   );
 };
-
 
 SplitButton.propTypes = {
   backgroundColor: PropTypes.string,
