@@ -7,138 +7,45 @@
       "react"
     ]
   },
-  "dependencies": {
-    "@mandala-ui/button": "^1.0.4",
-    "@mandala-ui/column": "^1.0.4",
-    "@mandala-ui/list": "^1.0.7",
-    "@mandala-ui/list-header": "^1.0.2",
-    "@mandala-ui/outline-dot": "^1.1.1",
-    "@mandala-ui/progress-bar": "^1.1.1",
-    "@mandala-ui/split-button": "^1.1.1",
-    "@mandala-ui/tag": "^1.1.1"
-  },
   "description": "Mandala is a React based UI kit that uses Functional CSS for styling",
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.0",
-    "@storybook/addon-info": "^3.4.0",
-    "@storybook/addon-knobs": "^3.4.0",
-    "@storybook/addon-links": "^3.4.0",
-    "@storybook/addon-options": "^3.4.0",
-    "@storybook/addon-storyshots": "^3.4.0",
-    "@storybook/react": "^3.4.0",
-    "babel-eslint": "^8.2.2",
-    "babel-jest": "^22.4.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "coveralls": "^3.0.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-loader": "^2.0.0",
-    "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-jest": "^21.15.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
-    "jest": "^22.4.3",
-    "lerna": "^2.9.1",
-    "lodash.union": "^4.6.0",
-    "nwb": "^0.21.5",
-    "plop": "^2.0.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-test-renderer": "^16.3.1",
-    "storybook-readme": "^3.3.0",
-    "tachyons": "^4.9.1"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "jest": true
-    },
-    "extends": [
-      "airbnb"
-    ],
-    "globals": {
-      "__DEV__": true
-    },
-    "parser": "babel-eslint",
-    "plugins": [
-      "jest"
-    ],
-    "rules": {
-      "function-paren-newline": [
-        "error",
-        "consistent"
-      ],
-      "import/extensions": "off",
-      "import/no-extraneous-dependencies": "off",
-      "jsx-a11y/anchor-is-valid": [
-        "warn",
-        {
-          "aspects": [
-            "invalidHref"
-          ]
-        }
-      ],
-      "jsx-a11y/href-no-hash": "off",
-      "max-len": [
-        1,
-        80,
-        2,
-        {
-          "ignoreComments": true,
-          "ignoreStrings": true,
-          "ignoreTemplateLiterals": true,
-          "ignoreTrailingComments": true,
-          "ignoreUrls": true
-        }
-      ],
-      "react/jsx-filename-extension": "off",
-      "react/sort-prop-types": [
-        "enabled",
-        {
-          "callbacksLast": true,
-          "ignoreCase": true,
-          "requiredFirst": false,
-          "sortShapeProp": true
-        }
-      ]
-    }
+    "@storybook/addon-actions": "5.1.9",
+    "@storybook/addon-info": "5.1.9",
+    "@storybook/addon-knobs": "5.1.9",
+    "@storybook/addon-links": "5.1.9",
+    "@storybook/addon-options": "5.1.9",
+    "@storybook/addon-storyshots": "5.1.9",
+    "@storybook/react": "5.1.9",
+    "acorn": "^6.1.1",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "10.0.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "eslint": "6.0.1",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-loader": "2.2.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-jest": "22.7.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.7.0",
+    "jest": "24.8.0",
+    "lerna": "3.15.0",
+    "lodash.union": "4.6.0",
+    "nwb": "0.23.0",
+    "plop": "2.0.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-test-renderer": "16.8.6",
+    "storybook-readme": "5.0.5",
+    "tachyons": "4.9.1"
   },
   "files": [
     "es",
     "lib"
   ],
   "homepage": "https://mandala-ui.github.io/mandala/",
-  "jest": {
-    "collectCoverageFrom": [
-      "packages/**/*{js,jsx}",
-      "!**/node_modules/**",
-      "!**/vendor/**",
-      "!**/es/**",
-      "!**/lib/**"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
-      "^react-native$": "react-native-web"
-    },
-    "setupTestFrameworkScriptFile": "<rootDir>/jestConfig.js",
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/?(*.)(spec|test).js?(x)"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>[/\\\\](build|docs|es|lib|node_modules)[/\\\\]"
-    ],
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ]
-  },
   "keywords": [
     "react",
     "css",
@@ -153,11 +60,9 @@
     "ux"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "es/index.js",
   "name": "mandala",
   "peerDependencies": {
-    "react": ">=15.x",
+    "react": ">=16.x",
     "tachyons": ">=4.9.x"
   },
   "repository": "https://github.com/mandala-ui/mandala",
@@ -165,14 +70,13 @@
     "build": "nwb build-react-component",
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "generate": "plop",
     "prepare": "nwb build-react-component",
-    "start": "yarn run storybook",
+    "start": "npm run storybook",
     "storybook": "start-storybook -p 6006",
-    "test": "yarn run jest",
-    "test:coverage": "yarn run test -- -- --coverage",
-    "test:watch": "yarn run test -- -- --watch"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "version": "1.3.2"
 }
