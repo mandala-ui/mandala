@@ -71,7 +71,6 @@
     "build-storybook": "build-storybook -c .storybook -o ./docs/interactive",
     "clean": "nwb clean-module",
     "generate": "plop",
-    "prepare": "nwb build-react-component",
     "start": "npm run storybook",
     "storybook": "start-storybook -p 6006",
     "test": "jest",
