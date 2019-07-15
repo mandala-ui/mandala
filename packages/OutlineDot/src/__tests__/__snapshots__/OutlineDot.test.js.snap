@@ -1,55 +1,127 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<OutlineDot /> Rendering renders Default 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--white bw1 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a different color dot 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-blue br-100 b--white bw1 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a different color inner area 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--red bw1 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a different color outline 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--blue ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--white bw1 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a large version 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h2 w2"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h2 w2"
+  >
+    <div
+      className="ba bg-black br-100 b--white bw1 h2 w2"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a thicker border 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba bw2 br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--white bw1 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders a thicker inner area 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--white bw2 h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders no borders 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h1 w1"
+>
+  <span
+    className="b--black ba  br-100 flex items-center justify-center h1 w1"
+  >
+    <div
+      className="ba bg-black br-100 b--white  h1 w1"
+    />
+  </span>
+</div>
 `;
 
 exports[`<OutlineDot /> Rendering renders no borders and large 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="br-100 flex items-center justify-center h2 w2"
+>
+  <span
+    className="b--green ba  br-100 flex items-center justify-center h2 w2"
+  >
+    <div
+      className="ba bg-green br-100 b--white  h2 w2"
+    />
+  </span>
+</div>
 `;

@@ -1,67 +1,254 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ProgressBar /> renders 4% correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders 100% correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders custom background color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-blue h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders custom color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-blue h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders defaults 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders large version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h2  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h2  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders pill version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1 br-pill overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1 br-pill shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders radius 0 version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders radius 1 version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders radius 2 version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<ProgressBar /> renders radius 3 version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="progress-bar w-100"
+>
+  <div
+    className="w-100"
+  >
+    <div
+      className="bg-near-white h1  overflow-hidden w-100"
+    >
+      <div
+        className="bg-black h1  shadow-2"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
 `;

@@ -1,61 +1,617 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SplitButton /> renders Default (OFF) correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Disabled state correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              o-60
+              bg-dark-red"
+      disabled="disabled"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              o-60
+              bg-white shadow-2"
+      disabled="disabled"
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders No Text correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      />
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      />
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders ON correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2 z-1"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-green gray"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Pill correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br-pill flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Radius 0 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br0 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Radius 1 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br1 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Radius 2 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br2 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Radius 3 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br3 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;
 
 exports[`<SplitButton /> renders Radius 4 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="split-button"
+>
+  <div
+    className="b--gray ba
+            br4 flex h2 overflow-hidden w4"
+  >
+    <button
+      className="bn w-50
+              pointer
+              bg-dark-red"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu white "
+      >
+        off
+      </span>
+    </button>
+    <button
+      className="bn w-50
+              pointer
+              bg-white shadow-2"
+      disabled={null}
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      <span
+        className="f7 tracked-light ttu gray"
+      >
+        on
+      </span>
+    </button>
+  </div>
+</div>
 `;

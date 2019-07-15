@@ -1,61 +1,835 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<List /> should add space if the "indented" prop is present 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should remove the last bottom border if "contained" prop is present 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render a custom line color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-1"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-2"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-3"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-4"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-5"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render a custom line width 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-1"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={2}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-2"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={2}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-3"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={2}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-4"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={2}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-5"
+      lineColor="red"
+      lineWidth={0}
+      lineWidths={2}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render a default list 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  />
+</div>
 `;
 
 exports[`<List /> should render a group of ListItems when passed children 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render a lined <ListItem /> when prop is present 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={false}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render an ordered list 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ol
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={true}
+      indented={true}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      1. 
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={true}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      2. 
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={true}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      3. 
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={true}
+      indented={true}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      4. 
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={true}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={false}
+    >
+      5. 
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ol>
+</div>
 `;
 
 exports[`<List /> should render less padding with the Narrow prop 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={true}
+      wide={false}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={true}
+      wide={false}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={true}
+      wide={false}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={true}
+      wide={false}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={true}
+      wide={false}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;
 
 exports[`<List /> should render more padding with the Wide prop 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list"
+>
+  <ul
+    className="list ma0 pa0 tl"
+  >
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-1"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={true}
+    >
+      <p
+        key=".0"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-2"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={true}
+    >
+      <p
+        key=".1"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-3"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={true}
+    >
+      <p
+        key=".2"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-4"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={true}
+    >
+      <p
+        key=".3"
+      >
+        A child
+      </p>
+    </ListItem>
+    <ListItem
+      hasBorder={false}
+      indented={false}
+      key="list-item-5"
+      lineColor="black"
+      lineWidth={0}
+      lineWidths={0}
+      narrow={false}
+      wide={true}
+    >
+      <p
+        key=".4"
+      >
+        A child
+      </p>
+    </ListItem>
+  </ul>
+</div>
 `;

@@ -1,37 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListItem /> should render a custom border width 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item  bw2
+                   bb b--black pv2"
+>
+  <span>
+    I am a child
+  </span>
+</li>
 `;
 
 exports[`<ListItem /> should render a gray border if the prop is called 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item  
+                   bb b--black pv2"
+>
+  <span>
+    I am a child
+  </span>
+</li>
 `;
 
 exports[`<ListItem /> should render default with no props 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item  
+                   bb b--transparent pv2"
+/>
 `;
 
 exports[`<ListItem /> should render horizontal padding if indented 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item ph3 
+                   bb b--transparent pv2"
+>
+  <span>
+    I am a child
+  </span>
+</li>
 `;
 
 exports[`<ListItem /> should render less padding with Narrow prop 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item  
+                   bb b--transparent pv1"
+/>
 `;
 
 exports[`<ListItem /> should render more padding with Wide prop 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<li
+  className="list-item  
+                   bb b--transparent pv3"
+/>
 `;

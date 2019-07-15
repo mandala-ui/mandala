@@ -1,43 +1,190 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> Rendering can render custom color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-blue br0 pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Default 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br0 pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Disabled 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br0 o-40}"
+  disabled={true}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Pill 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br-pill pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Radius 1 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br1 pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Radius 2 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br2 pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;
 
 exports[`<Button /> Rendering renders Radius 3 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<button
+  className="button bn outline-0 ph3 pv2 white bg-black br3 pointer}"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  style={
+    Object {
+      "fontFamily": "inherit",
+    }
+  }
+>
+  Click Me
+</button>
 `;

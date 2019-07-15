@@ -1,31 +1,135 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Column /> renders a custom background color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="column w-100"
+>
+  <div
+    className=" bg-gray br0 pa2 w-100"
+  >
+    <div>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<Column /> renders a custom border color 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="column w-100"
+>
+  <div
+    className="ba b--red bg-white br0 pa2 w-100"
+  >
+    <div>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<Column /> renders a custom border radius 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="column w-100"
+>
+  <div
+    className=" bg-white br3 pa2 w-100"
+  >
+    <div>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<Column /> renders a custom padding 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="column w-100"
+>
+  <div
+    className="ba b--red bg-white br0 pa2 w-100"
+  >
+    <div>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+      <span>
+        lorem ipsum
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`<Column /> renders defaults correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="column w-100"
+>
+  <div
+    className=" bg-white br0 pa2 w-100"
+  />
+</div>
 `;
