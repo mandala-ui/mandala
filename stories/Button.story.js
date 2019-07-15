@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { withReadme as readme } from 'storybook-readme';
-import Button from '../packages/Button/src/Button.js';
+import Button from '../packages/Button/src/Button.tsx';
 import ButtonRM from '../packages/Button/README.md';
 
 storiesOf('Button', module)
