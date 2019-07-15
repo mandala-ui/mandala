@@ -1,49 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Tag /> increases the size if large prop is passed 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br0 f5 ph3 pv2 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders default cerrectly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br0 f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders pill version correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br-pill f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders radius 0 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br0 f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders radius 1 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br1 f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders radius 2 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br2 f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders radius 3 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br3 f7 ph2 pv1 dib white"
+  />
+</div>
 `;
 
 exports[`<Tag /> renders radius 4 correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="tag"
+>
+  <span
+    className="bg-black br4 f7 ph2 pv1 dib white"
+  />
+</div>
 `;

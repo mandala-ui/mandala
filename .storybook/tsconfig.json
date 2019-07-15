@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-  "baseUrl": "./",
   "allowSyntheticDefaultImports": true,
   "module": "es2015",
   "target": "es5",
@@ -9,7 +8,6 @@
   "allowJs": false,
   "jsx": "react",
   "moduleResolution": "node",
-  "rootDir": "../",
   "outDir": "dist",
   "noImplicitReturns": true,
   "noImplicitThis": true,

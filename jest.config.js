@@ -1,26 +1,24 @@
 module.exports = {
   "collectCoverageFrom": [
-    "packages/**/*{js,jsx}",
+    "packages/**/*{js,jsx,ts,tsx}",
     "!**/node_modules/**",
     "!**/vendor/**",
     "!**/es/**",
     "!**/lib/**"
   ],
-  "moduleNameMapper": {
-    "\\.(css|less)$": "<rootDir>/node_modules/jest-css-modules",
-    "react-native$": "react-native-web"
-  },
-  "setupFilesAfterEnv": ["<rootDir>/jestConfig.js"],
-  "testEnvironment": "node",
+  "setupFilesAfterEnv": ["<rootDir>/jest.config-enzyme.js"],
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "testEnvironment": "jsdom",
   "testMatch": [
-    "**/?(*.)(spec|test).js?(x)"
+    "**/?(*.)(spec|test).js?(x)",
+    "**/?(*.)(spec|test).ts?(x)"
   ],
   "testPathIgnorePatterns": [
     "<rootDir>[/\\\\](build|docs|es|lib|node_modules)[/\\\\]"
   ],
   "testURL": "http://localhost",
   "transform": {
-    ".+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest"
+    "^.+\\.[t|j]sx?$": "babel-jest"
   },
   "transformIgnorePatterns": [
     "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"

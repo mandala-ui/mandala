@@ -1,61 +1,177 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListHeader /> Rendering can be have a custom line width of (1) 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb bw1 pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can be have a custom line width of (2) 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb bw2 pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can be have a custom line width of (3) 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb bw3 pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can be have a custom line width of (4) 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb bw4 pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can be have a custom line width of (5) 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb bw5 pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can be indented for a contained list 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--red bb  pb2"
+  >
+    <span
+      className="ph3"
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can render a different color line 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--red bb  pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering can render a line divider 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black bb  pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering renders Default 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black  pb2"
+  >
+    <span
+      className=""
+    />
+  </div>
+</div>
 `;
 
 exports[`<ListHeader /> Rendering renders children 1`] = `
-ShallowWrapper {
-  "length": 1,
-}
+<div
+  className="list-header"
+>
+  <div
+    className="b--black  pb2"
+  >
+    <span
+      className=""
+    >
+      <h3>
+        The Top of a List
+      </h3>
+    </span>
+  </div>
+</div>
 `;
