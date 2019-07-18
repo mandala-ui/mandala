@@ -6,11 +6,6 @@ Mandala is a React component library that utilizes a declarative CSS.
 Check the [Monorepo README](https://github.com/mandala-ui/mandala) for installation.
 
 ### Usage
-if using the whole library:
-```js
-import { Button } from 'mandala';
-```
-if only using this component:
 ```js
 import Button from '@mandala-ui/button';
 ```

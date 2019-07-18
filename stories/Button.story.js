@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { boolean, number, text, withKnobs } from '@storybook/addon-knobs';
+import { boolean, number, text, select, withKnobs } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import { withReadme as readme } from 'storybook-readme';
 import Button from '../packages/Button/src/Button.tsx';
@@ -13,15 +13,8 @@ storiesOf('Button', module)
       color={text('Color', 'black')}
       disabled={boolean('Disabled', false)}
       onClick={action('Button onClick Event')}
-      pill={boolean('Pill', false)}
-      radius={number('Radius', 0,
-          {
-            range: true,
-            min: 0,
-            max: 3,
-            step: 1,
-          })}
+      radius={select('Radius', { 0:'0', 1:'1', 2:'2', 3:'3', "Pill": 'pill'}, 'pill')}
     >
-        Click Me
+        <span>Click Me</span>
     </Button>
   )));

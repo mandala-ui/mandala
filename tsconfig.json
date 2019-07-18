@@ -16,7 +16,7 @@
   "strictNullChecks": true,
   "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": ["packages/**/*"],
   "exclude": [
   "node_modules",
   "build",
@@ -27,6 +27,7 @@
   "jest",
   "src/setupTests.ts",
   "**/*/*.test.ts",
+  "tsconfig.json",
   "examples"
   ]
 }

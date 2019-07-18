@@ -1,45 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import clamp from 'lodash/clamp';
+import React, { ReactNode } from 'react';
 
-const Button = ({
+interface IButtonProps {
+  disabled: true | false;
+  children?: ReactNode | string;
+  color?: string,
+  name?: string,
+  onClick?: (e: any) => void;
+  radius: '0' | '1' | '2' | '3' | 'pill',
+  type?: 'button' | 'submit' | 'reset';
+}
+
+const Button: React.FC<IButtonProps> = ({
   children,
-  color,
-  disabled,
+  color = 'silver',
+  disabled = false,
+  name = 'mandala-button',
   onClick,
-  pill,
-  radius,
+  radius = 'pill',
+  type = 'button',
 }) => {
-  const isDisabled = `${disabled ? 'o-40' : 'pointer'}`;
-  const isPill = `${pill ? 'br-pill' : `br${clamp(radius, 0, 4)}`}`;
-  const options = `bg-${color} ${isPill} ${isDisabled}}`;
+  const calculateRadius = `br${(radius === "pill") ? '-pill' : radius}`
+  const isDisabled = `${disabled ? 'o-40' : 'pointer'}`
+  const options = `bg-${color} ${calculateRadius} ${isDisabled}}`;
   return (
     <button
+      role="button"
       disabled={disabled}
-      className={`button bn outline-0 ph3 pv2 white ${options}`}
+      className={`button bn outline-0 h2 mv0 mw5 pv2 dim ph3 flex items-center justify-center white ${options}`}
+      name={name}
       onClick={onClick}
       style={{ fontFamily: 'inherit' }}
+      type={type}
     >
       {children || null}
     </button>
   );
-};
-
-Button.propTypes = {
-  children: PropTypes.node,
-  color: PropTypes.string,
-  disabled: PropTypes.bool,
-  onClick: PropTypes.func.isRequired,
-  pill: PropTypes.bool,
-  radius: PropTypes.number,
-};
-
-Button.defaultProps = {
-  children: null,
-  color: 'black',
-  disabled: false,
-  pill: false,
-  radius: 0,
 };
 
 export default Button;
